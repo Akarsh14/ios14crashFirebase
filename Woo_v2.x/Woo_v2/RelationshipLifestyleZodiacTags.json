@@ -1,0 +1,256 @@
+[
+    {
+        "type":"RELATIONSHIP",
+        "tagsCategory":"Relationship",
+        "tagsCategoryId":16,
+        "subType":[
+            {
+                "subTypeName":"Relationship status",
+                "subTagsCategoryId":2,
+                "subTypeImage":"ic_relation_status",
+                "tags":[
+                    {
+                        "tagId":258,
+                        "name":"Single",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":259,
+                        "name":"Single and with kids",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":255,
+                        "name":"Divorced",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":261,
+                        "name":"Divorced and with Kids",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":262,
+                        "name":"Widowed",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":263,
+                        "name":"Widowed and with Kids",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":264,
+                        "name":"Separated",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":265,
+                        "name":"Separated and with Kids",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            },
+            {
+                "subTypeName":"What are you looking for on Woo",
+                "subTagsCategoryId":3,
+                "subTypeImage":"ic_looking_for",
+                "tags":[
+                    {
+                        "tagId":266,
+                        "name":"Relationship",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":267,
+                        "name":"Something casual",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":268,
+                        "name":"Don't know yet",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":269,
+                        "name":"Marriage",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type":"LIFESTYLE",
+        "tagsCategory":"Lifestyle Choices",
+        "tagsCategoryId":10,
+        "subType":[
+            {
+                "subTypeName":"Smoking/Non Smoking",
+                "subTagsCategoryId":4,
+                "subTypeImage":"ic_smoking",
+                "tags":[
+                    {
+                        "tagId":151,
+                        "name":"Smoker",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":283,
+                        "name":"Non-smoker",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":284,
+                        "name":"Trying to quit",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            },
+            {
+                "subTypeName":"Drinking",
+                "subTagsCategoryId":5,
+                "subTypeImage":"ic_drinking",
+                "tags":[
+                    {
+                        "tagId":285,
+                        "name":"Drinks frequently",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":153,
+                        "name":"Teetotaler",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":287,
+                        "name":"Social drinker",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            },
+            {
+                "subTypeName":"Diet",
+                "subTagsCategoryId":6,
+                "subTypeImage":"ic_diet",
+                "tags":[
+                    {
+                        "tagId":149,
+                        "name":"Vegetarian",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":150,
+                        "name":"Vegan",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":290,
+                        "name":"Non-vegetarian",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            },
+            {
+                "subTypeName":"Workout",
+                "subTagsCategoryId":7,
+                "subTypeImage":"ic_workout",
+                "tags":[
+                    {
+                        "tagId":291,
+                        "name":"Active",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":292,
+                        "name":"Sometime",
+                        "tagsDtoType":"TAG_SEARCH"
+                    },
+                    {
+                        "tagId":293,
+                        "name":"Almost never",
+                        "tagsDtoType":"TAG_SEARCH"
+                    }
+                ]
+            },{
+                "subTypeName":"Zodiac Sign",
+                "tagsSubCategoryId":15,
+                "subTypeImage":"ic_zodiac",
+                "tags":[
+                    {
+                        "tagId":270,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Aries"
+                    },
+                    {
+                        "tagId":271,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Taurus"
+                    },
+                    {
+                        "tagId":272,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Gemini"
+                    },
+                    {
+                        "tagId":273,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Cancer"
+                    },
+                    {
+                        "tagId":274,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Leo"
+                    },
+                    {
+                        "tagId":275,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Virgo"
+                    },
+                    {
+                        "tagId":276,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Libra"
+                    },
+                    {
+                        "tagId":277,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Scorpio"
+                    },
+                    {
+                        "tagId":278,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Sagittarius"
+                    },
+                    {
+                        "tagId":279,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Capricorn"
+                    },
+                    {
+                        "tagId":280,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Aquarius"
+                    },
+                    {
+                        "tagId":281,
+                        "tagsSubCategoryId":15,
+                        "imageName": "ic_zodiac",
+                        "name":"Pisces"
+                    }
+                ]
+            }
+        ]
+    },
+]

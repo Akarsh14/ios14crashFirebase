@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectingView">
+            <connections>
+                <outlet property="activityIndicatorObj" destination="rED-0U-1jR" id="RQl-OG-rfo"/>
+                <outlet property="bottomLinesLbl" destination="Ebf-z9-srV" id="neR-MZ-kjN"/>
+                <outlet property="centerAlignContraint" destination="Mbg-h1-N4o" id="cQl-yr-La2"/>
+                <outlet property="loadingTextLbl" destination="l9m-SP-RgH" id="gHD-UM-zbi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rED-0U-1jR">
+                    <rect key="frame" x="252" y="290" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="NlD-g2-7Kc"/>
+                        <constraint firstAttribute="width" constant="20" id="in4-UM-85l"/>
+                    </constraints>
+                    <color key="color" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="NlD-g2-7Kc"/>
+                            <exclude reference="in4-UM-85l"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="NlD-g2-7Kc"/>
+                            <include reference="in4-UM-85l"/>
+                        </mask>
+                    </variation>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9m-SP-RgH">
+                    <rect key="frame" x="280" y="290" width="60.5" height="20"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="KFA-IE-hBP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                    <color key="textColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="KFA-IE-hBP"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="KFA-IE-hBP"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebf-z9-srV">
+                    <rect key="frame" x="0.0" y="599" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ACL-5s-0cf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ACL-5s-0cf"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ACL-5s-0cf"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="l9m-SP-RgH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="10" id="Mbg-h1-N4o"/>
+                <constraint firstItem="l9m-SP-RgH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mwt-bP-cqc"/>
+                <constraint firstAttribute="trailing" secondItem="Ebf-z9-srV" secondAttribute="trailing" id="Ryf-VH-71K"/>
+                <constraint firstItem="l9m-SP-RgH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="X3x-l8-Vot"/>
+                <constraint firstItem="Ebf-z9-srV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ajZ-WM-AHh"/>
+                <constraint firstItem="rED-0U-1jR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ceF-tz-yH2"/>
+                <constraint firstItem="rED-0U-1jR" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="dFK-uM-0yT"/>
+                <constraint firstAttribute="bottom" secondItem="rED-0U-1jR" secondAttribute="bottom" id="iUd-Pg-MIX"/>
+                <constraint firstAttribute="bottom" secondItem="Ebf-z9-srV" secondAttribute="bottom" id="qzq-cJ-r50"/>
+                <constraint firstAttribute="bottom" secondItem="l9m-SP-RgH" secondAttribute="bottom" id="us6-xh-pyh"/>
+                <constraint firstItem="l9m-SP-RgH" firstAttribute="leading" secondItem="rED-0U-1jR" secondAttribute="trailing" constant="8" id="x2x-rH-uh7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="rED-0U-1jR"/>
+                    <exclude reference="l9m-SP-RgH"/>
+                    <exclude reference="Ebf-z9-srV"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="ceF-tz-yH2"/>
+                    <exclude reference="dFK-uM-0yT"/>
+                    <exclude reference="iUd-Pg-MIX"/>
+                    <exclude reference="Mbg-h1-N4o"/>
+                    <exclude reference="Mwt-bP-cqc"/>
+                    <exclude reference="X3x-l8-Vot"/>
+                    <exclude reference="us6-xh-pyh"/>
+                    <exclude reference="x2x-rH-uh7"/>
+                    <exclude reference="Ryf-VH-71K"/>
+                    <exclude reference="ajZ-WM-AHh"/>
+                    <exclude reference="qzq-cJ-r50"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="rED-0U-1jR"/>
+                    <include reference="l9m-SP-RgH"/>
+                    <include reference="Ebf-z9-srV"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="ceF-tz-yH2"/>
+                    <include reference="dFK-uM-0yT"/>
+                    <exclude reference="iUd-Pg-MIX"/>
+                    <include reference="Mbg-h1-N4o"/>
+                    <exclude reference="Mwt-bP-cqc"/>
+                    <include reference="X3x-l8-Vot"/>
+                    <exclude reference="us6-xh-pyh"/>
+                    <include reference="x2x-rH-uh7"/>
+                    <include reference="Ryf-VH-71K"/>
+                    <include reference="ajZ-WM-AHh"/>
+                    <include reference="qzq-cJ-r50"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="263" y="-43"/>
+        </view>
+    </objects>
+</document>

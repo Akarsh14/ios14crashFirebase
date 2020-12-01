@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoaderView">
+            <connections>
+                <outlet property="activityIndicatorObj" destination="8gx-wL-bxQ" id="YkW-VI-F9q"/>
+                <outlet property="centerView" destination="8k0-Ms-m09" id="nDx-i6-Ig4"/>
+                <outlet property="messagLabel" destination="Eia-Rf-CUa" id="3Ri-PT-27h"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="190" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8k0-Ms-m09">
+                    <rect key="frame" x="46.5" y="247.5" width="282" height="172"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="8gx-wL-bxQ">
+                            <rect key="frame" x="122" y="30" width="37" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="37" id="9Kb-Ya-Taq"/>
+                                <constraint firstAttribute="height" constant="37" id="eD4-AA-cfH"/>
+                            </constraints>
+                            <color key="color" red="0.90980392160000001" green="0.34901960780000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="9Kb-Ya-Taq"/>
+                                    <exclude reference="eD4-AA-cfH"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="9Kb-Ya-Taq"/>
+                                    <include reference="eD4-AA-cfH"/>
+                                </mask>
+                            </variation>
+                        </activityIndicatorView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Eia-Rf-CUa">
+                            <rect key="frame" x="43.5" y="133" width="194" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="194" id="BSp-Ap-MvL"/>
+                                <constraint firstAttribute="height" constant="52" id="NEW-2t-feQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="17"/>
+                            <color key="textColor" red="0.5381205677986145" green="0.53810453414916992" blue="0.53811359405517578" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="BSp-Ap-MvL"/>
+                                    <exclude reference="NEW-2t-feQ"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="BSp-Ap-MvL"/>
+                                    <exclude reference="NEW-2t-feQ"/>
+                                </mask>
+                            </variation>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="172" id="I5u-5K-pJ8"/>
+                        <constraint firstItem="Eia-Rf-CUa" firstAttribute="centerX" secondItem="8gx-wL-bxQ" secondAttribute="centerX" id="NCT-EF-XEE"/>
+                        <constraint firstAttribute="bottom" secondItem="Eia-Rf-CUa" secondAttribute="bottom" constant="18" id="UDe-Mj-T6g">
+                            <variation key="heightClass=regular-widthClass=compact" constant="18"/>
+                        </constraint>
+                        <constraint firstItem="8gx-wL-bxQ" firstAttribute="top" secondItem="8k0-Ms-m09" secondAttribute="top" constant="30" id="XtX-dt-iip"/>
+                        <constraint firstAttribute="width" constant="282" id="fMG-fb-JMi"/>
+                        <constraint firstAttribute="centerX" secondItem="8gx-wL-bxQ" secondAttribute="centerX" constant="0.5" id="gse-He-CBP"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="8gx-wL-bxQ"/>
+                            <exclude reference="Eia-Rf-CUa"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="I5u-5K-pJ8"/>
+                            <exclude reference="fMG-fb-JMi"/>
+                            <exclude reference="XtX-dt-iip"/>
+                            <exclude reference="gse-He-CBP"/>
+                            <exclude reference="NCT-EF-XEE"/>
+                            <exclude reference="UDe-Mj-T6g"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="8gx-wL-bxQ"/>
+                            <include reference="Eia-Rf-CUa"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="I5u-5K-pJ8"/>
+                            <include reference="fMG-fb-JMi"/>
+                            <include reference="XtX-dt-iip"/>
+                            <include reference="gse-He-CBP"/>
+                            <include reference="NCT-EF-XEE"/>
+                            <include reference="UDe-Mj-T6g"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8k0-Ms-m09" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="L4A-Ph-6oo"/>
+                <constraint firstItem="8k0-Ms-m09" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qLx-qx-nzP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="A1k-6C-HB2"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="8k0-Ms-m09"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="L4A-Ph-6oo"/>
+                    <exclude reference="qLx-qx-nzP"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="8k0-Ms-m09"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="L4A-Ph-6oo"/>
+                    <include reference="qLx-qx-nzP"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-462" y="549"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LinkedInSyncTableViewCell" rowHeight="96" id="KGk-i7-Jjw" customClass="LinkedInSyncTableViewCell" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5m-6w-QMO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="95.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ru-jr-kFe">
+                                <rect key="frame" x="60" y="8" width="200" height="44"/>
+                                <color key="backgroundColor" red="0.047058823529411764" green="0.38431372549019605" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="499-sd-fDu"/>
+                                    <constraint firstAttribute="width" constant="200" id="E2L-FN-hAC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Verify with LinkedIn" image="ic_edit_profile_linkedin"/>
+                                <state key="selected" title="LinkedIn verified badge added to your profile." image="linkedInBlue">
+                                    <color key="titleColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="linkedInSyncResyncTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NxY-m9-UNj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Adds a LinkedIn Verified badge to your profile)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaZ-l4-0j0">
+                                <rect key="frame" x="16" y="60" width="288" height="28"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5ru-jr-kFe" firstAttribute="centerX" secondItem="a5m-6w-QMO" secondAttribute="centerX" id="19b-SP-UwC"/>
+                            <constraint firstItem="JaZ-l4-0j0" firstAttribute="top" secondItem="5ru-jr-kFe" secondAttribute="bottom" constant="8" id="BqW-QF-CEr"/>
+                            <constraint firstAttribute="bottom" secondItem="JaZ-l4-0j0" secondAttribute="bottom" constant="7.5" id="Z8I-rX-Yx3"/>
+                            <constraint firstItem="5ru-jr-kFe" firstAttribute="top" secondItem="a5m-6w-QMO" secondAttribute="top" constant="8" id="iBU-zE-cfZ"/>
+                            <constraint firstItem="JaZ-l4-0j0" firstAttribute="centerX" secondItem="a5m-6w-QMO" secondAttribute="centerX" id="mMJ-SO-qbO"/>
+                            <constraint firstItem="JaZ-l4-0j0" firstAttribute="width" secondItem="a5m-6w-QMO" secondAttribute="width" multiplier="0.9" id="p3I-Wt-Oac"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="a5m-6w-QMO" secondAttribute="trailing" id="6uP-PZ-1NX"/>
+                    <constraint firstItem="a5m-6w-QMO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RTF-0n-UDf"/>
+                    <constraint firstItem="a5m-6w-QMO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bnd-zY-Eci"/>
+                    <constraint firstAttribute="bottom" secondItem="a5m-6w-QMO" secondAttribute="bottom" id="hoL-PR-nL3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addLinkedInTextLabel" destination="JaZ-l4-0j0" id="Stt-95-ryD"/>
+                <outlet property="linkedInButtonWidthConstraint" destination="E2L-FN-hAC" id="7NA-5v-tIx"/>
+                <outlet property="syncLinkedInButton" destination="5ru-jr-kFe" id="e6o-Fu-zA4"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="105"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_edit_profile_linkedin" width="42" height="42"/>
+        <image name="linkedInBlue" width="28" height="28"/>
+    </resources>
+</document>

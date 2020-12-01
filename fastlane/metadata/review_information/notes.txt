@@ -1,0 +1,29 @@
+Team Apple,
+ 
+Our app’s App Store description contains information about all the renewable plans and their durations.
+
+Our app has an FAQ section (More -> FAQs -> Purchases -> Scroll down to Woo Plus Subscription section) which contains information about how to cancel subscription as well.
+
+The in-app payment screen for Woo Plus Subscription clearly states the number of months each pack is valid for.
+
+We have FAQ, T&C and Privacy Policy listed both in the app and linked in the app description on AppStore.
+
+Facebook Login Account = danny.martin123@mail.com
+password = W0012345_
+
+Another Facebook Account- Sandy.taylor123@mail.com
+Password- W0012345_
+
+Please use the below sandbox account to test In-App products:-
+id:- subhasis.rout@getwoo.at
+Password: - Woo12345_
+
+1. We require Facebook login process for establishing user authenticity which is critical to a trust based dating product that connects people. We often automatically filter out users that do not comply with our community guidelines and FB data is critical for that. Users' basic as well as non-basic information is essential to our product because men and women connect with each other basis this information - such as name, age, job, place of origin, education, common friends and common FB tags, profile photos.
+
+2. Other non-basic Facebook information such as likes received and posts published, a total number of friends is used by us to compute a user's popularity score through our proprietary algorithm. This is essential for us since each new user has to be placed in the network appropriately.
+
+3. We do not use the Facebook information to reach out to a user's Facebook friends in any manner whatsoever.
+
+4. Once a user deletes his/her profile on our app, we delete all his/her personally identifiable information from our system - which includes all FB imported information as well.
+
+5. To make dating safer and more predictable for women and to create referral buzz in men, Woo is introducing voice calling (VoIP) in the app. This will allow people who have matched with each other to call each other (within certain business flow restrictions). Accordingly, we will ask users for microphone permission. In this version, only female can initiate a call.

@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Education"; ObjectID = "F9M-0D-pxQ"; */
+"F9M-0D-pxQ.normalTitle" = "Educação";
+
+/* Class = "UIButton"; normalTitle = "Sync"; ObjectID = "OFB-Ip-aKZ"; */
+"OFB-Ip-aKZ.normalTitle" = "Sincronizar";
+
+/* Class = "UIButton"; normalTitle = "Work Place"; ObjectID = "Por-3l-0A2"; */
+"Por-3l-0A2.normalTitle" = "Local de trabalho";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "RaY-H7-x1h"; */
+"RaY-H7-x1h.normalTitle" = "Cancelar";
+
+/* Class = "UIButton"; normalTitle = "Age"; ObjectID = "bGP-ot-hX9"; */
+"bGP-ot-hX9.normalTitle" = "Idade";
+
+/* Class = "UIButton"; normalTitle = "Gender"; ObjectID = "hJU-Ij-jac"; */
+"hJU-Ij-jac.normalTitle" = "Gênero";
+
+/* Class = "UILabel"; text = "Facebook Sync"; ObjectID = "m6G-XC-vBF"; */
+"m6G-XC-vBF.text" = "Sincronização Facebook";
+
+/* Class = "UILabel"; text = "Woo fetches your latest information. Tap Sync to update."; ObjectID = "nSE-Td-4KU"; */
+"nSE-Td-4KU.text" = "O Woo irá extrair as suas Informações mais recentes. Toque em Sincronizar para atualizar.";

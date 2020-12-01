@@ -1,0 +1,326 @@
+ [
+  {
+  "tagId": 3,
+  "name": "B.Arch",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 4,
+  "name": "B.Des",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 5,
+  "name": "B.E/B.Tech",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 6,
+  "name": "B.Pharma",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 7,
+  "name": "M.Arch",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 8,
+  "name": "M.Des",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 9,
+  "name": "M.E/M.Tech",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 10,
+  "name": "M.Pharma",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 11,
+  "name": "M.S. (Engineering)",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 12,
+  "name": "B.IT",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 13,
+  "name": "BCA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 14,
+  "name": "MCA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 15,
+  "name": "PGDCA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 16,
+  "name": "B.Com",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 17,
+  "name": "CA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 18,
+  "name": "CFA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 19,
+  "name": "CS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 20,
+  "name": "ICWA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 21,
+  "name": "M.Com",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 22,
+  "name": "BBA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 23,
+  "name": "BHM",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 24,
+  "name": "MBA/PGDM",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 25,
+  "name": "BAMS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 26,
+  "name": "BDS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 27,
+  "name": "BHMS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 28,
+  "name": "BPT",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 29,
+  "name": "BVSc.",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 30,
+  "name": "DM",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 31,
+  "name": "M.D.",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 32,
+  "name": "M.S. (Medicine)",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 33,
+  "name": "MBBS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 34,
+  "name": "MCh",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 35,
+  "name": "MDS",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 36,
+  "name": "MPT",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 37,
+  "name": "MVSc.",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 38,
+  "name": "BL/LLB",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 39,
+  "name": "ML/LLM",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 40,
+  "name": "B.A",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 41,
+  "name": "B.Ed",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 42,
+  "name": "BFA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 43,
+  "name": "BJMC",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 44,
+  "name": "M.A",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 45,
+  "name": "M.Ed",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 46,
+  "name": "M.Sc",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 47,
+  "name": "MFA",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 48,
+  "name": "MJMC",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 49,
+  "name": "MSW",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 50,
+  "name": "M.Phil",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 51,
+  "name": "Ph.D",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 52,
+  "name": "High School",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 53,
+  "name": "Trade School",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 54,
+  "name": "Diploma",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 55,
+  "name": "Others",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 56,
+  "name": "B.Sc",
+  "tagsDtoType": "USER_EDUCATION_CUSTOM",
+  "order": 0
+  }
+  ]

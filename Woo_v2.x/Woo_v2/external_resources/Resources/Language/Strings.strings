@@ -1,0 +1,419 @@
+/* 
+  Strings.strings
+  Woo_v2
+
+  Created by Umesh Mishra on 04/06/15.
+  Copyright (c) 2015 Vaibhav Gautam. All rights reserved.
+*/
+
+//View controller (Discover & on boarding)
+
+"Taking you back to" = "Taking you back to";
+"Woo Recommendations" = "Woo Recommendations";
+"That's all folks!" = "That's all folks!";
+"You have exhausted your intro messages." = "You have exhausted your intro messages.";
+"OK" = "OK";
+"Done with people who like" = "Done with people who like";
+"Searching for people from" = "Searching for people from";
+"Searching for people who studied at" = "Searching for people who studied at";
+"Searching for people who studied" = "Searching for people who studied";
+"Searching for people whose religion is set to" = "Searching for people whose religion is set to";
+"Searching for people whose %@ preference is" = "Searching for people whose %@ preference is";
+"Searching for" = "Searching for";
+"Searching for people who like" = "Searching for people who like";
+
+"Where are you?" = "Where are you?";
+"To find you better matches, Woo needs to know your location more accurately. \n\nGo To settings>Privacy>Services and switch ON location." = "To find you better matches, Woo needs to know your location more accurately. \n\nGo To settings>Privacy>Services and switch ON location.";
+"Go to settings" = "Go to settings";
+
+"Upload your pic" = "Upload your pic";
+"To match with someone you like. Please select your photo." = "To match with someone you like. Please select your photo.";
+"Add Photo" = "Add Photo";
+
+"Add & Verify" = "Add & Verify";
+"Three line\ntext will\ncome here." = "Three line\ntext will\ncome here.";
+"Verify your number" = "Verify your number";
+
+"Get linkedIn batch" = "Get linkedIn batch";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+"Verify using LinkedIn" = "Verify using LinkedIn";
+
+"Tell them more about yourself" = "Tell them more about yourself";
+"Six\n\n line\ntext\n will\ncome here" = "Six\n\n line\ntext\n will\ncome here";
+"Enter about me tags" = "Enter about me tags";
+
+"Woo with your voice message" = "Woo with your voice message";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+"Record a voice intro" = "Record a voice intro";
+
+"Invite your friends" = "Invite your friends";
+"Five\n line\n\ntext will\ncome here" = "Five\n line\n\ntext will\ncome here";
+"Invite your friends" = "Invite your friends";
+
+"That's all for now" = "That's all for now";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+
+/**
+ *  needs to be changed top 10
+ */
+
+
+"That's all for now" = "That's all for now";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+
+/**
+ *  needs to be changed top 20
+ */
+"That's all for now" = "That's all for now";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+
+/**
+ *  needs to be changed top 40
+ */
+"That's all for now" = "That's all for now";
+"Four\n line\ntext will\ncome here" = "Four\n line\ntext will\ncome here";
+
+"No Internet" = "No Internet";
+"You need an internet connection to meet more people on Woo.\n\n Please ensure your device is connected and try again." = "You need an internet connection to meet more people on Woo.\n\n Please ensure your device is connected and try again.";
+
+
+"Server busy" = "Server busy";
+"Woo is experiencing  heavy traffic. \n\n Check back later." = "Woo is experiencing  heavy traffic. \n\n Check back later.";
+
+
+/**
+ *  Strings from constant file
+ */
+
+"Need more details!" = "Need more details!";
+"We need some more details to build \nan accurate Woo profile for you. \nPlease allow Woo to access \nFacebook for this information. \n\nWoo never posts on your wall." = "We need some more details to build \nan accurate Woo profile for you. \nPlease allow Woo to access \nFacebook for this information. \n\nWoo never posts on your wall.";
+"Authorize Facebook" = "Authorize Facebook";
+
+
+"Please provide necessary permissions to complete sync." = "Please provide necessary permissions to complete sync.";
+"Please allow us to access your profile photos in Facebook." = "Please allow us to access your profile photos in Facebook.";
+
+"Your next set of profiles will be ready in" = "Your next set of profiles will be ready in";
+"Tons of new, interesting people are joining Woo every day." = "Tons of new, interesting people are joining Woo every day.";
+"Please check back in a while for some cool new profiles." = "Please check back in a while for some cool new profiles.";
+
+"Select any 3 that describe you best, from each category !" = "Select any 3 that describe you best, from each category !";
+
+
+
+
+
+"Verifying Eligibility" = "Verifying Eligibility";
+"Verifying eligibility" = "Verifying eligibility";
+"Getting to know you better" = "Getting to know you better";
+"Getting to know you better" = "Getting to know you better";
+"Almost there" = "Almost there";
+"Almost there" = "Almost there";
+"Welcome to Woo" = "Welcome to Woo";
+"Yay! You’re in!" = "Yay! You’re in!";
+"Oops!" = "Oops!";
+"Woo takes only a limited sign - ups to ensure meaningful matches. We will let you when a spot opens up" = "Woo takes only a limited sign - ups to ensure meaningful matches. We will let you when a spot opens up";
+
+
+"No Internet" = "No Internet";
+"You need an internet connection to update your profile.\n\nPlease ensure your device is connected and try again." = "You need an internet connection to update your profile.\n\nPlease ensure your device is connected and try again.";
+
+"No Internet" = "No Internet";
+"You need an internet connection to meet people on Woo.\n\nPlease ensure your device is connected and try again." = "You need an internet connection to meet people on Woo.\n\nPlease ensure your device is connected and try again.";
+
+"Where are you?" = "Where are you?";
+"In order to find you people you may like, Woo needs to know where you are.\n\n Go to Settings-> Privacy-> Location Services and switch Woo to ON." = "In order to find you people you may like, Woo needs to know where you are.\n\n Go to Settings-> Privacy-> Location Services and switch Woo to ON.";
+
+"Coming Soon!" = "Coming Soon!";
+"Thanks for checking out Woo, %@.\n\nWe’ll be launching in %@ very shortly and you'll be the first one to know!" = "Thanks for checking out Woo, %@.\n\nWe’ll be launching in %@ very shortly and you'll be the first one to know!";
+
+"Profile Completeness" = "Profile Completeness";
+"Your next set of profile will be ready in" = "Your next set of profile will be ready in";
+"Woo is looking for people you might like, but it'll help if we know a bit more about you." = "Woo is looking for people you might like, but it'll help if we know a bit more about you.";
+
+"Profile Completeness" = "Profile Completeness";
+"We are looking for more people near you. Please check back in a while." = "We are looking for more people near you. Please check back in a while.";
+"Meanwhile help us out by completing your profile to help find better matches." = "Meanwhile help us out by completing your profile to help find better matches.";
+
+"Don’t Miss out!" = "Don’t Miss out!";
+"Your next set of profiles will be ready in" = "Your next set of profiles will be ready in";
+"Turn ON your Woo Notifications so that we can let you know as soon as we’re ready" = "Turn ON your Woo Notifications so that we can let you know as soon as we’re ready";
+
+"Don’t Miss out!" = "Don’t Miss out!";
+"We are looking for more people near you. Please check back in a while." = "We are looking for more people near you. Please check back in a while.";
+"Meanwhile, Turn ON your Woo Notifications so that we can let you know as soon as we’re ready" = "Meanwhile, Turn ON your Woo Notifications so that we can let you know as soon as we’re ready";
+
+"The More The Merrier" = "The More The Merrier";
+"Invite friends to increase your chances of meeting someone nice." = "Invite friends to increase your chances of meeting someone nice.";
+"When you bring in friends, Woo will show you more interesting people. So go on, maximize your chances of meeting someone." = "When you bring in friends, Woo will show you more interesting people. So go on, maximize your chances of meeting someone.";
+"Invite Now" = "Invite Now";
+
+"The More The Merrier" = "The More The Merrier";
+"We are looking for more people near you. Please check back in a while." = "We are looking for more people near you. Please check back in a while.";
+"Invite friends to increase your chances of meeting someone nice." = "Invite friends to increase your chances of meeting someone nice.";
+"Invite Now" = "Invite Now";
+
+"Your preferences are too narrow" = "Your preferences are too narrow";
+"We're searching to find you people you'll like, but it'll help if you make your preferences broader." = "We're searching to find you people you'll like, but it'll help if you make your preferences broader.";
+"Go to Settings" = "Go to Settings";
+
+
+"Upgrade Woo?" = "Upgrade Woo?";
+"The new and improved Woo is out. Would you like to upgrade?" = "The new and improved Woo is out. Would you like to upgrade?";
+"Upgrade" = "Upgrade";
+
+"No internet available" = "No internet available";
+
+"Show Profile" = "Show Profile";
+"When you hide your profile, you will not be visible to anybody on Woo." = "When you hide your profile, you will not be visible to anybody on Woo.";
+
+"Like Woo on Facebook" = "Like Woo on Facebook";
+"Follow @TheWooApp" = "Follow @TheWooApp";
+
+"Chat" = "Chat";
+"Alerts" = "Alerts";
+
+"Discovery Preference" = "Discovery Preference";
+"Sounds" = "Sounds";
+"Profile" = "Profile";
+"Social" = "Social";
+
+
+
+
+/**
+ *  string from utility class
+ */
+"Please check your internet connection" = "Please check your internet connection";
+
+
+
+/**
+ *  Strings from ConfirmProfileViewController (photo selection)
+ */
+
+"Done" = "Done";
+"Select Profile Picture" = "Select Profile Picture";
+"Cancel" = "Cancel";
+"Click a picture" = "Click a picture";
+"Pick from facebook" = "Pick from facebook";
+
+/**
+ *  Complete profile card (filler screen)
+ */
+"%d%% complete" = "%d%% complete";
+
+
+
+/**
+ *  Verification view controller
+ */
+
+"We are resuming your profile check!" = "We are resuming your profile check!";
+"It seems your internet connectivity is too low." = "It seems your internet connectivity is too low.";
+
+
+/**
+ *  BaseViewController
+ */
+
+"Oops, Woo is experiencing heavy traffic! Please try again in a couple of minutes." = "Oops, Woo is experiencing heavy traffic! Please try again in a couple of minutes.";
+"Authentication error" = "Authentication error";
+"Something unexpected has happened. Please login again" = "Something unexpected has happened. Please login again";
+
+
+/**
+ *  PermissionView
+ */
+"We will never post anything on Facebook" = "We will never post anything on Facebook";
+"Other users will never know if you’ve liked them, unless they like you too" = "Other users will never know if you’ve liked them, unless they like you too";
+"Users can’t contact you unless you’ve been matched with them" = "Users can’t contact you unless you’ve been matched with them";
+
+/**
+ *  U2opiaFBLoginView
+ */
+
+"Session Error" = "Session Error";
+"Oops, something went wrong! Please log in to Facebook and try again." = "Oops, something went wrong! Please log in to Facebook and try again.";
+
+"Permission Error" = "Permission Error";
+"you do not have permission to perform this action. Please provide permission." = "you do not have permission to perform this action. Please provide permission.";
+
+"Sever Error" = "Sever Error";
+"Seems facebook is busy right now." = "Seems facebook is busy right now.";
+
+"You have exceeded your limit . Please try after sometime" = "You have exceeded your limit . Please try after sometime";
+"Facebook Error" = "Facebook Error";
+
+
+"Login cancelled" = "Login cancelled";
+"Did you complete your Facebook login? Please follow all steps to log in successfully." = "Did you complete your Facebook login? Please follow all steps to log in successfully.";
+
+"Woo" = "Woo";
+"Permissions Issue - Please provide the required extended permissions" = "Permissions Issue - Please provide the required extended permissions";
+
+"No Internet" = "No Internet";
+"Internert is not reachable." = "Internert is not reachable.";
+
+"Something went wrong" = "Something went wrong";
+"Please retry" = "Please retry";
+
+
+/**
+ *  Settings
+ */
+
+"Are you sure you want to log out? You will not be notified if you get a match or a match messages you." = "Are you sure you want to log out? You will not be notified if you get a match or a match messages you.";
+"Logout" = "Logout";
+"No" = "No";
+"Yes" = "Yes";
+
+"Deleting your account will remove all conversations and matches permanently. Proceed?" = "Deleting your account will remove all conversations and matches permanently. Proceed?";
+"Delete Account?" = "Delete Account?";
+
+
+"Women" = "Women";
+"Men" = "Men";
+
+"%d-%d+ yr" = "%d-%d+ yr";
+"%d-%d yr" = "%d-%d yr";
+
+
+"Religion" = "Religion";
+"--" = "--";
+"Verify your number" = "Verify your number";
+"Phone" = "Phone";
+"Height" = "Height";
+"Relationship" = "Relationship";
+"Work area" = "Work area";
+
+"Add voice intro" = "Add voice intro";
+"Add a voice message to introduce yourself" = "Add a voice message to introduce yourself";
+"Sync your work and education info with Linkedin" = "Sync your work and education info with Linkedin";
+
+"Personality" = "Personality";
+"Passions & Interests" = "Passions & Interests";
+"Lifestyle" = "Lifestyle";
+"I'm passionate about" = "I'm passionate about";
+
+"Select religion" = "Select religion";
+"Select height" = "Select height";
+"Select relationship status" = "Select relationship status";
+"Select work area" = "Select work area";
+
+"Settings" = "Settings";
+"Lifestyle" = "Lifestyle";
+"Personality" = "Personality";
+"Notifications" = "Notifications";
+
+"Facebook Sync" = "Facebook Sync";
+"Woo fetches your latest information. Tap Sync to update." = "Woo fetches your latest information. Tap Sync to update.";
+"Work Place" = "Work Place";
+"Education" = "Education";
+"Gender" = "Gender";
+"Age" = "Age";
+"Cancel" = "Cancel";
+"Sync" = "Sync";
+
+"Change photo" = "Change photo";
+
+"Purchase History" = "Purchase History";
+"Free Pass" = "Free Pass";
+
+"Matchbox" = "Matchbox";
+"Ask a Question" = "Ask a Question";
+
+"Leave this blank" = "Leave this blank";
+
+"Next" = "Next";
+
+
+
+//Verfication Error view text
+
+"Info Missing!" = "Info Missing!";
+"Age matters!" = "Age";
+"We need your gender to find you matches." = "We need your gender to find you matches.";
+"Female" = "Female";
+"Male" = "Male";
+"Male/Female?" = "Male/male?";
+"Your birthday is..." = "Your birthday is...";
+"Next" = "Next";
+
+
+"Smoking" = "Smoking";
+"Drinking" = "Drinking";
+"Food Pref." = "Food Pref.";
+"Hometown" = "Hometown";
+"Religion" = "Religion";
+"Works as" = "Works as";
+"Works at" = "Works at";
+"Work area" = "Work area";
+"Education" = "Education";
+"Studied" = "Studied";
+"Number verified" = "Number verified";
+"Phone" = "Phone";
+"Please deselect a tag to select another tag" = "Please deselect a tag to select another tag";
+
+"Discard changes?" = "Discard changes?";
+
+
+"Delete this question?" = "Delete this question?";
+"Deleting this question will also delete all the answers in it. \n\n Are you sure you want to continue?" = "Deleting this question will also delete all the answers in it. \n\n Are you sure you want to continue?";
+
+"Answers" = "Answers";
+
+"more replies" = "more replies";
+"question left" = "question left";
+
+"Delete?" = "Delete?";
+"\nNot crazy about this answer?\n" = "\nNot crazy about this answer?\n";
+"Think again" = "Think again";
+"Yes,Delete" = "Yes,Delete";
+
+"Report as inappropriate" = "Report as inappropriate";
+
+"User Reported!" = "User Reported!";
+
+
+"Talk more?" = "Talk more?";
+"Tapping on the heart will open up the conversation." = "Tapping on the heart will open up the conversation.";
+"Continue" = "Continue";
+
+"likes you back!" = "likes you back!";
+
+"Open URL" = "Open URL";
+"Open Screen" = "Open Screen";
+
+"left" = "left";
+
+"Hey " = "Hey ";
+
+"Unmatch" = "Unmatch";
+
+"Once unmatched, you will not be able to send or receive messages from" = "Once unmatched, you will not be able to send or receive messages from";
+"Are you sure you want to unmatch" = "Are you sure you want to unmatch";
+
+/**
+Image reorder
+**/
+"Your photo" = "Your photo";
+
+
+"Find Magic, Find Love" = "Find Magic, Find Love";
+"There are love stories waiting to happen \n Find yours on Woo." = "There are love stories waiting to happen \n Find yours on Woo.";
+
+"Discover . Match . Chat" = "Discover . Match . Chat";
+"Find someone who get your quirks, beliefs and jokes. Who gets you." = "Find someone who get your quirks, beliefs and jokes. Who gets you.";
+
+"Go beyond swipes. Connect" = "Go beyond swipes. Connect";
+"Start conversaions that really matter." = "Start conversaions that really matter.";
+
+"Profile photo updated!" = "Profile photo updated!";
+
+//Image check fails
+"We didn't see you there!" = "We didn't see you there!";
+"Select a picture with your face visible." = "Select a picture with your face visible.";
+"Move and Scale" = "Move and Scale";
+"Add a photo on Facebook" = "Add a photo on Facebook";
+"Please upload a photo on Facebook where your face is clearly visible" = "Please upload a photo on Facebook where your face is clearly visible";

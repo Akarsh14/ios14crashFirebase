@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Editing Profile"; ObjectID = "Wt4-wk-OyC"; */
+"Wt4-wk-OyC.text" = "Edit Profil";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "bmc-4Z-Bip"; */
+"bmc-4Z-Bip.text" = "100%";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "hNd-d6-JTN"; */
+"hNd-d6-JTN.normalTitle" = "Selesai";

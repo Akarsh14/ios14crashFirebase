@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A391" minimumToolsVersion="Xcode 4.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Answers" representedClassName="MyAnswers" syncable="YES">
+        <attribute name="answerDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="createdTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userAge" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wooId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="BoostDashboard" representedClassName="BoostDashboard" syncable="YES">
+        <attribute name="badgeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crushMsgSendToUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isCrushSend" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isVisitorBoosted" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isVisitorLiked" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isVisitorProfileSeenbyUser" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="visitorAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitorExpiryTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="visitorFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitorGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitorId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitorProfilePicURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ChatMessage" representedClassName="ChatMessage" syncable="YES">
+        <attribute name="chatDeliveryStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="chatMessageCreatedTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="chatRoomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientMessageID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="ifchatImageIsItUploaded" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imageSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDelivered" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="layerMessageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageReceiverID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageSenderID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="messageType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="serverMessageID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="ChatRoom" representedClassName="ChatRoom" syncable="YES">
+        <attribute name="chatRoomCreationTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="chatRoomID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatSnippet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatSnippetTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="expiryTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isChatSided" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isDel" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFav" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="myMatchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherUserImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CrushesDashboard" representedClassName="CrushesDashboard" syncable="YES">
+        <attribute name="crushMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crushTimestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crushTimestampCurrent" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="hasSeen" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActorBoosted" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LikedMe" representedClassName="LikedMe" syncable="YES">
+        <attribute name="badgeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crushMsgSendToUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isCrushSend" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserBoosted" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserLiked" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserProfileSeenbyAppUser" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userExpiryTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfilePicURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userWooId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyMatches" representedClassName="MyMatches" syncable="YES">
+        <attribute name="agoraChannelKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatSnippet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatSnippetTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="chatSnippetUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expiryTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isDel" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isFav" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isMultiMediaMsgAllowed" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isRequesterFlagged" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isTargetACelebrity" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isTargetFlagged" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isTargetVoiceCallingEnabled" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="layerChatID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="layerConversationObject" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="matchedAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchedOn" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="matchedQuestion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchedUserId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchedUserStatus" optional="YES" attributeType="Integer 16" defaultValueString="2" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="matchGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchIntroText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchOverlayText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matchUserPic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetDeviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userLocation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MyQuestions" representedClassName="MyQuestions" syncable="YES">
+        <attribute name="lastUpdateTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="qid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="questionCreatedTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="questionText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalAnswers" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalUnreadAnswers" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Notifications" representedClassName="Notifications" syncable="YES">
+        <attribute name="additionData" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notificationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="notificationId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notificationType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="pivotId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PurchaseHistory" representedClassName="PurchaseHistory" syncable="YES">
+        <attribute name="accessPassCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="purchaseDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="validityInDays" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SkippedProfiles" representedClassName="SkippedProfiles" syncable="YES">
+        <attribute name="badgeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crushMsgSendToUser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCrushSend" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserBoosted" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserLiked" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isUserProfileSeenbyAppUser" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userExpiryTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="userFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfilePicURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userWooId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TemplateQuestions" representedClassName="TemplateQuestions" syncable="YES">
+        <attribute name="qid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="templateQuestion" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Answers" positionX="88" positionY="-531" width="128" height="178"/>
+        <element name="BoostDashboard" positionX="79" positionY="-69" width="128" height="240"/>
+        <element name="ChatMessage" positionX="-711" positionY="-99" width="128" height="240"/>
+        <element name="ChatRoom" positionX="376" positionY="-225" width="128" height="255"/>
+        <element name="CrushesDashboard" positionX="-945" positionY="-459" width="128" height="210"/>
+        <element name="LikedMe" positionX="-738" positionY="-783" width="128" height="240"/>
+        <element name="MyMatches" positionX="232" positionY="-126" width="128" height="480"/>
+        <element name="MyQuestions" positionX="97" positionY="-270" width="128" height="135"/>
+        <element name="Notifications" positionX="-657" positionY="-297" width="128" height="163"/>
+        <element name="PurchaseHistory" positionX="106" positionY="-735" width="128" height="195"/>
+        <element name="SkippedProfiles" positionX="-738" positionY="-783" width="128" height="225"/>
+        <element name="TemplateQuestions" positionX="376" positionY="-459" width="128" height="75"/>
+    </elements>
+</model>

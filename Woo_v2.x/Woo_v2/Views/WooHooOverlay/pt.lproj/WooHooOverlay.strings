@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "XYZ Likes you back"; ObjectID = "fP1-WA-XCt"; */
+"fP1-WA-XCt.text" = "XYZ Likes you back!";
+
+/* Class = "UILabel"; text = "Woohoo!"; ObjectID = "g2f-Hz-y2q"; */
+"g2f-Hz-y2q.text" = "Woohoo!";
+
+/* Class = "UILabel"; text = "Label\nthis"; ObjectID = "igD-Sh-hNN"; */
+"igD-Sh-hNN.text" = "Label\nthis";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "yer-Ta-dOB"; */
+"yer-Ta-dOB.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "Initiating chat"; ObjectID = "zV1-fE-7tj"; */
+"zV1-fE-7tj.text" = "Iniciando bate-papo";

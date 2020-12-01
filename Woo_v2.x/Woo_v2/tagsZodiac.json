@@ -1,0 +1,88 @@
+[
+{
+  "tagsCategory":"Zodiac Sign",
+  "tagsCategoryId":15,
+  "isShowCategory" : false,
+  "subType":[
+    {
+      "subTypeName":"Zodiac Sign",
+      "tagsSubCategoryId":15,
+      "subTypeImage":"ic_zodiac",
+      "tags":[
+        {
+          "tagId":270,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Aries"
+        },
+        {
+          "tagId":271,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Taurus"
+        },
+        {
+          "tagId":272,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Gemini"
+        },
+        {
+          "tagId":273,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Cancer"
+        },
+        {
+          "tagId":274,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Leo"
+        },
+        {
+          "tagId":275,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Virgo"
+        },
+        {
+          "tagId":276,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Libra"
+        },
+        {
+          "tagId":277,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Scorpio"
+        },
+        {
+          "tagId":278,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Sagittarius"
+        },
+        {
+          "tagId":279,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Capricorn"
+        },
+        {
+          "tagId":280,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Aquarius"
+        },
+        {
+          "tagId":281,
+          "tagsSubCategoryId":15,
+          "imageName": "ic_zodiac",
+          "name":"Pisces"
+        }
+      ]
+    }
+  ]
+}
+]

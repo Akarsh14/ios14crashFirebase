@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>All swipe and no talk makes dating dull.</string>
+			<key>fontSize</key>
+			<integer>24</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>Go ahead and chat. Even better, call from\nWoo Phone to not share your number.</string>
+			<key>fontSize</key>
+			<integer>16</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>More talking,\nNo stalking.</string>
+			<key>fontSize</key>
+			<integer>24</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>We show women’s names as initials and first name for men. Respect their privacy.</string>
+			<key>fontSize</key>
+			<integer>16</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>Zero Tolerance</string>
+			<key>fontSize</key>
+			<integer>24</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>Woo is built for respect and consent. Report the ones who don’t fit in.</string>
+			<key>fontSize</key>
+			<integer>16</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>Be Patient</string>
+			<key>fontSize</key>
+			<integer>30</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>Miracles take time</string>
+			<key>fontSize</key>
+			<integer>20</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>TALK + TIME = TRUST</string>
+			<key>fontSize</key>
+			<integer>24</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>Spend time talking &amp; establish trust before you ask for or share personal information</string>
+			<key>fontSize</key>
+			<integer>16</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>titleData</key>
+		<dict>
+			<key>name</key>
+			<string>Respect is a two way street</string>
+			<key>fontSize</key>
+			<integer>24</integer>
+			<key>color</key>
+			<dict>
+				<key>start</key>
+				<string>#824DCE</string>
+				<key>end</key>
+				<string>#ED566F</string>
+			</dict>
+		</dict>
+		<key>messageData</key>
+		<dict>
+			<key>name</key>
+			<string>Be the reason they smile, not the reason they log off the app.</string>
+			<key>fontSize</key>
+			<integer>16</integer>
+			<key>color</key>
+			<string>#5F626A</string>
+		</dict>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "166eba31-4fc9-468a-83b6-fe4561dc0490++5676",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++6868" : {
+
+    },
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++5676" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++6868" : 0,
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++5676" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "95578192-BA43-4745-BF9B-6264883F6906",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++6868" : "Woo_v2_20May2015",
+    "166eba31-4fc9-468a-83b6-fe4561dc0490++5676" : "Woo_v2.x\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Woo_v2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Woo_v2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/deepak.gupta@svn.u2opia.local\/woo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "166eba31-4fc9-468a-83b6-fe4561dc0490++5676"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/umesh.mishra@172.21.21.102\/woo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "166eba31-4fc9-468a-83b6-fe4561dc0490++6868"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module TrueSDK {
+  umbrella header "TrueSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

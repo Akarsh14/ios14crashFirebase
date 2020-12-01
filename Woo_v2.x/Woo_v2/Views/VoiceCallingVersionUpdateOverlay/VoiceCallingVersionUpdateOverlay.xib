@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VoiceCallingVersionUpdateOverlay" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x8I-1d-lAb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLg-TB-6eD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqd-Dg-mmT">
+                            <rect key="frame" x="25" y="226.5" width="270" height="115"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please ask Johnathan to download latest version of Woo to receive calls." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0E-qL-Pe9">
+                                    <rect key="frame" x="15" y="15.5" width="240" height="56.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="xdd-Tg-Wy5"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iX-xs-zCc">
+                                    <rect key="frame" x="212" y="72" width="43" height="43"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="8iX-xs-zCc" secondAttribute="height" multiplier="1:1" id="xtK-6y-llK"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" red="0.98039215690000003" green="0.28235294119999998" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="okButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="kVc-Ti-AXb"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="m0E-qL-Pe9" firstAttribute="leading" secondItem="qqd-Dg-mmT" secondAttribute="leading" constant="15" id="KuW-b8-MBd"/>
+                                <constraint firstAttribute="trailing" secondItem="m0E-qL-Pe9" secondAttribute="trailing" constant="15" id="MKN-E3-zuY"/>
+                                <constraint firstItem="8iX-xs-zCc" firstAttribute="trailing" secondItem="m0E-qL-Pe9" secondAttribute="trailing" id="Swo-Ty-lFQ"/>
+                                <constraint firstItem="8iX-xs-zCc" firstAttribute="height" secondItem="qqd-Dg-mmT" secondAttribute="height" multiplier="44:115" id="Xxp-dY-XX0"/>
+                                <constraint firstItem="m0E-qL-Pe9" firstAttribute="top" secondItem="qqd-Dg-mmT" secondAttribute="top" constant="15" id="ghx-W8-kFj"/>
+                                <constraint firstAttribute="width" secondItem="qqd-Dg-mmT" secondAttribute="height" multiplier="54:23" id="l1k-cE-9kB"/>
+                                <constraint firstItem="8iX-xs-zCc" firstAttribute="top" secondItem="m0E-qL-Pe9" secondAttribute="bottom" id="pXQ-HF-N6V"/>
+                                <constraint firstAttribute="bottom" secondItem="8iX-xs-zCc" secondAttribute="bottom" id="t8n-kH-uGF"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="qqd-Dg-mmT" firstAttribute="leading" secondItem="JLg-TB-6eD" secondAttribute="leading" constant="25" id="1t4-hS-NB0"/>
+                        <constraint firstItem="qqd-Dg-mmT" firstAttribute="centerX" secondItem="JLg-TB-6eD" secondAttribute="centerX" id="d2g-ON-7JR"/>
+                        <constraint firstItem="qqd-Dg-mmT" firstAttribute="centerY" secondItem="JLg-TB-6eD" secondAttribute="centerY" id="lMl-8t-1SJ"/>
+                        <constraint firstAttribute="trailing" secondItem="qqd-Dg-mmT" secondAttribute="trailing" constant="25" id="x9M-Iq-fIz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JLg-TB-6eD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9E5-ZN-j9L"/>
+                <constraint firstItem="x8I-1d-lAb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9lR-12-x01"/>
+                <constraint firstItem="x8I-1d-lAb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B8r-5G-sa6"/>
+                <constraint firstAttribute="trailing" secondItem="JLg-TB-6eD" secondAttribute="trailing" id="KuR-UF-JbZ"/>
+                <constraint firstAttribute="bottom" secondItem="JLg-TB-6eD" secondAttribute="bottom" id="Meg-kE-375"/>
+                <constraint firstAttribute="trailing" secondItem="x8I-1d-lAb" secondAttribute="trailing" id="TAP-Dv-cdV"/>
+                <constraint firstAttribute="bottom" secondItem="x8I-1d-lAb" secondAttribute="bottom" id="tSo-8f-tm9"/>
+                <constraint firstItem="JLg-TB-6eD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wvF-Vq-STF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="xC1-qC-YWU"/>
+            <connections>
+                <outlet property="versionUpdateText" destination="m0E-qL-Pe9" id="nmD-6h-r1S"/>
+            </connections>
+        </view>
+    </objects>
+</document>

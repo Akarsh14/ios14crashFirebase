@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FaqViewController">
+            <connections>
+                <outlet property="faqWebView" destination="Qej-ts-lrt" id="oFM-hG-tat"/>
+                <outlet property="view" destination="iN0-l3-epB" id="TGf-9U-u8G"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qej-ts-lrt">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWS-he-CPR">
+                    <rect key="frame" x="321" y="21" width="46" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="16z-4c-GVs"/>
+                        <constraint firstAttribute="width" constant="46" id="g6d-u6-0Md"/>
+                    </constraints>
+                    <state key="normal" title="Done"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="16z-4c-GVs"/>
+                            <exclude reference="g6d-u6-0Md"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="16z-4c-GVs"/>
+                            <include reference="g6d-u6-0Md"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="doneClicked:" destination="-1" eventType="touchUpInside" id="Bip-7U-Uzk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UWS-he-CPR" secondAttribute="trailing" constant="8" id="6sz-n3-Klo"/>
+                <constraint firstAttribute="bottom" secondItem="Qej-ts-lrt" secondAttribute="bottom" id="BbG-ea-roz"/>
+                <constraint firstItem="UWS-he-CPR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="Ivz-xh-yQS"/>
+                <constraint firstItem="Qej-ts-lrt" firstAttribute="top" secondItem="UWS-he-CPR" secondAttribute="bottom" constant="3" id="Taj-N0-s8j"/>
+                <constraint firstItem="Qej-ts-lrt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="brO-XJ-5Km"/>
+                <constraint firstAttribute="trailing" secondItem="Qej-ts-lrt" secondAttribute="trailing" id="iM8-TF-vV0"/>
+                <constraint firstItem="Qej-ts-lrt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xv3-6S-fav">
+                    <variation key="heightClass=regular-widthClass=compact" constant="44"/>
+                </constraint>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="iuD-be-R3b"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Qej-ts-lrt"/>
+                    <exclude reference="UWS-he-CPR"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="6sz-n3-Klo"/>
+                    <exclude reference="Ivz-xh-yQS"/>
+                    <exclude reference="BbG-ea-roz"/>
+                    <exclude reference="Taj-N0-s8j"/>
+                    <exclude reference="brO-XJ-5Km"/>
+                    <exclude reference="iM8-TF-vV0"/>
+                    <exclude reference="xv3-6S-fav"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Qej-ts-lrt"/>
+                    <include reference="UWS-he-CPR"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="6sz-n3-Klo"/>
+                    <include reference="Ivz-xh-yQS"/>
+                    <include reference="BbG-ea-roz"/>
+                    <include reference="Taj-N0-s8j"/>
+                    <include reference="brO-XJ-5Km"/>
+                    <include reference="iM8-TF-vV0"/>
+                    <include reference="xv3-6S-fav"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

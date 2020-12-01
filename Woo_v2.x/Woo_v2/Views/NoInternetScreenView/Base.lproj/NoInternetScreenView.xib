@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoInternetScreenView">
+            <connections>
+                <outlet property="viewLoader" destination="4et-sa-sTO" id="R83-Zy-8wo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4et-sa-sTO">
+                    <rect key="frame" x="0.0" y="63" width="375" height="154"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="154" id="TuG-px-1wy"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="TuG-px-1wy"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="TuG-px-1wy"/>
+                        </mask>
+                    </variation>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please check your connection and try again." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nc7-C7-trO">
+                    <rect key="frame" x="20" y="255" width="335" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="0de-gQ-fXJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="12"/>
+                    <color key="textColor" red="0.75686274509999996" green="0.75686274509999996" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="0de-gQ-fXJ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="0de-gQ-fXJ"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXe-Nk-8rv">
+                    <rect key="frame" x="165" y="311" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="2Zq-Dz-A78"/>
+                        <constraint firstAttribute="width" constant="45" id="328-8A-ecl"/>
+                    </constraints>
+                    <state key="normal" image="InternetRefresh"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="2Zq-Dz-A78"/>
+                            <exclude reference="328-8A-ecl"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="2Zq-Dz-A78"/>
+                            <include reference="328-8A-ecl"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="refreshButtonClicked:" destination="-1" eventType="touchUpInside" id="qX1-Ri-rKO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Nc7-C7-trO" secondAttribute="trailing" constant="20" id="6aw-wX-JLi"/>
+                <constraint firstItem="Nc7-C7-trO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Az8-mB-SWW"/>
+                <constraint firstItem="wXe-Nk-8rv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="PyJ-xe-qmH"/>
+                <constraint firstItem="Nc7-C7-trO" firstAttribute="top" secondItem="4et-sa-sTO" secondAttribute="bottom" constant="38" id="TTR-R8-Bid"/>
+                <constraint firstAttribute="trailing" secondItem="4et-sa-sTO" secondAttribute="trailing" id="TuW-et-87Y"/>
+                <constraint firstItem="wXe-Nk-8rv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ze8-hM-IEf"/>
+                <constraint firstItem="wXe-Nk-8rv" firstAttribute="top" secondItem="Nc7-C7-trO" secondAttribute="bottom" constant="28" id="qyb-jl-Mue"/>
+                <constraint firstItem="4et-sa-sTO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x6z-B0-9FO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="wbK-NW-DeI"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="4et-sa-sTO"/>
+                    <exclude reference="Nc7-C7-trO"/>
+                    <exclude reference="wXe-Nk-8rv"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="TuW-et-87Y"/>
+                    <exclude reference="x6z-B0-9FO"/>
+                    <exclude reference="6aw-wX-JLi"/>
+                    <exclude reference="Az8-mB-SWW"/>
+                    <exclude reference="TTR-R8-Bid"/>
+                    <exclude reference="PyJ-xe-qmH"/>
+                    <exclude reference="qyb-jl-Mue"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="4et-sa-sTO"/>
+                    <include reference="Nc7-C7-trO"/>
+                    <include reference="wXe-Nk-8rv"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="TuW-et-87Y"/>
+                    <include reference="x6z-B0-9FO"/>
+                    <include reference="6aw-wX-JLi"/>
+                    <include reference="Az8-mB-SWW"/>
+                    <include reference="TTR-R8-Bid"/>
+                    <include reference="PyJ-xe-qmH"/>
+                    <include reference="qyb-jl-Mue"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="InternetRefresh" width="45" height="45"/>
+    </resources>
+</document>

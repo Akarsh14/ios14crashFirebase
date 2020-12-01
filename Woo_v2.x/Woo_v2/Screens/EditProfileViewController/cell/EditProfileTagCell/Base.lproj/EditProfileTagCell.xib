@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="BrandTagCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="EditProfileTagCell" rowHeight="156" id="Qwl-H9-qg0" customClass="EditProfileTagCell" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="156"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qwl-H9-qg0" id="pss-hc-boE">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxQ-eZ-p3C">
+                        <rect key="frame" x="122" y="110.5" width="156" height="30"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.28235294119999998" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="156" id="I8i-Wb-ncR"/>
+                            <constraint firstAttribute="height" constant="30" id="YSb-vX-Ps4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                        <state key="normal" title="ADD OTHER TAGS">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="addTagButtonPressed:" destination="Qwl-H9-qg0" eventType="touchUpInside" id="M6c-gF-Ad7"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.45882352939999999" green="0.76862745099999996" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sxQ-eZ-p3C" secondAttribute="bottom" constant="15" id="eW7-Kg-9ze"/>
+                    <constraint firstItem="sxQ-eZ-p3C" firstAttribute="centerX" secondItem="pss-hc-boE" secondAttribute="centerX" id="x1Q-wE-xNn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.52549019610000003" green="0.7843137255" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="vZy-Dg-hvj"/>
+            <connections>
+                <outlet property="addOtherTagsButton" destination="sxQ-eZ-p3C" id="Ieu-s8-2gt"/>
+                <outlet property="addTagsButtonHeightConstraint" destination="YSb-vX-Ps4" id="uc0-BI-QwG"/>
+            </connections>
+            <point key="canvasLocation" x="-8" y="183"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VoiceCallIntroductionPopup" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETW-1l-ypd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ruq-IE-hmn">
+                    <rect key="frame" x="45" y="133.5" width="285" height="330"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBg-gd-LjW">
+                            <rect key="frame" x="0.0" y="0.0" width="285" height="330"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxn-Jg-4U4">
+                            <rect key="frame" x="60" y="25" width="166" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="166" id="Nul-Zt-yz1"/>
+                                <constraint firstAttribute="height" constant="25" id="P9W-Sn-N0w"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="voice calls on Woo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhf-DF-Nbv">
+                            <rect key="frame" x="20" y="50" width="245" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="245" id="Dbn-5q-Osu"/>
+                                <constraint firstAttribute="height" constant="25" id="K2I-Ah-O7j"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_calling_male" translatesAutoresizingMaskIntoConstraints="NO" id="UuG-Ly-DDi">
+                            <rect key="frame" x="25" y="100" width="70" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="KlS-YR-Fb5"/>
+                                <constraint firstAttribute="height" constant="70" id="SP6-tS-ba4"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="35"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CeD-88-iQu">
+                            <rect key="frame" x="95" y="134" width="95" height="2"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="95" id="Cfs-n8-RG9"/>
+                                <constraint firstAttribute="height" constant="2" id="FXy-a5-bEx"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_calling_phone" translatesAutoresizingMaskIntoConstraints="NO" id="5bn-Ix-IMV">
+                            <rect key="frame" x="117" y="109.5" width="51" height="51"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_calling_female" translatesAutoresizingMaskIntoConstraints="NO" id="vVP-Vh-vor">
+                            <rect key="frame" x="190" y="99.5" width="70" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="0hr-4d-0bR"/>
+                                <constraint firstAttribute="width" constant="70" id="guM-uS-05p"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="35"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't want to reveal your phone number?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rm-JI-wml">
+                            <rect key="frame" x="45" y="199.5" width="195" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="195" id="Bg9-QA-yXL"/>
+                                <constraint firstAttribute="height" constant="35" id="QSM-MS-XuC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talk over the phone with your matches with Woo Calling" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vl3-5Q-Svv">
+                            <rect key="frame" x="49.5" y="254.5" width="185" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="996-g3-VbB"/>
+                                <constraint firstAttribute="width" constant="185" id="kBK-hK-qFF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vVP-Vh-vor" secondAttribute="trailing" constant="25" id="1Fl-qK-eCi"/>
+                        <constraint firstAttribute="height" constant="330" id="1hP-5a-veg"/>
+                        <constraint firstItem="6rm-JI-wml" firstAttribute="top" secondItem="UuG-Ly-DDi" secondAttribute="bottom" constant="30" id="8dd-vZ-bPj"/>
+                        <constraint firstItem="lhf-DF-Nbv" firstAttribute="top" secondItem="Sxn-Jg-4U4" secondAttribute="bottom" id="BKH-tU-yY0"/>
+                        <constraint firstItem="UuG-Ly-DDi" firstAttribute="top" secondItem="lhf-DF-Nbv" secondAttribute="bottom" constant="25" id="C01-Ps-dDv"/>
+                        <constraint firstItem="jBg-gd-LjW" firstAttribute="leading" secondItem="Ruq-IE-hmn" secondAttribute="leading" id="JKG-zh-geg"/>
+                        <constraint firstItem="Vl3-5Q-Svv" firstAttribute="top" secondItem="6rm-JI-wml" secondAttribute="bottom" constant="20" id="JiK-gM-f9A"/>
+                        <constraint firstAttribute="bottom" secondItem="Vl3-5Q-Svv" secondAttribute="bottom" constant="40" id="MSs-Sg-y6d"/>
+                        <constraint firstItem="Sxn-Jg-4U4" firstAttribute="top" secondItem="Ruq-IE-hmn" secondAttribute="top" constant="25" id="P16-H5-mpy"/>
+                        <constraint firstItem="lhf-DF-Nbv" firstAttribute="centerX" secondItem="Ruq-IE-hmn" secondAttribute="centerX" id="Pt2-Ne-jeD"/>
+                        <constraint firstItem="CeD-88-iQu" firstAttribute="centerY" secondItem="UuG-Ly-DDi" secondAttribute="centerY" id="S9Q-Qi-6eQ"/>
+                        <constraint firstItem="UuG-Ly-DDi" firstAttribute="leading" secondItem="Ruq-IE-hmn" secondAttribute="leading" constant="25" id="SFU-ri-ete"/>
+                        <constraint firstAttribute="bottom" secondItem="jBg-gd-LjW" secondAttribute="bottom" id="XiT-NP-Epq"/>
+                        <constraint firstItem="6rm-JI-wml" firstAttribute="centerX" secondItem="Ruq-IE-hmn" secondAttribute="centerX" id="Yhf-nA-tv8"/>
+                        <constraint firstItem="CeD-88-iQu" firstAttribute="leading" secondItem="UuG-Ly-DDi" secondAttribute="trailing" id="YmT-M3-c7B"/>
+                        <constraint firstItem="vVP-Vh-vor" firstAttribute="centerY" secondItem="UuG-Ly-DDi" secondAttribute="centerY" id="bcV-gD-7Sz"/>
+                        <constraint firstAttribute="width" constant="285" id="cVX-kZ-spU"/>
+                        <constraint firstItem="jBg-gd-LjW" firstAttribute="top" secondItem="Ruq-IE-hmn" secondAttribute="top" id="gC3-kV-NKx"/>
+                        <constraint firstItem="vVP-Vh-vor" firstAttribute="leading" secondItem="CeD-88-iQu" secondAttribute="trailing" id="hYb-yg-laH"/>
+                        <constraint firstAttribute="trailing" secondItem="jBg-gd-LjW" secondAttribute="trailing" id="ldo-Tz-uyy"/>
+                        <constraint firstItem="Sxn-Jg-4U4" firstAttribute="centerX" secondItem="Ruq-IE-hmn" secondAttribute="centerX" id="reV-My-BEq"/>
+                        <constraint firstItem="Vl3-5Q-Svv" firstAttribute="centerX" secondItem="Ruq-IE-hmn" secondAttribute="centerX" id="znq-Ni-KV5"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAV-3e-1X0">
+                    <rect key="frame" x="161.5" y="483.5" width="52" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="52" id="3yT-e2-6qW"/>
+                        <constraint firstAttribute="height" constant="52" id="tRH-pi-Ec8"/>
+                    </constraints>
+                    <state key="normal" image="ic_matchbox_popup_close"/>
+                    <connections>
+                        <action selector="closeButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZX8-Eq-fJG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ETW-1l-ypd" secondAttribute="bottom" id="6Vm-p0-SKG"/>
+                <constraint firstItem="tAV-3e-1X0" firstAttribute="centerX" secondItem="ETW-1l-ypd" secondAttribute="centerX" id="7eB-Ny-vSe"/>
+                <constraint firstItem="ETW-1l-ypd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CEV-ki-aYV"/>
+                <constraint firstItem="ETW-1l-ypd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JNZ-ym-V4w"/>
+                <constraint firstAttribute="trailing" secondItem="ETW-1l-ypd" secondAttribute="trailing" id="Kit-LE-cFo"/>
+                <constraint firstItem="Ruq-IE-hmn" firstAttribute="centerY" secondItem="ETW-1l-ypd" secondAttribute="centerY" constant="-35" id="SV9-zD-Q4g"/>
+                <constraint firstItem="tAV-3e-1X0" firstAttribute="top" secondItem="Ruq-IE-hmn" secondAttribute="bottom" constant="19.5" id="njZ-Nd-Cwi"/>
+                <constraint firstItem="Ruq-IE-hmn" firstAttribute="centerX" secondItem="ETW-1l-ypd" secondAttribute="centerX" id="uPX-sn-hzA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="kAc-Vt-hX2"/>
+            <connections>
+                <outlet property="containerView" destination="Ruq-IE-hmn" id="xX5-u7-hSh"/>
+                <outlet property="gradientBgView" destination="jBg-gd-LjW" id="2Uq-o4-Ysg"/>
+                <outlet property="leftImage" destination="UuG-Ly-DDi" id="G0s-h2-5LZ"/>
+                <outlet property="rightImage" destination="vVP-Vh-vor" id="UHi-L8-mB5"/>
+            </connections>
+            <point key="canvasLocation" x="69.5" y="75.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_calling_female" width="152" height="152"/>
+        <image name="ic_calling_male" width="152" height="152"/>
+        <image name="ic_calling_phone" width="51" height="51"/>
+        <image name="ic_matchbox_popup_close" width="26" height="26"/>
+    </resources>
+</document>

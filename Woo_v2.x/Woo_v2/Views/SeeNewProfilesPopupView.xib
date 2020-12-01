@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SeeNewProfilesPopupView" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZH-Z2-2Eh">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sif-Pp-BNE" userLabel="See new profiles">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="35"/>
+                            <color key="backgroundColor" red="0.47058823529999999" green="0.76862745099999996" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                            <state key="normal" title="  See new profiles" image="ic_me_white_arrow"/>
+                            <connections>
+                                <action selector="seeNewProfilesButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="kW0-7q-BnE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Sif-Pp-BNE" secondAttribute="trailing" id="9zT-Lh-q9s"/>
+                        <constraint firstItem="Sif-Pp-BNE" firstAttribute="leading" secondItem="XZH-Z2-2Eh" secondAttribute="leading" id="HlG-Ku-2ON"/>
+                        <constraint firstItem="Sif-Pp-BNE" firstAttribute="top" secondItem="XZH-Z2-2Eh" secondAttribute="top" id="aiF-ee-SZg"/>
+                        <constraint firstAttribute="bottom" secondItem="Sif-Pp-BNE" secondAttribute="bottom" id="hzr-Yh-bnt"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <real key="value" value="17.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.47058823529411764" green="0.76862745098039209" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="XZH-Z2-2Eh" secondAttribute="bottom" id="3Or-IU-xKX"/>
+                <constraint firstItem="XZH-Z2-2Eh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N5q-Y0-Mux"/>
+                <constraint firstAttribute="trailing" secondItem="XZH-Z2-2Eh" secondAttribute="trailing" id="eFp-1V-7r5"/>
+                <constraint firstItem="XZH-Z2-2Eh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fku-ID-Bua"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="2Ns-CD-gLe"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
+                <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                    <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                    <real key="value" value="0.29999999999999999"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                    <size key="value" width="0.0" height="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-190" y="-568"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_me_white_arrow" width="10" height="14"/>
+    </resources>
+</document>

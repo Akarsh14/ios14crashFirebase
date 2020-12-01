@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageReorder">
+            <connections>
+                <outlet property="mainImageViewObl" destination="K7V-NJ-0TQ" id="EmX-D0-HjW"/>
+                <outlet property="testImage" destination="NGI-bx-NXu" id="Tbc-23-mKQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U7t-uF-Kow">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <view clipsSubviews="YES" tag="100" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K7V-NJ-0TQ">
+                    <rect key="frame" x="0.0" y="9" width="320" height="370"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="polaroid5.png" translatesAutoresizingMaskIntoConstraints="NO" id="xJt-VF-m00">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="105" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGI-bx-NXu">
+                            <rect key="frame" x="33" y="28" width="247" height="274"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" tag="1123" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUn-Vn-6lw">
+                            <rect key="frame" x="282" y="0.0" width="27" height="27"/>
+                            <state key="normal" image="board_crop.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button hidden="YES" opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ltY-hr-gEM">
+                            <rect key="frame" x="286" y="1" width="27" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="HLf-sS-sMd"/>
+                            </constraints>
+                            <state key="normal" image="board_crop.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="removeImageButton:" destination="-1" eventType="touchUpInside" id="fvL-iM-zR6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="xUn-Vn-6lw" firstAttribute="top" secondItem="K7V-NJ-0TQ" secondAttribute="top" id="1m9-pP-SLA"/>
+                        <constraint firstItem="NGI-bx-NXu" firstAttribute="leading" secondItem="K7V-NJ-0TQ" secondAttribute="leading" constant="33" id="3bw-QN-HAe"/>
+                        <constraint firstItem="xJt-VF-m00" firstAttribute="leading" secondItem="K7V-NJ-0TQ" secondAttribute="leading" id="FyV-4B-DPp"/>
+                        <constraint firstAttribute="trailing" secondItem="ltY-hr-gEM" secondAttribute="trailing" constant="7" id="JFv-c8-wGl"/>
+                        <constraint firstItem="xUn-Vn-6lw" firstAttribute="top" secondItem="xJt-VF-m00" secondAttribute="top" id="KfG-Sb-JWF"/>
+                        <constraint firstAttribute="bottom" secondItem="xJt-VF-m00" secondAttribute="bottom" id="MKD-wo-h9A"/>
+                        <constraint firstItem="ltY-hr-gEM" firstAttribute="centerY" secondItem="xUn-Vn-6lw" secondAttribute="centerY" id="OPr-ia-wuU"/>
+                        <constraint firstAttribute="trailing" secondItem="xUn-Vn-6lw" secondAttribute="trailing" constant="11" id="WNa-Xw-q1z"/>
+                        <constraint firstAttribute="bottom" secondItem="NGI-bx-NXu" secondAttribute="bottom" constant="68" id="fEw-Q5-SBJ"/>
+                        <constraint firstAttribute="trailing" secondItem="NGI-bx-NXu" secondAttribute="trailing" constant="40" id="kA7-Yq-dKb"/>
+                        <constraint firstItem="NGI-bx-NXu" firstAttribute="top" secondItem="K7V-NJ-0TQ" secondAttribute="top" constant="28" id="njI-ho-lIr"/>
+                    </constraints>
+                </view>
+                <view tag="200" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2B-xb-kBA">
+                    <rect key="frame" x="20" y="391" width="80" height="80"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="205" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iHX-CM-ZjT">
+                            <rect key="frame" x="5" y="5" width="70" height="70"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" tag="201" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Il2-Vd-iLV">
+                            <rect key="frame" x="67" y="-9" width="24" height="24"/>
+                            <state key="normal" image="profile_cross.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="removeImageButton:" destination="-1" eventType="touchUpInside" id="JNS-u8-cXF"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="iHX-CM-ZjT" firstAttribute="centerY" secondItem="d2B-xb-kBA" secondAttribute="centerY" id="6wr-Ui-gVN"/>
+                        <constraint firstItem="Il2-Vd-iLV" firstAttribute="leading" secondItem="d2B-xb-kBA" secondAttribute="leading" constant="67" id="7V7-uT-tSZ"/>
+                        <constraint firstAttribute="trailing" secondItem="Il2-Vd-iLV" secondAttribute="trailing" constant="-11" id="H3P-Xh-WcM"/>
+                        <constraint firstItem="iHX-CM-ZjT" firstAttribute="top" secondItem="d2B-xb-kBA" secondAttribute="top" constant="5" id="Sy7-vw-I0N"/>
+                        <constraint firstAttribute="bottom" secondItem="Il2-Vd-iLV" secondAttribute="bottom" constant="65" id="cRe-YP-tv8"/>
+                        <constraint firstItem="iHX-CM-ZjT" firstAttribute="centerX" secondItem="d2B-xb-kBA" secondAttribute="centerX" id="crX-dN-ewf"/>
+                        <constraint firstItem="iHX-CM-ZjT" firstAttribute="leading" secondItem="d2B-xb-kBA" secondAttribute="leading" constant="5" id="kzb-Bg-yHL"/>
+                        <constraint firstItem="Il2-Vd-iLV" firstAttribute="top" secondItem="d2B-xb-kBA" secondAttribute="top" constant="-9" id="tcu-EL-VaH"/>
+                    </constraints>
+                </view>
+                <view tag="300" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erk-Ly-qwU">
+                    <rect key="frame" x="120" y="391" width="80" height="80"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="305" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iJP-I7-PTh">
+                            <rect key="frame" x="5" y="5" width="70" height="70"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" tag="301" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99T-My-dUM">
+                            <rect key="frame" x="66" y="-12" width="24" height="24"/>
+                            <state key="normal" image="profile_cross.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="removeImageButton:" destination="-1" eventType="touchUpInside" id="OaY-n7-S0G"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="iJP-I7-PTh" firstAttribute="centerY" secondItem="erk-Ly-qwU" secondAttribute="centerY" id="JJK-oy-7Ma"/>
+                        <constraint firstItem="99T-My-dUM" firstAttribute="top" secondItem="erk-Ly-qwU" secondAttribute="top" constant="-12" id="K2v-CK-zDJ"/>
+                        <constraint firstItem="iJP-I7-PTh" firstAttribute="centerX" secondItem="erk-Ly-qwU" secondAttribute="centerX" id="LnD-Vq-BRk"/>
+                        <constraint firstAttribute="bottom" secondItem="99T-My-dUM" secondAttribute="bottom" constant="68" id="MVN-Jw-mPK"/>
+                        <constraint firstItem="iJP-I7-PTh" firstAttribute="top" secondItem="erk-Ly-qwU" secondAttribute="top" constant="5" id="XYY-xO-G4h"/>
+                        <constraint firstItem="iJP-I7-PTh" firstAttribute="leading" secondItem="erk-Ly-qwU" secondAttribute="leading" constant="5" id="adq-LS-bnF"/>
+                        <constraint firstItem="99T-My-dUM" firstAttribute="leading" secondItem="erk-Ly-qwU" secondAttribute="leading" constant="66" id="cEg-hb-mJc"/>
+                        <constraint firstAttribute="trailing" secondItem="99T-My-dUM" secondAttribute="trailing" constant="-10" id="lCX-gH-O7t"/>
+                    </constraints>
+                </view>
+                <view tag="400" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FsC-UJ-Uht">
+                    <rect key="frame" x="220" y="391" width="80" height="80"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="405" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InV-Me-H3u">
+                            <rect key="frame" x="5" y="5" width="70" height="70"/>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" tag="401" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdd-JT-E53">
+                            <rect key="frame" x="67" y="-10" width="24" height="24"/>
+                            <state key="normal" image="profile_cross.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="removeImageButton:" destination="-1" eventType="touchUpInside" id="nHP-RQ-6Ao"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="InV-Me-H3u" firstAttribute="leading" secondItem="FsC-UJ-Uht" secondAttribute="leading" constant="5" id="3Sm-vD-ltf"/>
+                        <constraint firstItem="Bdd-JT-E53" firstAttribute="top" secondItem="FsC-UJ-Uht" secondAttribute="top" constant="-10" id="Co6-qu-Cf0"/>
+                        <constraint firstItem="InV-Me-H3u" firstAttribute="centerY" secondItem="FsC-UJ-Uht" secondAttribute="centerY" id="DfE-Zx-jLy"/>
+                        <constraint firstItem="InV-Me-H3u" firstAttribute="top" secondItem="FsC-UJ-Uht" secondAttribute="top" constant="5" id="KTu-iP-CNj"/>
+                        <constraint firstItem="Bdd-JT-E53" firstAttribute="leading" secondItem="FsC-UJ-Uht" secondAttribute="leading" constant="67" id="eJ9-a5-ctV"/>
+                        <constraint firstItem="InV-Me-H3u" firstAttribute="centerX" secondItem="FsC-UJ-Uht" secondAttribute="centerX" id="kl5-MB-BYx"/>
+                        <constraint firstAttribute="bottom" secondItem="Bdd-JT-E53" secondAttribute="bottom" constant="66" id="rG4-GQ-bNt"/>
+                        <constraint firstAttribute="trailing" secondItem="Bdd-JT-E53" secondAttribute="trailing" constant="-11" id="whV-ov-SS4"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rF8-al-bCO">
+                    <rect key="frame" x="57" y="497" width="30" height="30"/>
+                    <state key="normal" title="Edit">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="startTapped:" destination="-1" eventType="touchUpInside" id="jOu-nG-vXy"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aa6-Cq-62b">
+                    <rect key="frame" x="225" y="497" width="41" height="30"/>
+                    <state key="normal" title="Finish">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="stopTapped:" destination="-1" eventType="touchUpInside" id="Nm3-eM-0eP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rF8-al-bCO" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="57" id="1pR-4Z-mt3"/>
+                <constraint firstAttribute="bottom" secondItem="erk-Ly-qwU" secondAttribute="bottom" constant="97" id="2pb-TM-uzP"/>
+                <constraint firstItem="d2B-xb-kBA" firstAttribute="top" secondItem="K7V-NJ-0TQ" secondAttribute="bottom" constant="12" id="3Qe-a7-Vba"/>
+                <constraint firstItem="U7t-uF-Kow" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="3gN-lv-nki"/>
+                <constraint firstItem="erk-Ly-qwU" firstAttribute="leading" secondItem="d2B-xb-kBA" secondAttribute="trailing" constant="20" id="5Zx-Kz-iyr"/>
+                <constraint firstItem="FsC-UJ-Uht" firstAttribute="leading" secondItem="erk-Ly-qwU" secondAttribute="trailing" constant="20" id="9Ek-Ed-4IY"/>
+                <constraint firstItem="U7t-uF-Kow" firstAttribute="top" secondItem="1" secondAttribute="top" id="CAV-uO-VYj"/>
+                <constraint firstItem="erk-Ly-qwU" firstAttribute="top" secondItem="d2B-xb-kBA" secondAttribute="top" id="ISy-YU-cXp"/>
+                <constraint firstItem="K7V-NJ-0TQ" firstAttribute="leading" secondItem="U7t-uF-Kow" secondAttribute="leading" id="M5M-lc-Ufx"/>
+                <constraint firstAttribute="bottom" secondItem="U7t-uF-Kow" secondAttribute="bottom" id="OHm-jp-bYV"/>
+                <constraint firstItem="d2B-xb-kBA" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="WYh-AK-WAF"/>
+                <constraint firstItem="FsC-UJ-Uht" firstAttribute="top" secondItem="erk-Ly-qwU" secondAttribute="top" id="Wa1-su-CuE"/>
+                <constraint firstAttribute="trailing" secondItem="K7V-NJ-0TQ" secondAttribute="trailing" id="Wyj-dK-fii"/>
+                <constraint firstItem="FsC-UJ-Uht" firstAttribute="bottom" secondItem="erk-Ly-qwU" secondAttribute="bottom" id="baY-Hd-7fa"/>
+                <constraint firstItem="erk-Ly-qwU" firstAttribute="bottom" secondItem="d2B-xb-kBA" secondAttribute="bottom" id="buT-Z7-wwX"/>
+                <constraint firstAttribute="trailing" secondItem="FsC-UJ-Uht" secondAttribute="trailing" constant="20" id="gYH-8P-5fr"/>
+                <constraint firstAttribute="trailing" secondItem="Aa6-Cq-62b" secondAttribute="trailing" constant="54" id="hDv-6C-O5g"/>
+                <constraint firstItem="K7V-NJ-0TQ" firstAttribute="trailing" secondItem="U7t-uF-Kow" secondAttribute="trailing" id="jRd-MX-KSB"/>
+                <constraint firstItem="erk-Ly-qwU" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="120" id="lQr-ap-QLk"/>
+                <constraint firstItem="K7V-NJ-0TQ" firstAttribute="centerX" secondItem="erk-Ly-qwU" secondAttribute="centerX" id="neL-MZ-jrD"/>
+                <constraint firstItem="rF8-al-bCO" firstAttribute="top" secondItem="d2B-xb-kBA" secondAttribute="bottom" constant="26" id="ren-kJ-xmO"/>
+                <constraint firstItem="Aa6-Cq-62b" firstAttribute="baseline" secondItem="rF8-al-bCO" secondAttribute="baseline" id="w3v-yC-LRz"/>
+                <constraint firstItem="K7V-NJ-0TQ" firstAttribute="top" secondItem="1" secondAttribute="top" constant="9" id="yPj-iq-nei"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="e2g-uQ-Kx3"/>
+            <point key="canvasLocation" x="325" y="192"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="board_crop.png" width="27" height="27"/>
+        <image name="polaroid5.png" width="150" height="96"/>
+        <image name="profile_cross.png" width="23" height="23"/>
+    </resources>
+</document>

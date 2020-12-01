@@ -1,0 +1,410 @@
+ [
+  {
+  "tagId": 3,
+  "name": "Looking for a job",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 4,
+  "name": "Not working",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 5,
+  "name": "Actor/Model",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 6,
+  "name": "Advertising Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 7,
+  "name": "Agent",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 8,
+  "name": "Air Hostess",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 9,
+  "name": "Analyst",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 10,
+  "name": "Architect",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 11,
+  "name": "BPO/ITeS",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 12,
+  "name": "Banking Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 13,
+  "name": "Makeup Artist",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 14,
+  "name": "Businessperson",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 15,
+  "name": "Chartered accountant",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 16,
+  "name": "Civil Services",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 17,
+  "name": "Consultant",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 18,
+  "name": "Corporate Communication",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 19,
+  "name": "Corporate Planning Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 20,
+  "name": "Customer Services",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 21,
+  "name": "Cyber / Network Security",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 22,
+  "name": "Defence",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 23,
+  "name": "Doctor",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 24,
+  "name": "Education Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 25,
+  "name": "Engineer - Non IT",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 26,
+  "name": "Farming",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 27,
+  "name": "Fashion Designer",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 28,
+  "name": "Film Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 29,
+  "name": "Govt. Services",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 30,
+  "name": "HR Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 31,
+  "name": "Hardware/Telecom",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 32,
+  "name": "Healthcare Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 33,
+  "name": "Hotel/Hospitality Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 34,
+  "name": "Interior Designer",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 35,
+  "name": "Journalist",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 36,
+  "name": "Lawyer/Legal Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 37,
+  "name": "Logistics/SCM Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 38,
+  "name": "Manager",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 39,
+  "name": "Marketing Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 40,
+  "name": "Media Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 41,
+  "name": "Merchant Navy",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 42,
+  "name": "NGO/Social Services",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 43,
+  "name": "Nurse",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 44,
+  "name": "Office Admin",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 45,
+  "name": "Operator/Technician",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 46,
+  "name": "Physiotherapist",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 47,
+  "name": "Pilot",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 48,
+  "name": "Police",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 49,
+  "name": "Private Security",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 50,
+  "name": "Product Manager",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 51,
+  "name": "Professor/Lecturer",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 52,
+  "name": "Program Manager",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 53,
+  "name": "Project Manager - IT",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 54,
+  "name": "Project Manager - Non IT",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 55,
+  "name": "Psychologist",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 56,
+  "name": "Research Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 57,
+  "name": "Sales Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 58,
+  "name": "Scientist",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 59,
+  "name": "Secretary/Front Office",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 60,
+  "name": "Security Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 61,
+  "name": "Self Employed",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 62,
+  "name": "Software Professional",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 63,
+  "name": "Sportsperson",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 64,
+  "name": "Student",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 65,
+  "name": "Teacher",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 66,
+  "name": "Top Management (CXO, M.D. etc.)",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 67,
+  "name": "UI/UX designer",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 68,
+  "name": "Web/Graphic design",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 69,
+  "name": "Others",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  },
+  {
+  "tagId": 70,
+  "name": "Co-founder",
+  "tagsDtoType": "USER_WORK_CUSTOM",
+  "order": 0
+  }
+  ]

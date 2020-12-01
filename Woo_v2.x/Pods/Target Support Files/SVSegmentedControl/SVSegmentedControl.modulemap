@@ -1,0 +1,6 @@
+framework module SVSegmentedControl {
+  umbrella header "SVSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

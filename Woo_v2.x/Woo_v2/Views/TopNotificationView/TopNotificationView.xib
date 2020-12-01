@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopNotificationView">
+            <connections>
+                <outlet property="notificationText" destination="FJK-rG-vMz" id="RCI-KB-SlJ"/>
+                <outlet property="userImageView" destination="ngB-at-eCF" id="31M-Lj-SXk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjm-1j-cIy">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="pushToChat:" destination="-1" eventType="touchUpInside" id="ZIW-37-xEy"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="placeholder_male" translatesAutoresizingMaskIntoConstraints="NO" id="ngB-at-eCF">
+                    <rect key="frame" x="10" y="546" width="44" height="44"/>
+                    <color key="backgroundColor" red="0.87674033641815186" green="0.25533249974250793" blue="0.28350856900215149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="4uZ-tT-yIH"/>
+                        <constraint firstAttribute="height" constant="44" id="80n-Ef-wBi"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJK-rG-vMz">
+                    <rect key="frame" x="74" y="558" width="506" height="19"/>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="15"/>
+                    <color key="textColor" red="0.37541365623474121" green="0.37540245056152344" blue="0.3754088282585144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jd-IJ-WEB">
+                    <rect key="frame" x="565" y="558" width="20" height="20"/>
+                    <color key="backgroundColor" red="0.95293998719999995" green="0.94510000940000005" blue="0.94902002809999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="ehf-EM-tpW"/>
+                        <constraint firstAttribute="width" constant="20" id="kfz-HP-6Ug"/>
+                    </constraints>
+                    <state key="normal" title="✕">
+                        <color key="titleColor" red="0.37541365623474121" green="0.37540245056152344" blue="0.3754088282585144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="removeNotification:" destination="-1" eventType="touchUpInside" id="dYY-ou-VJ4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ngB-at-eCF" firstAttribute="centerY" secondItem="FJK-rG-vMz" secondAttribute="centerY" constant="0.5" id="29Y-D2-iRr"/>
+                <constraint firstAttribute="trailing" secondItem="Hjm-1j-cIy" secondAttribute="trailing" id="7aO-Jz-kIu"/>
+                <constraint firstItem="FJK-rG-vMz" firstAttribute="leading" secondItem="ngB-at-eCF" secondAttribute="trailing" constant="20" id="8b5-ck-wm9"/>
+                <constraint firstAttribute="trailing" secondItem="6Jd-IJ-WEB" secondAttribute="trailing" constant="15" id="AA8-a4-YTY"/>
+                <constraint firstItem="Hjm-1j-cIy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Aox-xb-rqv"/>
+                <constraint firstAttribute="trailing" secondItem="FJK-rG-vMz" secondAttribute="trailing" constant="20" id="Apn-ig-Day"/>
+                <constraint firstAttribute="bottom" secondItem="ngB-at-eCF" secondAttribute="bottom" constant="10" id="R8n-gj-lds"/>
+                <constraint firstAttribute="bottom" secondItem="Hjm-1j-cIy" secondAttribute="bottom" id="XC6-Qk-3Yt"/>
+                <constraint firstItem="6Jd-IJ-WEB" firstAttribute="centerY" secondItem="FJK-rG-vMz" secondAttribute="centerY" id="bBF-ul-c8X"/>
+                <constraint firstItem="ngB-at-eCF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="jQH-da-Dbr"/>
+                <constraint firstItem="Hjm-1j-cIy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pMH-Ko-OTN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="WSP-Kq-YTX"/>
+            <point key="canvasLocation" x="441" y="358"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder_male" width="562" height="855"/>
+    </resources>
+</document>

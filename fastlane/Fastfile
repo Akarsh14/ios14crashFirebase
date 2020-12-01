@@ -1,0 +1,81 @@
+# Customize this file, documentation can be found here:
+# https://docs.fastlane.tools/actions/
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.68.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    cocoapods(
+    repo_update: false,
+    podfile: “./Woo_v2.x/Podfile”	
+   	)
+    clear_derived_data
+  end
+
+  desc “Create a new Beta Build.”
+  lane :beta do |options|
+  increment_build_number(
+  xcodeproj: "./Woo_v2.x/Woo_v2.xcodeproj”)
+  clear_derived_data	
+   gym(scheme: "Woo_v2”,
+    configuration: options[:config],
+    workspace: “./Woo_v2.x/Woo_v2.xcworkspace”,
+    export_method: "ad-hoc”,
+    output_directory: “/Users/automationteam/AutomatedBuildArtifacts”
+  )
+  make_changelog_from_jenkins
+  notes = “Test Server Build\nComments\n” +  Actions.lane_context[SharedValues::FL_CHANGELOG]
+  if options[:config] == “Release“
+  notes = “Live Server Build\nComments\n” + Actions.lane_context[SharedValues::FL_CHANGELOG]
+  end
+  puts(notes)
+  crashlytics(
+   api_token: "82eec4a85ad704ae32eb6c508a7d481557b38153",
+   build_secret: "a40d4448bd42726efbdbfe82537c8e2ab59f2d5f69fba45da650306e212eff5f",
+   notes: notes,
+   groups:"woo-qa"
+   )
+  end
+
+  error do |lane, exception|
+  puts “Build Failed”.red
+  end
+
+  after_all do 
+  git_commit(path: ["./Woo_v2.x/Podfile.lock",
+		    "./Woo_v2.x/Pods/Manifest.lock",
+		    "./Woo_v2.x/Pods/Pods.xcodeproj/project.pbxproj",
+                    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2/Pods-Woo_v2-frameworks.sh",
+		    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2/Pods-Woo_v2-resources.sh",
+                    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2/Pods-Woo_v2.debug.xcconfig”,
+                    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2/Pods-Woo_v2.release.xcconfig”,
+ 		    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2Tests/Pods-Woo_v2Tests-frameworks.sh",
+                   "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2Tests/Pods-Woo_v2Tests-resources.sh",
+                    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2Tests/Pods-Woo_v2Tests.debug.xcconfig",
+                    "./Woo_v2.x/Pods/Target Support Files/Pods-Woo_v2Tests/Pods-Woo_v2Tests.release.xcconfig",
+		    "./Woo_v2.x/Woo_v2/Info.plist","./Woo_v2.x/Woo_v2Tests/Info.plist”,
+		    “./Woo_v2.x/Woo_v2.xcodeproj/project.pbxproj”],message: “Build version bump")
+
+push_to_git_remote(
+  remote: "origin",local_branch: "Sprint_42”)
+  end
+
+end
+
+# More information about multiple platforms in fastlane: https://docs.fastlane.tools/advanced/#control-configuration-by-lane-and-by-platform
+# All available actions: https://docs.fastlane.tools/actions
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://docs.fastlane.tools/#metrics

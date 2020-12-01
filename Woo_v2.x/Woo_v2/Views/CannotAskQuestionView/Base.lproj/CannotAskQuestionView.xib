@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0s-to-cn3">
+                    <rect key="frame" x="47.5" y="233.5" width="280" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="usedUpQuestions" translatesAutoresizingMaskIntoConstraints="NO" id="1Ha-Mk-JJv">
+                            <rect key="frame" x="117.5" y="30" width="45" height="62"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="62" id="1UN-mx-QXc"/>
+                                <constraint firstAttribute="width" constant="45" id="cgh-1H-NLZ"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="1UN-mx-QXc"/>
+                                    <exclude reference="cgh-1H-NLZ"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="1UN-mx-QXc"/>
+                                    <include reference="cgh-1H-NLZ"/>
+                                </mask>
+                            </variation>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No more questions for today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ox-fI-5oO">
+                            <rect key="frame" x="20" y="107" width="240" height="21"/>
+                            <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="17"/>
+                            <color key="textColor" red="0.87674033641815186" green="0.25533249974250793" blue="0.28350856900215149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="But don't worry, tomorrow is another day!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-SQ-hIQ">
+                            <rect key="frame" x="20" y="144" width="240" height="41.5"/>
+                            <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="17"/>
+                            <color key="textColor" red="0.37541365623474121" green="0.37540245056152344" blue="0.3754088282585144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Tol-SQ-hIQ" secondAttribute="trailing" constant="20" id="Bmi-tc-50x"/>
+                        <constraint firstAttribute="height" constant="200" id="BzD-k5-YRK"/>
+                        <constraint firstAttribute="width" constant="280" id="Eyd-eC-pBA"/>
+                        <constraint firstItem="1Ha-Mk-JJv" firstAttribute="top" secondItem="P0s-to-cn3" secondAttribute="top" constant="30" id="St4-Xt-u54"/>
+                        <constraint firstAttribute="centerX" secondItem="1Ha-Mk-JJv" secondAttribute="centerX" id="a2C-mA-jwy"/>
+                        <constraint firstItem="Tol-SQ-hIQ" firstAttribute="leading" secondItem="P0s-to-cn3" secondAttribute="leading" constant="20" id="ajg-wu-ZHH"/>
+                        <constraint firstItem="1ox-fI-5oO" firstAttribute="leading" secondItem="P0s-to-cn3" secondAttribute="leading" constant="20" id="faZ-Rn-IGb"/>
+                        <constraint firstItem="Tol-SQ-hIQ" firstAttribute="top" secondItem="1ox-fI-5oO" secondAttribute="bottom" constant="16" id="rH8-5B-qsm"/>
+                        <constraint firstAttribute="trailing" secondItem="1ox-fI-5oO" secondAttribute="trailing" constant="20" id="rmt-sf-ySM"/>
+                        <constraint firstItem="1ox-fI-5oO" firstAttribute="top" secondItem="1Ha-Mk-JJv" secondAttribute="bottom" constant="15" id="vhQ-hX-y95"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="1Ha-Mk-JJv"/>
+                            <exclude reference="1ox-fI-5oO"/>
+                            <exclude reference="Tol-SQ-hIQ"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="BzD-k5-YRK"/>
+                            <exclude reference="Eyd-eC-pBA"/>
+                            <exclude reference="faZ-Rn-IGb"/>
+                            <exclude reference="rmt-sf-ySM"/>
+                            <exclude reference="vhQ-hX-y95"/>
+                            <exclude reference="Bmi-tc-50x"/>
+                            <exclude reference="ajg-wu-ZHH"/>
+                            <exclude reference="rH8-5B-qsm"/>
+                            <exclude reference="St4-Xt-u54"/>
+                            <exclude reference="a2C-mA-jwy"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="1Ha-Mk-JJv"/>
+                            <include reference="1ox-fI-5oO"/>
+                            <include reference="Tol-SQ-hIQ"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="BzD-k5-YRK"/>
+                            <include reference="Eyd-eC-pBA"/>
+                            <include reference="faZ-Rn-IGb"/>
+                            <include reference="rmt-sf-ySM"/>
+                            <include reference="vhQ-hX-y95"/>
+                            <include reference="Bmi-tc-50x"/>
+                            <include reference="ajg-wu-ZHH"/>
+                            <include reference="rH8-5B-qsm"/>
+                            <include reference="St4-Xt-u54"/>
+                            <include reference="a2C-mA-jwy"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="P0s-to-cn3" secondAttribute="centerY" id="7cp-V3-llR"/>
+                <constraint firstAttribute="centerX" secondItem="P0s-to-cn3" secondAttribute="centerX" id="pm0-9y-eOP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="asa-un-FT2"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="P0s-to-cn3"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="7cp-V3-llR"/>
+                    <exclude reference="pm0-9y-eOP"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="P0s-to-cn3"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="7cp-V3-llR"/>
+                    <include reference="pm0-9y-eOP"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="usedUpQuestions" width="45" height="62"/>
+    </resources>
+</document>

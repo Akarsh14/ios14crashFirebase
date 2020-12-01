@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuestionPostedView">
+            <connections>
+                <outlet property="answersRemainingLAbel" destination="ckT-my-j2f" id="Zkz-qN-GHv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QuestionPostedView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfa-tX-rDk">
+                    <rect key="frame" x="47.5" y="222" width="280" height="223"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionPosted" translatesAutoresizingMaskIntoConstraints="NO" id="ykc-lE-d9i">
+                            <rect key="frame" x="103" y="42" width="74" height="62"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Question posted! Sit tight." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ie-bQ-rdF">
+                            <rect key="frame" x="20" y="140" width="240" height="22"/>
+                            <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="18"/>
+                            <color key="textColor" red="0.64677810668945312" green="0.64675873517990112" blue="0.64676964282989502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0 question left)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckT-my-j2f">
+                            <rect key="frame" x="20" y="164" width="240" height="18.5"/>
+                            <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="15"/>
+                            <color key="textColor" red="0.64677810668945312" green="0.64675873517990112" blue="0.64676964282989502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="ykc-lE-d9i" firstAttribute="top" secondItem="Bfa-tX-rDk" secondAttribute="top" constant="42" id="2o5-hP-z3w"/>
+                        <constraint firstItem="ckT-my-j2f" firstAttribute="leading" secondItem="Bfa-tX-rDk" secondAttribute="leading" constant="20" id="41e-eC-xe5"/>
+                        <constraint firstAttribute="trailing" secondItem="1Ie-bQ-rdF" secondAttribute="trailing" constant="20" id="9QP-Zw-9dP"/>
+                        <constraint firstItem="ckT-my-j2f" firstAttribute="top" secondItem="1Ie-bQ-rdF" secondAttribute="bottom" constant="2" id="FiW-lD-8TB"/>
+                        <constraint firstAttribute="height" constant="223" id="Na1-HR-P2t"/>
+                        <constraint firstItem="1Ie-bQ-rdF" firstAttribute="leading" secondItem="Bfa-tX-rDk" secondAttribute="leading" constant="20" id="a6p-0z-06B"/>
+                        <constraint firstAttribute="centerX" secondItem="ykc-lE-d9i" secondAttribute="centerX" id="c9O-UU-u0x"/>
+                        <constraint firstItem="1Ie-bQ-rdF" firstAttribute="top" secondItem="Bfa-tX-rDk" secondAttribute="top" constant="140" id="dCH-00-WqN"/>
+                        <constraint firstAttribute="width" constant="280" id="rGo-eg-yKg"/>
+                        <constraint firstAttribute="trailing" secondItem="ckT-my-j2f" secondAttribute="trailing" constant="20" id="t7R-fX-5Qr"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="ykc-lE-d9i"/>
+                            <exclude reference="1Ie-bQ-rdF"/>
+                            <exclude reference="ckT-my-j2f"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="Na1-HR-P2t"/>
+                            <exclude reference="rGo-eg-yKg"/>
+                            <exclude reference="9QP-Zw-9dP"/>
+                            <exclude reference="a6p-0z-06B"/>
+                            <exclude reference="dCH-00-WqN"/>
+                            <exclude reference="41e-eC-xe5"/>
+                            <exclude reference="FiW-lD-8TB"/>
+                            <exclude reference="t7R-fX-5Qr"/>
+                            <exclude reference="2o5-hP-z3w"/>
+                            <exclude reference="c9O-UU-u0x"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="ykc-lE-d9i"/>
+                            <include reference="1Ie-bQ-rdF"/>
+                            <include reference="ckT-my-j2f"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="Na1-HR-P2t"/>
+                            <include reference="rGo-eg-yKg"/>
+                            <include reference="9QP-Zw-9dP"/>
+                            <include reference="a6p-0z-06B"/>
+                            <include reference="dCH-00-WqN"/>
+                            <include reference="41e-eC-xe5"/>
+                            <include reference="FiW-lD-8TB"/>
+                            <include reference="t7R-fX-5Qr"/>
+                            <include reference="2o5-hP-z3w"/>
+                            <include reference="c9O-UU-u0x"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.12934963405132294" green="0.12934574484825134" blue="0.12934795022010803" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="Bfa-tX-rDk" secondAttribute="centerY" id="8yq-zO-52C"/>
+                <constraint firstAttribute="centerX" secondItem="Bfa-tX-rDk" secondAttribute="centerX" id="F9z-rJ-xLW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="n6v-qz-cx1"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Bfa-tX-rDk"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="8yq-zO-52C"/>
+                    <exclude reference="F9z-rJ-xLW"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Bfa-tX-rDk"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="8yq-zO-52C"/>
+                    <include reference="F9z-rJ-xLW"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="answersRemainingLAbel" destination="ckT-my-j2f" id="h3W-31-h7B"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="questionPosted" width="74" height="62"/>
+    </resources>
+</document>

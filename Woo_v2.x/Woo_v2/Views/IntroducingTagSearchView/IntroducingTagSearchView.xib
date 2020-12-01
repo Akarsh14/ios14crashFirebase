@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IntroducingTagSearchView" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZV-dV-G76">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_discover_search_circle" translatesAutoresizingMaskIntoConstraints="NO" id="Ar5-RJ-7DA">
+                    <rect key="frame" x="283" y="15" width="52" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="EfT-vm-mOc"/>
+                        <constraint firstAttribute="width" constant="52" id="RHl-eG-4XC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_popup_arrow1" translatesAutoresizingMaskIntoConstraints="NO" id="rPs-qb-oQa">
+                    <rect key="frame" x="265" y="77" width="58" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="58" id="cfE-FZ-AFE"/>
+                        <constraint firstAttribute="height" constant="94" id="fWT-fH-FNe"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmZ-4F-AEB">
+                    <rect key="frame" x="40" y="204" width="295" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing             Woo Tag Search" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwQ-rK-xsr">
+                            <rect key="frame" x="58.5" y="70" width="177" height="48"/>
+                            <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="20"/>
+                            <color key="textColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find people of your interest with Woo Tag Search" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TQu-Az-7Jf">
+                            <rect key="frame" x="29.5" y="138" width="236" height="38.5"/>
+                            <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                            <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHW-ds-Mld">
+                            <rect key="frame" x="29.5" y="196.5" width="236" height="35"/>
+                            <color key="backgroundColor" red="0.96078431372549022" green="0.18431372549019609" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="Me3-Tx-1At"/>
+                            </constraints>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="dismissTagSearchView:" destination="iN0-l3-epB" eventType="touchUpInside" id="k86-Pg-0eB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="zwQ-rK-xsr" firstAttribute="top" secondItem="zmZ-4F-AEB" secondAttribute="top" constant="70" id="4RJ-ZS-RbA"/>
+                        <constraint firstItem="zwQ-rK-xsr" firstAttribute="centerX" secondItem="zmZ-4F-AEB" secondAttribute="centerX" id="C1v-jt-qXb"/>
+                        <constraint firstItem="TQu-Az-7Jf" firstAttribute="centerX" secondItem="zmZ-4F-AEB" secondAttribute="centerX" id="TZB-18-Jws"/>
+                        <constraint firstItem="lHW-ds-Mld" firstAttribute="top" secondItem="TQu-Az-7Jf" secondAttribute="bottom" constant="20" id="cPq-hT-tiJ"/>
+                        <constraint firstItem="TQu-Az-7Jf" firstAttribute="top" secondItem="zwQ-rK-xsr" secondAttribute="bottom" constant="20" id="h5M-pY-Uit"/>
+                        <constraint firstItem="TQu-Az-7Jf" firstAttribute="width" secondItem="zmZ-4F-AEB" secondAttribute="width" multiplier="0.8" id="hJe-Z0-TBC"/>
+                        <constraint firstItem="lHW-ds-Mld" firstAttribute="width" secondItem="TQu-Az-7Jf" secondAttribute="width" id="mss-Wp-SS6"/>
+                        <constraint firstItem="lHW-ds-Mld" firstAttribute="centerX" secondItem="zmZ-4F-AEB" secondAttribute="centerX" id="pHf-sf-G7z"/>
+                        <constraint firstItem="zwQ-rK-xsr" firstAttribute="width" secondItem="zmZ-4F-AEB" secondAttribute="width" multiplier="0.6" id="siT-kb-tCP"/>
+                        <constraint firstAttribute="height" constant="250" id="xgJ-0z-eQk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_popup_search" translatesAutoresizingMaskIntoConstraints="NO" id="Rgc-TH-uq4">
+                    <rect key="frame" x="114" y="131" width="146" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="146" id="2W7-EL-CrU"/>
+                        <constraint firstAttribute="width" constant="146" id="GP0-OL-e0G"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="zmZ-4F-AEB" firstAttribute="top" secondItem="Rgc-TH-uq4" secondAttribute="bottom" constant="-73" id="00N-eL-Eqm"/>
+                <constraint firstItem="rPs-qb-oQa" firstAttribute="centerX" secondItem="Ar5-RJ-7DA" secondAttribute="centerX" constant="-15" id="1Iv-Qt-7uL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="9ZV-dV-G76" secondAttribute="bottom" id="9Qg-Rq-h4D"/>
+                <constraint firstItem="Ar5-RJ-7DA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="-5" id="Ddw-3W-DFa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zmZ-4F-AEB" secondAttribute="trailing" constant="40" id="FXx-Og-GO2"/>
+                <constraint firstItem="9ZV-dV-G76" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="-20" id="GMp-qi-KOO"/>
+                <constraint firstItem="Rgc-TH-uq4" firstAttribute="top" secondItem="rPs-qb-oQa" secondAttribute="bottom" constant="-40" id="LtV-mt-2VN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9ZV-dV-G76" secondAttribute="trailing" id="XRg-ns-Fvk"/>
+                <constraint firstItem="Rgc-TH-uq4" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eNJ-FE-bqn"/>
+                <constraint firstItem="9ZV-dV-G76" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="goL-rl-r12"/>
+                <constraint firstItem="zmZ-4F-AEB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="jk6-Yq-1vY"/>
+                <constraint firstItem="rPs-qb-oQa" firstAttribute="top" secondItem="Ar5-RJ-7DA" secondAttribute="bottom" constant="10" id="o02-3P-4rh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ar5-RJ-7DA" secondAttribute="trailing" constant="40" id="sAk-dQ-j41"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backViewTopConstraint" destination="GMp-qi-KOO" id="hwU-xT-oh8"/>
+                <outlet property="searchTopConstraint" destination="Ddw-3W-DFa" id="sM1-47-ygd"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_discover_search_circle" width="52" height="52"/>
+        <image name="ic_popup_arrow1" width="56" height="94"/>
+        <image name="ic_popup_search" width="146" height="146"/>
+    </resources>
+</document>

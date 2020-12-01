@@ -1,0 +1,1157 @@
+/*
+ Localizable.strings
+ Woo_v2
+ 
+ Created by Umesh Mishra on 04/06/15.
+ Copyright (c) 2015 Vaibhav Gautam. All rights reserved.
+ */
+
+// --------------------- ENGLISH ------------------
+
+//View controller (Discover & on boarding)
+
+"Taking you back to" = "Taking you back to";
+
+"Woo Recommendations" = "Woo Recommendations";
+
+"Got More to Say?" = "Got more to say?";
+
+"You've run out of messages for now. But keep liking. The more matches you have, the more conversations you start." = "You've run out of messages for now. But keep liking. The more matches you have, the more conversations you start.";
+
+"CMP00356" = "OK";
+
+"Done with people who like" = "Done with people who like";
+"Searching for people from" = "Searching for people from";
+"Searching for people who studied at" = "Searching for people who studied at";
+"Searching for people who studied" = "Searching for people who studied";
+"Searching for people whose religion is set to" = "Searching for people whose religion is set to";
+"Searching for people whose %@ preference is" = "Searching for people whose %@ preference is";
+"Searching for" = "Searching for";
+"Searching for people who like" = "Searching for people who like";
+
+
+
+"CDE0049" = "Where are you?";
+"To find you better matches, Woo needs to know your location more accurately. \n\nGo To settings>Privacy>Services and switch ON location." = "New profiles coming soon!\n\nTo find interesting people for you, Woo needs to know your location more accurately. \n\nGo to Location in your device's Settings menu and switch it ON.";
+"Go to settings" = "Turn On Location";
+
+"COB0077" = "Your profile needs a picture!";
+"COB0078" = "To see more profiles, please add a valid photo to your profile.";
+"Add Photo" = "Add Now";
+
+"Get the LinkedIn Badge" = "Get the LinkedIn Badge";
+"CDE0057" = "New profiles coming soon!\n\nProfessional information on your profile enhances trust and helps you stand out from others.";
+"Verify with LinkedIn" = "Verify with LinkedIn";
+
+
+"New profiles coming shortly. Check back soon!"="New profiles coming shortly. Check back soon!";
+"That's all for now" = "That's all for now!";
+
+
+"Server busy" = "Server Busy";
+"CDE0078" = "Oops, the Woo servers are working overtime! Please try again in a couple of minutes.";
+
+"Need more details!" = "We need more details";
+"We need some more details to build \nan accurate Woo profile for you. \nPlease allow Woo to access \nFacebook for this information. \n\nWoo never posts on your wall." = "Some basic Facebook info is a quick and easy way to create your Woo profile. And, it's totally secure. Woo NEVER posts on your wall.";
+"Authorize Facebook" = "Authorize";
+
+
+"Please provide necessary permissions to complete sync." = "Please provide necessary permissions to complete sync.";
+"Please allow us to access your profile photos in Facebook." = "Please allow us to access your profile photos in Facebook.";
+
+"Oops!" = "Oops!";
+
+"You need an internet connection to meet people on Woo.\n\nPlease ensure your device is connected and try again." = "You need an internet connection to meet people on Woo.\n\nPlease ensure your device is connected and try again.";
+
+//##### TO BE TRANSLATED
+"In order to find you people you may like, Woo needs to know where you are.\n\n Go to Settings-> Privacy-> Location Services and switch Woo to ON." = "In order to find you people you may like, Woo needs to know where you are.\n\n Go to Settings-> Privacy-> Location Services and switch Woo to ON.";
+
+//##### TO BE TRANSLATED
+"Thanks for checking out Woo, %@.\n\nWe’ll be launching in %@ very shortly and you'll be the first one to know!" = "Thanks for checking out Woo, %@.\n\nWe’ll be launching in %@ very shortly and you'll be the first one to know!";
+
+"Don’t Miss out!" = "Don’t Miss out!";
+"We are looking for more people near you. Please check back in a while." = "We are looking for more people near you. Please check back in a while.";
+
+"The More The Merrier" = "The More The Merrier";
+"Invite friends to increase your chances of meeting someone nice." = "Invite friends to increase your chances of meeting someone nice.";
+
+
+"SOB0069" = "Upgrade Woo?";
+"The new and improved Woo is out. Would you like to upgrade?" = "The new and improved Woo is out. Would you like to upgrade?";
+"Upgrade" = "Upgrade";
+
+"No internet available" = "No internet available";
+
+"Show Profile" = "Show Profile";
+"When you hide your profile, you will not be visible to anybody on Woo." = "When you hide your profile, you will not be visible to anybody on Woo.";
+
+"Like us on Facebook" = "Like us on Facebook";
+"Follow us on Twitter" = "Follow us on Twitter";
+
+"Chat" = "Chat";
+"Alerts" = "Alerts";
+
+"Discovery Preference" = "Discovery Preference";
+"Sounds" = "Sounds";
+"Profile" = "Profile";
+"CMP00313" = "Social";
+
+
+"CMP00348" = "Submit";
+
+
+
+
+/**
+ *  Strings from ConfirmProfileViewController (photo selection)
+ */
+
+
+"Select Profile Picture" = "Select Profile Picture";
+"Cancel" = "Cancel";
+"CANCEL" = "CANCEL";
+"Click a picture" = "Take a selfie";
+"Pick from facebook" = "Pick from facebook";
+
+/**
+ *  Complete profile card (filler screen)
+ */
+"Your profile is %d%% complete" = "Your profile is %d%% complete";
+
+
+/**
+ *  Verification view controller
+ */
+
+"We are resuming your profile check!" = "We are resuming your profile check!";
+"It seems your internet connectivity is too low." = "It seems your internet connectivity is too low.";
+
+
+/**
+ *  IFTTTBaseController
+ */
+
+"Oops, Woo is experiencing heavy traffic! Please try again in a couple of minutes." = "Oops, Woo is experiencing heavy traffic! Please try again in a couple of minutes.";
+"Authentication error" = "Authentication error";
+"Something unexpected has happened. Please login again" = "Something unexpected has happened. Please login again";
+"Generic_error" = "Something went wrong! Please try after some time.";
+/**
+ *  PermissionView
+ */
+"We will never post anything on Facebook" = "We will never post anything on your wall";
+"Other users will never know if you’ve liked them, unless they like you too" = "Other users will never know if you’ve liked them, unless they like you too";
+"Users can’t contact you unless you’ve been matched with them" = "Users can’t contact you unless you’ve been matched with them";
+
+/**
+ *  U2opiaFBLoginView
+ */
+
+
+
+"You have exceeded your limit . Please try after sometime" = "You have exceeded your limit . Please try after sometime";
+
+
+"Woo Login" = "Woo Login";
+"Did you complete your Facebook login? Please follow all steps to log in successfully." = "Did you complete your Facebook login? Please follow all steps to log in successfully.";
+
+"Woo" = "Woo";
+"Permissions Issue - Please provide the required extended permissions" = "Permissions Issue - Please provide the required extended permissions";
+
+
+
+/**
+ *  Settings
+ */
+
+"CMP00325" = "Are you sure you want to log out? You will not be notified if you get a match or a new message.";
+"Log out from Woo?" = "Log out from Woo?";
+"Clear Conversation?" = "Clear Conversation?";
+"You will not be able to see deleted messages again. Are you sure you want to delete this conversation?" = "You will not be able to see deleted messages again. Are you sure you want to delete this conversation?";
+
+"CMP00324" = "Deleting your account will remove all conversations and matches permanently. Do you want to proceed?";
+"CMP00322" = "Delete Account";
+
+"Women" = "Women";
+"Men" = "Men";
+
+"%d-%d+ yr" = "%d-%d+ years";
+"%d-%d yr" = "%d-%d years";
+
+"--" = "--";
+"CFV001" = "Verify your Number";
+"CFV002" = "Add authenticity to your Woo profile and boost your chances of meeting someone special.";
+
+"Height" = "Height";
+"Relationship" = "Relationship";
+
+"Add voice intro" = "Add Voice Intro";
+"Add a voice message to introduce yourself" = "Add a voice message to introduce yourself";
+"Sync your work and education info with Linkedin" = "Sync your work and education info with Linkedin";
+
+"Personality" = "Personality";
+"CMP0021" = "PERSONALITY";
+
+"CMP0022"  = "PASSIONS & INTERESTS";
+"Lifestyle" = "Lifestyle";
+"CMP0020" = "LIFESTYLE";
+"I'm passionate about" = "Passions & Interests";
+
+"Select religion" = "Religion";
+"Select height" = "How tall are you?";
+"Select relationship status" = "Relationship Status";
+"Select work area" = "Select work area";
+
+"Notifications" = "Notifications";
+
+"Facebook Sync" = "Facebook Sync";
+"Woo fetches your latest information. Tap Sync to update." = "Woo fetches your latest information. Tap Sync to update.";
+
+"Work Place" = "Work Place";
+"Gender" = "Gender";
+"Age" = "Age";
+"Sync" = "Sync";
+
+"Purchase History" = "Purchase History";
+"Free Pass" = "Free Pass";
+
+"Matchbox" = "Matchbox";
+"Ask a Question" = "Ask a Question";
+
+"Leave this blank" = "(leave this blank)";
+
+"Next" = "Next";
+
+//Verfication Error view text
+
+"Info Missing!" = "Info Missing!";
+"Age matters!" = "How old are you?";
+"We need your gender to find you matches." = "We need your gender to find you matches.";
+"Female" = "Female";
+"Male" = "Male";
+"Male/Female?" = "Select Gender?";
+"Your birthday is..." = "Your birthday is...";
+
+
+"BASIC" = "BASIC";
+"CMP0017" = "WORK EXPERIENCE";
+
+
+"Smoking" = "Smoking";
+"Drinking" = "Drinking";
+"Food Pref." = "Food Pref.";
+"Hometown" = "Hometown";
+"Religion" = "Religion";
+"Works as" = "Works as";
+"Works at" = "Works at";
+"Work area" = "Work Area";
+"Education" = "Education";
+"Studied" = "Studied";
+"CMP0012" = "Number verified";
+"CFV004" = "Phone";
+
+"Discard changes?" = "Discard changes?";
+"Save changes" = "Save changes?";
+
+"Delete this question?" = "Delete this question?";
+"Deleting this question will also delete all the answers in it. \n\n Are you sure you want to continue?" = "Deleting this question will also delete all the answers to it. Continue?";
+
+"Answers" = "Answers";
+
+"more replies" = "more replies";
+"more reply" = "more reply";
+"question left" = "question(s) left";
+
+"Delete?" = "Not loving this answer?";
+"\nNot crazy about this answer?\n" = "\Delete this answer?\n";
+
+
+"Talk more?" = "Like the answer?";
+"Like the answer to carry the conversation forward." = "Like the answer to carry the conversation forward.";
+"Continue" = "Continue";
+
+"likes you back!" = "likes you back!";
+"%@ likes %@" = "%@ likes %@";
+
+"Open Screen" = "Open Screen";
+
+"left" = "left";
+
+"Hey " = "Hey ";
+
+"Unmatch" = "Unmatch";
+"Report Abuse" = "Report as Inappropriate";
+"Unmatch %@?" = "Unmatch %@?";
+
+"Once unmatched, you will not be able to send or receive messages from %@. Are you sure you want to unmatch %@?" = "Once unmatched, you will not be able to send to or receive messages from %@. Are you sure you want to unmatch %@?";
+
+/**
+ Image reorder
+ **/
+"Your photo" = "My Photos";
+
+
+"Clear Conversation" = "Clear Conversation";
+
+"Report as inappropriate" = "Report as Inappropriate";
+
+"Inappropriate pictures" = "Inappropriate pictures";
+"Improper conduct" = "Improper conduct";
+"Improper content" = "Improper content";
+"Seems fake" = "Seems fake";
+"Abusive language" = "Abusive language";
+"spams my inbox" = "Sends spam messages";
+"Married / In a relationship" = "Married / In a relationship";
+"Misrepresented info" = "Misrepresented info";
+"Other" = "Other";
+"Feels like spam" = "Feels like spam";
+
+"User reported" = "User reported";
+
+
+
+"We didn't see you there!" = "We didn't see you there!";
+"Select a picture with your face visible." = "Select a picture with your face clearly visible.";
+
+"Your photo is being screened by Woo. We'll be done in a blink." = "Your photo is being screened by Woo. We'll be done in a blink.";
+
+"Move and Scale" = "Move and Scale";
+"Profile photo updated!" = "Profile photo updated!";
+
+"Add a photo on Facebook" = "Add a Photo on Facebook";
+"Please upload a photo on Facebook where your face is clearly visible" = "Please upload a photo on Facebook where your face is clearly visible";
+
+
+"CMP00327" = "Invite Friends";
+
+"What is this?" = "What is this?";
+"You have 7 seconds to impress the ladies. Go on, say something interesting about yourself! Hint: your interests, favourite quote, song or anything that’s you!" = "You have 7 seconds to impress the ladies. Go on, say something interesting about yourself! Hint: your interests, favourite quote, song or anything that’s you!";
+
+"Sync with your Facebook profile" = "Sync with your Facebook profile";
+"Sync with Facebook" = "Sync with Facebook";
+"Last Sync" = "Last Sync";
+
+"Authorize" = "Authorize";
+
+"Connecting." = "Connecting";
+
+"Report %@?" = "Report %@?";
+"This user will be removed from your matches and messages, and will not be able to contact you again. Continue?" = "This user will be removed from your matches and messages, and will not be able to contact you again. Continue?";
+
+"Add & Verify" = "Add & Verify";
+"Submit Number" = "Submit Number";
+
+"Call %@" = "Call %@";
+"Waiting..." = "Waiting...";
+
+"Accept & Verify" = "Accept & Verify";
+
+"Is this your mobile number? \n(%@) %@" = "Is this your mobile number? \n(%@) %@";
+"Edit" = "Edit";
+
+"Verification Complete" = "Verification Complete";
+"CFV0021" = "Happy Woo-ing!";
+
+"Mobile number already verified! Please enter another number." = "Mobile number already verified! Please enter another number.";
+
+"No internet connection! Please try again." = "No internet connection! Please try again.";
+
+"Please submit a valid mobile number!" = "Please submit a valid mobile number!";
+
+"We didn’t receive your call! \nWe will send you a verification code via SMS" = "We didn’t receive your call! \nWe will send you a verification code via SMS";
+
+"Please re-check the code" = "Please check the code again";
+
+"Are you sure you don't want to ask a question?" = "Are you sure you don't want to ask a question?";
+
+"Matches" = "Matches";
+"Match" = "Match";
+
+
+"%d ans" = "%d ans";
+
+"No answers yet?" = "No answers yet?";
+
+
+"That's all we have for now. New profiles coming soon!\n\n MEANWHILE \n\nYour potential matches have posted some interesting questions. Have a look!" = "Your potential matches have posted some interesting questions.\n\n Sometimes, a good answer is all it takes to start a conversation. Take a shot!";
+
+"Sometimes, a good answer is all it takes to start an interesting conversation. Go on, take a shot!" = "";
+
+"Answer posted!" = "Answer posted!";
+"Sit tight!" = "Sit tight!";
+
+
+"CDE0059" = "Let Your Personality Shine!";
+"New profiles coming soon!\nAdd some colour to your Woo profile. Stuff you love, your quirks, what makes you tick!" = "New profiles coming soon!\n\nAdd some colour to your Woo profile. Stuff you love, your quirks, what makes you tick!";
+"Add Cool Details" = "Add More Info";
+
+"Say something!" = "Say something!";
+"New profiles coming soon!\nAdd some flair to your profile with a voice intro. Go on, use that deep voice to Woo!" = "New profiles coming soon!\n\nAdd some flair to your profile with a voice intro. Go on, use that deep voice to Woo!";
+
+"Got Single Friends? Get them on Woo!" = "Got single friends? Get them on Woo!";
+"CDE0076" = "New profiles coming soon!\n\nYour friends would be as awesome as you. Invite them to Woo and help someone find love. Good karma!";
+"CMP00327" = "Free Crushes";
+
+
+"You hottie, you!" = "You hottie, you!";
+"CDE0073" = "Yay! You're among the 10% most popular people on Woo! Keep swiping, love is close!\n\n New profiles coming soon!";
+
+"CDE0068" = "Woah! Someone's popular!";
+"CDE0069" = "Yay! You're among the 20% most popular people on Woo!\n Stay active, love is closer than you think!\n\n New profiles coming soon!";
+
+"CDE0070"="You're getting noticed!";
+
+"CDE0071" = "Wow! You're among the 40% most popular people on Woo!\n Add colour to your profile and stay active.\n New pictures, maybe? Love is very close!\n\n New profiles coming soon!";
+
+
+"Please check your internet connection" = "Please check your internet connection";
+"Woo is experiencing heavy traffic." = "Woo is experiencing heavy traffic.";
+
+"Your profile is hidden" = "Your profile is hidden";
+"To view profiles, you need to unhide your profile \n\nTo use Question and Answer, you need to unhide your profile" = "To view profiles, you need to unhide your profile \n\nTo post a question or an answer, you need to unhide your profile";
+"Unhide Now" = "Unhide Now";
+
+"Allow access to photos" = "Allow Access to Photos";
+"Go to Settings -> Privacy -> Photos and turn Woo ON" = "Go to Settings -> Privacy -> Photos and turn Woo ON";
+
+"Allow camera access" = "Allow Camera Access";
+"Go to Settings -> Privacy -> Camera and turn Woo ON" = "Go to Settings -> Privacy -> Camera and turn Woo ON";
+
+
+"Want to say 'Hi'?" = "Introduce Yourself";
+"Send an intro message to %@ to say hello! Keep it short and nice :)" = "First impressions matter. Write something interesting about yourself.";
+
+"Interested?" = "Interested?";
+"Tapping on ❤️ means you like the person" = "Tapping on ❤️ means you like the person";
+
+
+"Want to rewind?" = "Want to rewind?";
+"Swipe back to see previous profiles" = "Swipe back to see previous profiles";
+
+"CDI007" = "TagSearch";
+"Tap on %@ or any other tag to find out more people who follow it" = "Tap on %@ or any other tag to find out more people who follow it";
+
+"That's all we have for now. New profiles coming soon!" = "An interesting question can spark a great conversation.";
+"MEANWHILE" = "Go ahead and ask a question that only the right person would get!";
+"You can Ask a Question" = "";
+"Ask" = "Ask";
+
+
+"Let your Photos Talk!" = "Let Your Photos Talk!";
+"CDE0068" = "New profiles coming soon!";
+"Happy, funny, vacation, adventure-tripping... photos help people disc8who you are. Add more photos now!" = "Happy, funny, vacation, adventure-tripping... photos help people discover who you are. Add more photos now!";
+"Add Photos" = "Add Photos";
+
+"Coming Soon!" = "Coming Soon!";
+"Thanks for checking out Woo." = "Thanks for checking out Woo.";
+"We'll be launching in your city very shortly and you'll be the first one to know!" = "We'll be launching in your city very shortly and you'll be the first one to know!";
+
+"CDI0062" = "No More Profiles";
+"You've used up your TagSearch for today. You can continue browsing through existing profiles." = "You cannot use Tag Search because you have exceeded your daily limit of profile views.";
+
+
+
+"Don't Miss Out!" = "Don't Miss Out!";
+
+
+"We are looking for people near you.Please check back in while." = "We are looking for people near you. Please check back in while.";
+"Meanwhile, Turn ON your Woo Notifications so that we can let you know as soon as we’re ready" = "Meanwhile, Turn ON your Woo Notifications so that we can let you know as soon as we’re ready";
+"Turn On Notifications" = "Turn On Notifications";
+
+
+"CMP00366" = "Have you tried Woo?";
+"Text for email" = "<html>Hi! <br><br>You should check out Woo - a brilliant app to meet interesting, single professionals in your city.<br>Android: https://goo.gl/SZKtFs<br>iOS: https://goo.gl/4ZSFaM</html>";
+
+"Text for whatsapp" = "Hi!\n\n\nYou should check out Woo - a brilliant app to meet interesting, single professionals in your city.\nAndroid: https://goo.gl/SZKtFs\niOS: https://goo.gl/4ZSFaM";
+
+"Delete" = "Delete";
+
+
+
+
+"Cute name! Hang on while we run some quick checks" = "Cute name! \nHang on while we run some quick checks";
+"Getting to know you better!" = "Getting to know you better!";
+"Almost there!" = "Almost there!";
+"We will be asking you to allow notifications. Please tap OK so that we can tell you when you get a match or a new message." = "We will be asking you to allow notifications. Please tap OK so that we can tell you when you get a match or a new message.";
+"Welcome to Woo!" = "Welcome to Woo!";
+"Yay... you're through! Happy Wooing!" = "Yay... you're in! Happy Wooing!";
+
+"You can chat with %@ directly from your Matchbox" = "You can chat with %@ directly from your Matchbox";
+"Already Matched" = "Already Matched";
+
+// english stuff
+
+"Session Error" = "Session Error";
+"Oops, something went wrong! Please log in to Facebook and try again." = "Oops, something went wrong! Please log in to Facebook and try again.";
+
+"Permission Error" = "Permission Error";
+"you do not have permission to perform this action. Please provide permission." = "You do not have permission to perform this action. Please provide permission.";
+
+"Sever Error" = "Sever Error";
+"Seems facebook is busy right now." = "Facebook appears to be busy right now.";
+
+"Facebook Error" = "Facebook Error";
+"Internert is not reachable." = "Internet is not reachable.";
+
+"Something went wrong" = "Something went wrong";
+"Please retry" = "Please retry";
+
+"Change photo" = "Change photo";
+
+"Please deselect a tag to select another tag" = "Please deselect a tag to select another tag";
+
+"Think again" = "Think again";
+"Yes,Delete" = "Yes,Delete";
+
+"Open URL" = "Open URL";
+
+"Find Magic, Find Love" = "Find Magic. Find Love.";
+"There are love stories waiting to happen \n Find yours on Woo." = "There are love stories waiting to happen. \n Find yours on Woo.";
+
+"Discover . Match . Chat" = "Discover. Match. Chat.";
+"Find someone who get your quirks, beliefs and jokes. Who gets you." = "Find someone who get your quirks, beliefs and jokes.\nSomeone who gets you.";
+
+"Go beyond swipes. Connect" = "Go beyond swipes. Connect.";
+"Start conversaions that really matter." = "Start conversations that really matter.";
+
+"Open" = "Open";
+
+"See Questions" = "Answer a Question";
+"Questions" = "Questions";
+
+
+
+"CMP00369" = "Hide Profile";
+"CMP00370" = "Are you sure you want to hide your Woo profile?";
+
+
+
+"Tap on tags anywhere on the app to find people with similar tags." = "Tap on tags anywhere on the app to find people with similar tags.";
+"Tapping on the right tag can help you find the right people." = "Tapping on the right tag can help you find the right people.";
+
+//Invite Only text
+"CMP00337" = "Enter Code";
+"CMP00344" = "Request an Invite";
+"Request an Invite code" = "Request an Invite code";
+
+"Yay! You are in!" = "Yay! You are in!";
+"Your journey to find love starts here" = "Your journey to find love starts here";
+"CMP00350" = "Invalid E-mail ID";
+"CMP00351" = "Please enter a valid email address";
+"CMP00352" = "Invalid Mobile Number";
+"CMP00353" = "Please enter a valid mobile number";
+"CMP00357" = "You have exceeded your limit of daily code inputs. Please come back tomorrow and enter your invite code , to be part of the exclusive woo community.";
+
+
+"Woo is an exclusive by Invite-Only community for like-minded individuals to find love." = "Woo is an exclusive by Invite-Only community for like-minded individuals to find love.";
+"CMP00345" = "Fill in your details below and we will let you know as soon as a spot opens up.";
+"CMP00346" = "Email ID";
+"CMP00347" = "Mobile Number";
+"Submit" = "Submit";
+"CMP00360" = "Your Invite Code";
+"CMP00361" = "Invite";
+
+"Your request for the exclusive woo invite has been successfully submitted." = "Your request for the exclusive woo invite has been successfully submitted.";
+
+"Verify using Linkedin" = "Verify using Linkedin";
+"Log out of Linkedin" = "Log out of Linkedin";
+
+"CMP0019" = "LIKES";
+
+"CMP00335" = "Hi %@!";
+"CMP00335_s" = "Hi %@ ...";
+"Type your question here ..." = "Type your question here ...";
+"Matched on: %@" = "Matched on %@";
+
+
+
+
+
+//=====================================******* 2.1 Text ******=====================================
+
+
+
+"COB0030" = "%@, Welcome to Woo!";      //changed from "%@, Welcome to Woo!"; to "Welcome %@" by Umesh
+"COB0031" = "Your journey to finding \nlove begins here";
+"Say something!" = "Say something!";
+"Created on" = "Created on";
+"CDE0029" = "Sync with LinkedIn";
+"CMP0046" = "Last sync: %@";
+"Welcome" = "Welcome";
+
+
+
+// this text code should be used as discussed with Divya it will not change in future
+
+"COB0024" = "Only 70% users meet our eligibility standards";
+"COB0025" = "Building your Profile";
+
+"C00CH2" = "Added to Favourites";
+"C00CH3" = "Removed from Favourites";
+
+"CDI0014" = "No more messages left";
+"%d more left!" = "%d more left!";
+
+
+"CMP00320" = "Thanks for the feedback. We'll contact you soon.";
+"CMP00363" = "LIMITED INVITES - Your friends can now join woo , only if you invite them.";
+
+"CDE0087" = "Meanwhile, make sure your Woo Notifications are ON, so we can let you know as soon as we're ready";
+
+
+"CDI008" = "Not updated yet";
+
+"YYAI007" = "of your Facebook friends are also on Woo";
+
+"CDI002" = "You've both worked at";
+
+"CDI003" = "You've both studied at";
+
+"CDI004" = "You both like";
+
+"Interested in" = "Interested in";
+
+"Write_To_Us" = "write to us";
+
+
+"No profiles with" = "No profiles with";
+
+
+"CMP005" = "How to Use";
+
+"CDE0023" = "More profiles coming shortly!";
+
+"CDE0025" = "Talk to Us";
+
+"CDE0026" = "No matches yet";
+
+"CDE0028" = "Based on our analysis, here is what you can do to get more matches:";
+"CDE0031" = "Add cool pictures";
+"CDE0032" = "Well chosen, clear pictures are 30% more likely to be liked";
+"CDE0033" = "Be regular on the app";
+"CDE0034" =  "Our algo master gives preference to users who are likely to come back.";
+"CDE0035" = "Answer as many questions";
+"CQA002" = "Looking for your kind of guy?";
+
+
+"CMP00333" = "Find love, with Woo!";
+
+"CDE0039" = "Complete My Profile";
+"CDE0040" = "Really liked a profile?";
+"CDE0042" = "Didn't like anyone?";
+
+"CDE0038" = "It takes a while. Men with 90% complete profiles are likely to receive a match in 3-5 days.";
+"CDE0041" = "Send an intro to impress and conquer. The custom message will be sent along with your profile, so make it smart and personal.";
+
+"CDE0043" = "Write to us, share your experience and tell us what you were looking for.\n\nWe'll be glad to help you.";
+"CDE0045" = "Give Feedback";
+"CDE0046" = "You may be missing out";
+
+"CDE0047" = "You may be seeing fewer profiles because your age or location filter(s) are too narrow.";
+"CDE0048" = "Modify Preferences";
+
+
+"CDI0055" = "No more people who studied at";
+"CDI0056" = "No more people who studied";
+"CDI0057" = "No more people who like";
+"CDI0058" = "No more people from";
+"CDI0059" = "No more people who are";
+"CDI0060" = "No more with people whose religion is set to";
+"CDI0061" = "No more people whose %@ preference is";
+"CMP0016" = "COMMON FRIENDS";
+"CMP0018" = "EDUCATION";
+
+
+"CMP00134" = "Syncing with Facebook";
+
+"COB00118" = "(b)Tick(b) the people you like.\n(b)Cross(b) the ones you don't like at all.";
+"COB00122" = "Not sure about this profile?\n(b)Passover(b) for now, and revisit later";
+"COB00124" = "Use (b)TagSearch(b) to find people from your school, workplace and much more";
+"COB00126" = "Send a (b)crush(b) to someone you really like to increase your chances of getting a match";
+"COB00128" = "You can (b)Match(b) & (b)Chat(b) with someone when they also like you back.\n\n(Don't worry, you can unmatch with a match at any point in time)";
+"COB00130" = "Access the tutorial from here any time";
+"COB00131" = "Got It!";
+"How to use WOO" = "How to use Woo";
+"COB00111" = "Ryan";
+"COB00112" = "Monica";
+"COB00113" = "Delhi";
+"COB00114" = "Apple Inc.";
+"COB00115" = "Senior Manager";
+"COB00116" = "Master of Business Administration";
+"COB00117" = "Harvard Business School";
+
+//Power-ups
+
+"Boost" = "Boost";
+"Crush" = "Crush";
+"Crush Received" = "Crush Received";
+"Get Powers" = "  Get Powers  ";
+"Your Powers" = "  Your Powers  ";
+"Get a week's worth of visibility in one day" = "Get a week's worth of visibility in one day";
+"Get Boosted" = "Get Boosted";
+"Activate a Boost" = "Activate a Boost";
+"days" = "days";
+"boosts left expiring in" = "boosts left expiring in";
+"boost left expiring in" = "boost left expiring in";
+"You are getting boosted" = "You are getting boosted";
+"Payment is being processing" = "Payment is being processing";
+"crushes will be added to your profile.\nIn the meantime" = "crushes will be added to your profile.\nIn the meantime";
+"Discover new people and send a crush to the ones you really like" = "Discover new people and send a crush to the ones you really like";
+"Discover Profiles" = "Discover Profiles";
+"DISCOVER PEOPLE" = "DISCOVER PEOPLE";
+"Stand out from the crowd. Let them know you have a crush on them with a message." = "Stand out from the crowd. Let them know you have a crush on them with a message.";
+"Send a Crush" = "Send a Crush";
+"crushes left expiring in" = "crushes left expiring in";
+"crush left expiring in" = "crush left expiring in";
+"View your visitors" = "View your visitors";
+
+//Purchase
+
+"Purchase" = "Purchase";
+"In-App Purchase is already in process" = "In-App Purchase is already in process";
+"Your In-App Purchase is restricted" = "Your In-App Purchase is restricted";
+
+"To maintain their privacy we cannot disclose the names of your FB friends. \n\n Don\'t worry, your info will be kept private too and we will never show you to your friends." = "To maintain their privacy we cannot disclose the names of your FB friends. \n Don\'t worry, your info will be kept private too and we will never show you to your friends.";
+
+"Want to discover more people?" = "Want to discover more people?";
+"Answer the questions women have asked. A well-worded answer can get you an instant like!";
+
+"Answer" = "Answer";
+
+"Loading profiles" = "Loading profiles";
+
+"Boost your visibility" = "Get more matches";
+
+"CQA001" = "Post a question to all the guys out there. Match with the ones whose answer you like!";
+"Likes" = "Likes";
+
+
+
+"Crush sent.%d crushes left" = "Crush sent. %d crushes left.";
+"Crush sent. No more crush left." = "Crush sent. No more crush left.";
+"Crush - Chat before Match"  = "Crush - Chat before Match";
+"Don't lose the opportunity to send a crush to" = "Don't lose the opportunity to send a crush to";
+"is a popular user!" = "is a popular user!";
+"You can only send a purchased crush to a popular user." = "You can only send a purchased crush to a popular user.";
+"Get Crushes" = "Get Crushes";
+"has a crush on you" = "has a crush on you";
+"Processing Payment" = "Processing Payment";
+"Send a message to the ones you really like and increase your chances of getting a match" = "Increase your chances of finding a match by upto 10 times by sending a crush.";
+"Let your personality shine. Woo her with the right words and drive her Like in your favor" = "Let your personality shine. Woo her with the right words and drive her Like in your favor";
+"Stand out from the crowd and let her know that you really like her" = "Stand out from the crowd and let her know that you really like her";
+"Crush is more than a like!" = "Crush is more than a like!";
+"People who have a crush on you will be shown here.\n\nSend a crush to the ones you really like to increase your chance of getting a match" = "People who have a crush on you will be shown here.\n\nSend a crush to the ones you really like to increase your chance of getting a match.";
+
+"Visitors" = "Likes & Visits";
+
+"Crushes" = "Crushes";
+
+"Power-ups" = "Power-ups";
+
+"You have %ld boosts" = "You have %ld boosts";
+
+"Increase your visibility" = "Increase your visibility";
+
+
+"Push your profile to the top and increase your chances of getting a match by boosting your profile" = "Push your profile to the top and increase your chances of getting a match by boosting your profile";
+
+"  Get boosted" = "  Get boosted";
+
+"Get Boosted" = "Get Boosted";
+
+"Get Priority placement in profile recommendations" = " Increase your chances of finding a match by upto 15 times by boosting your profile.";
+
+
+"Activate your boost anytime" = "Activate your boost anytime";
+
+"No visitors!" = "No visitors!";
+
+"saw you when you were boosted" = "saw you when you were boosted";
+"Push your profile to the top and increase your chances of getting visitors by boosting your profile." = "Push your profile to the top and increase your chances of getting visitors by boosting your profile.";
+
+"ViewVisitors" = "View Visitors";
+"ViewMatches"  = "View Matches";
+
+"Let them know that you have crush on them" = "Let them know that you have crush on them";
+"You matched through Boost" = "You matched through Boost";
+"You matched through Crush" = "You matched through Crush";
+
+
+//ImageUpload Tips
+"image_upload_text_1" = "Keep uploading new pictures of yourself to give freshness to your profile. Tap on the picture to upload a new one.";
+"image_upload_text_2" = "Help us show you off to our users, by adding more pictures of yourself.";
+"image_upload_text_3" = "Upload a new picture of yourself , last one you shared with us, did not have a clear picture of you.";
+"image_upload_text_4" = "Our team will approve your photo within 24 hours, if it meets our requirement.";
+"image_upload_text_5" = "Help us show you off to potential matches, by adding a picture of yourself.";
+"image_upload_text_6" = "To replace your profile picture, add a new approved picture in any of the image boxes below and make it as your profile picture on woo.";
+
+"image_size_big_txt" = "The image size is too heavy. Please try another one.";
+
+
+"kActionSheetClickPicture"      = "Click a picture";
+"kActionSheetPickFB"            = "Pick from facebook";
+"kActionSheetPickPhoneAlbum"    = "Pick from phone gallery";
+"kActionSheetSetProfilePic"     = "Set as profile picture";
+"kActionSheetReplacePic"        = "Replace picture";
+"kActionSheetCropPic"           = "Crop picture";
+"kActionSheetDeletePic"         = "Delete picture";
+
+"We have sent a code to your mobile number ending with %@. Please enter the verification code in the text box below." = "We have sent a code to your mobile number ending with %@. Please enter the verification code in the text box below.";
+"Phone number verified" = "Phone number verified";
+"Verify with code" = "Verify with code";
+"You have entered a mobile number that already exists." = "You have entered a mobile number that already exists.";
+"Your account can be verified with just number. Are you sure you want to change it?" = "Your account can be verified with just number. Are you sure you want to change it?";
+
+// Images for intro slides
+"answers" = "answers";
+"boy1" = "boy1";
+"boy2" = "boy2";
+"boy3" = "boy3";
+"bulb" = "bulb";
+"chatCoral" = "chatCoral";
+"chatGrey" = "chatGrey";
+"educationImage" = "educationImage";
+"girl1" = "girl1";
+"girl2" = "girl2";
+"girl3" = "girl3";
+"interestsImage" = "interestsImage";
+"introDiscoverText" = "introDiscoverText";
+"introFindMagic" = "introFindMagic";
+"likeMindedText" = "likeMindedText";
+"matchAndChatText" = "matchAndChatText";
+"professionImage" = "professionImage";
+"questionAnswerText" = "questionAnswerText";
+"questions" = "questions";
+
+
+"This match has decided not to proceed further." = "This match has decided not to proceed further.";
+
+//Location Related Localization
+"Location not detected" = "Location not detected";
+"Either enable your location services or manually select a location" = "Either enable your location services or manually select a location";
+"Select Manually" = "Select Manually";
+"Open Settings" = "Open Settings";
+"We are not able to render your location. Please search for your city/district." = "We are not able to render your location. Please search for your city/district.";
+"Select Location" = "Select Location";
+"Search City" = "Search City";
+"Search Religion" = "Search Religion";
+"We have detected your location as" = "We have detected your location as";
+"Change" = "Change";
+"Set as my location" = "Set as my location";
+"Your Location Preference is set as ‘%@’ KM" = "Your Location Preference is set as ‘%@’ KM";
+
+"we are verifying your mobile number , please be patient." = "we are verifying your mobile number , please be patient.";
+
+"My Current Location" = "My Current Location";
+"Location Updated"="Location Updated";
+"Or" = "Or";
+
+
+"Visitor access - Get to see who visited your profile" = "Visitor access - Get to see who visited your profile";
+
+//Visitors
+"No visitors yet" = "No visitors yet";
+"People who came across your profile will show here" = "People who came across \n your profile will show here";
+"Boost your profile now to increase your visibility on Woo and see all your visitors." = "Boost your profile now to increase your visibility on Woo and see all your visitors.";
+"More info" = "More info";
+"No likes yet?" = "No likes yet?";
+"Boost your profile now to increase your visibility on woo and get complete access to visitor section." = "Boost your profile now to increase your visibility on woo and get complete access to visitor section.";
+"Boost now" = "Boost now";
+"BOOST NOW" = "BOOST NOW";
+"ACTIVATE A BOOST" = "ACTIVATE A BOOST";
+"See your visitors" = "See your visitors";
+"Your visitors will be shown here" = "Your visitors will be shown here";
+"You’ll see the ones who visited you here" = "You’ll see the ones who visited you here";
+"Activate your boost now to increase your visibility" = "Activate your boost now to increase your visibility";
+"Boost your profile now to increase your visibility on Woo and come back soon to see your visitors." = "Boost your profile now to increase your visibility on Woo and come back soon to see your visitors.";
+
+
+
+
+
+"Get Crush" = "Get Crush";
+
+"Search for a tag or select from suggested" = "Search for a tag or select from suggested";
+"Selected" = "Selected";
+"Just to put a little flavor on your profile pick %d tags to get you started. Don't worry you can always pick more later." = "Just to put a little flavor on your profile pick %d tags to get you started. Don't worry you can always pick more later.";
+"Please select minimum %d tags" = "Please select at least %d tags";
+
+
+
+
+//Woo_3
+
+//Generic
+"No" = "No";
+"Yes" = "Yes";
+
+// My Preference
+"Send me notifications for" = "Send me notifications for";
+"Match and chat" = "Match and chat";
+"Crush received" = "Crush received";
+"Questions and Answers" = "Questions and Answers";
+"Sound" = "Sound";
+"Show us your love" = "Show us your love";
+"Share your feedback" = "Share your feedback";
+"Account" = "Account";
+"Disable" = "Disable";
+"Disable for a week" = "Disable for a week";
+"Disable your account for a week?" = "Disable your account for a week?";
+"Once you disable your account, you are logged out for 7 days and people on Woo won’t be able to see your profile. However, after a week, you will be auto logged in and your profile is visible to everyone." = "Once you disable your account, you are logged out for 7 days and people on Woo won’t be able to see your profile. However, after a week, you will be auto logged in and your profile is visible to everyone.";
+"Delete account" = "Delete account";
+"Delete your account?" = "Delete your account?";
+"Once you delete your account, all your information including chats & matches is permanently removed. If in future you wish to get back on Woo, you will be treated as a new user."= "Once you delete your account, all your information including chats & matches is permanently removed. If in future you wish to get back on Woo, you will be treated as a new user.";
+"Log out" = "Log out";
+"Do you want to log out?" = "Do you want to log out?";
+"Logging out of the Woo will remove some of your data stored with us and you won't receive any notifications as well." = "Logging out of the Woo will remove some of your data stored with us and you won't receive any notifications as well.";
+
+"My location is..." = "My location is...";
+"I want to meet people based on" = "I want to meet people based on";
+"Their age..." = "Their age...";
+
+"Their relationship preference and gender..." = "Their relationship preference and gender...";
+
+// Reporting User
+"Additional information" = "Additional information";
+"Inappropriate photos" = "Inappropriate photos";
+"Inappropriate and abusive content" = "Inappropriate and abusive content";
+
+// Send a crush
+"Write something interesting." = "Write something interesting.";
+
+// CRopper
+"Add more pictures to show off the real you. Where do you want to add your pictures from?" = "Add more pictures to show off the real you. Where do you want to add your pictures from?";
+
+"Where do you want to load your picture from?" = "Where do you want to load your picture from?";
+
+"We couldn't find a picture for you. Where do you want to load your picture from?" = "We couldn't find a picture for you. Where do you want to load your picture from?";
+
+// Onboarding
+"Setting it up for you" = "Setting it up for you";
+"Setting up Woo for you" = "Setting up Woo for you";
+"Let's build your profile. \nShow them what you got!" = "Let's build your profile. \nShow them what you got!";
+
+// SidePanel
+"Me" = "Me";
+"Settings" = "Settings";
+"My Purchases" = "My Purchases";
+"faq" = "FAQs";
+"Privacy & Terms" = "Privacy & Terms";
+
+//Edit profile
+"label_location" = "Location";
+"Label_show_name_as" = "Show my name as";
+"Initials_by_default" = "(Initials by default for women)";
+"Phone_number_default" = "(Adds a phone verified badge to your profile)";
+"label_phone_number" = "Phone number";
+"label_phone_hint" = "Add and verify";
+"label_personal_quote" = "About Me";
+"label_qna" = "Woo-Q (Your personality in words)";
+"Add an answer" = "Add an answer";
+"label_i_am" = "Add your Work Profile";
+"label_at" = "Work place";
+"Label_degree_in" = "Add your Educational Degree";
+"Label_college" = "College";
+"label_religion_ethnicity" = "Religion";
+"select_religion" = "Add your Religion (any 1)";
+"Label_personal_tags" = "My personal tags";
+"Label_relationship_tags" = "Relationship & Lifestyle preferences";
+"Label_relationship" = "Select to add";
+"Label_zodiac_tag" = "Your Zodiac Sign";
+"Label_height" = "Height";
+"Message_discard_changes" = "Are you sure you want to discard your changes?";
+"Message_personal_quote_length_violation" = "Please enter at least %d characters under Personal quote.";
+"label_ethnicity" = "Community";
+"select_ethnicity" = "Add your Community (upto 2)";
+"ethnicity_header" = "Community";
+"teleportTo_header" = "Teleport To";
+"Swiping_Location_Header" = "Swiping Location";
+"Your_Selection" = "Your Selection";
+"Select Ethnicity" = "Select Community";
+
+//Me secation text
+"Me" = "Me";
+"View my profile" = "View my profile";
+"Visitors" = "Likes & Visits";
+"Liked Me" = "Liked Profiles";
+"Crush Received" = "Crush Received";
+"Skipped Profiles" = "Skipped Profiles";
+"My Questions" = "My Questions";
+"You have %ld boosts left!" = "You have %ld boost left";
+"%ld boosts remaining." = "%ld boosts remaining.";
+"%ld boost remaining." = "%ld boost remaining.";
+"Boosting... %ld boosts remaining." = "Boosting... %ld boosts remaining.";
+"Boosting... %ld boost remaining." = "Boosting... %ld boost remaining.";
+"People who visited your profile." = "People who visited your profile.";
+"Boost me now" = "Boost me now";
+"BOOST ME NOW" = "BOOST ME NOW";
+"GET BOOST" = "GET BOOST";
+"BUY CRUSHES" = "BUY CRUSHES";
+"ACTIVATE" = "ACTIVATE";
+"My Profile" = "My Profile";
+"See all your visitors & Likes" = "See all your visitors & Likes";
+"See all your visitor" = "See all your visitor";
+"See who liked you" = "See who liked you";
+"Get member privileges" = "Get member privileges";
+
+//Questions
+
+"Users are looking at your question right now. Increase your chances of getting answers by showing up to more people. Boost your visibility now." = "Users are looking at your question right now. Increase your chances of getting answers by showing up to more people. Boost your visibility now.";
+
+"No album found." = "No album found.";
+"No photo found" = "No photo found";
+
+// Crush DAshboard
+
+"Crush received while you were Boosted." = "Crush received while you were Boosted.";
+
+"Crush(s) received , like back to chat." = "Crush received , like back to chat.";
+"Crushes received, like back to chat." = "Crushes received, like back to chat.";
+
+"Crush(s) received while boosted." = "Crush received while boosted.";
+"Don't miss out. Make the first move and send a Crush." = "Don't miss out. Make the first move and send a Crush.";
+// Visitor Dashboard
+"Visitors while you were boosted." = "Visitors while you were boosted.";
+"Activate a boost now to increase your visibility" = "Activate a boost now to increase your visibility";
+"Become a Woo Plus member and get unlimited access to all your visitors." = "Become a Woo Plus member and get unlimited access to all your visitors.";
+
+//SkippedPrifoles
+"No Skipped Profile Yet" = "No Skipped Profile Yet";
+"Discover more profiles and skip in case you don't like that profile." = "Discover more profiles and skip in case you don't like that profile.";
+"Discover Profiles" = "Discover Profiles";
+"Become a Woo Plus member and get unlimited access to all your skipped profiles." = "Become a Woo Plus member and get unlimited access to all your skipped profiles.";
+"Subscribe to Woo Plus" = "SUBSCRIBE WOOPLUS";
+"UNLOCK WITH WOOPLUS" = "UNLOCK WITH WOOPLUS";
+"Your skipped profiles will be shown here." = "Your skipped profiles will be shown here.";
+
+//Liked Me
+"Our research tells us profiles with more details, gets more visibility. Complete your profile and tell them why you’re so awesome." = "Our research tells us profiles with more details, gets more visibility. Complete your profile and tell them why you’re so awesome.";
+"Become a Woo plus member and get unlimited access to all the profiles who have liked you on Woo." = "Become a Woo plus member and get unlimited access to all the profiles who have liked you on Woo.";
+"Make the first move and send a Crush to the ones you really like to increase your chances of a match." = "Make the first move and send a Crush to the ones you really like to increase your chances of a match.";
+"Your profiles will appear here" = "Your profiles will appear here";
+"See who liked you" = "See who liked you";
+"Edit Profile" = "Edit Profile";
+"Keep Swiping and liking more profiles. All the people who liked you will appear here." = "Keep Swiping and liking more profiles. All the people who liked you will appear here.";
+"In the meantime, keep swiping and discover more profiles." = "In the meantime, \nkeep swiping and discover more profiles.";
+"In the meantime… \nGet discovered by more people" = "In the meantime… \nGet discovered by more people";
+
+"Get access to all profiles who liked you , see all your visitors , unlimited likes everyday, access to your skipped profiles and much more. Become a WooPlus member now." = "Get access to all profiles who liked you , see all your visitors , unlimited likes everyday, access to your skipped profiles and much more. Become a WooPlus member now.";
+
+
+"This is taking longer than it should be." = "This is taking longer than it should be.";
+"Let's see what we can do about it." = "Let's see what we can do about it.";
+
+
+"You have not received any crush yet. Keep sending crush to more profiles to increase your chances of finding a match." = "You have not received any crush yet. Keep sending crush to more profiles to increase your chances of finding a match.";
+
+
+"Hey we are boosting your profile, keep checking your visitor section to view all your visitors." = "Hey we are boosting your profile, keep checking your visitor section to view all your visitors.";
+
+
+"You have not received any crush yet. Boost your profile now an increase your chances of getting a match." = "You have not received any crush yet. Boost your profile now an increase your chances of getting a match.";
+
+"Increase your chances of getting Crushes by showing up to more people. Boost your visibility now." = "Increase your chances of getting Crushes by showing up to more people. Boost your visibility now.";
+
+
+"No Crushes yet" = "No Crushes yet";
+"Get Boost" = "Get Boost";
+
+
+"Send Crush" = "Send Crush";
+"SEND A CRUSH" = "SEND A CRUSH";
+
+"Let's Talk!" = "Let's Talk!";
+
+"Review us on appstore" = "Review us on App Store";
+
+"Between the ages of %@ to %@" = "Between the ages of %@ to %@";
+"Between the ages of %d to %d" = "Between the ages of %d to %d";
+
+"Friends" = "Friends";
+"Dating" = "Dating";
+"Love of my life" = "Love of my life";
+"Most Popular Tags" = "Most Popular Tags";
+"Top Suggested Tags" = "Top Suggested Tags";
+"Please enter at least %d characters." = "Please enter at least %d characters.";
+"No internet connection" = "No internet connection";
+
+
+"Tags to help you\nfind better" = "Tags to help you\nfind better";
+"Use tags to discover\ncommon interests, passion, and traits" = "Use tags to discover\ncommon interests, passion, and traits";
+"Let that special ONE know" = "Let that special ONE know";
+"Ask a question and\nget to know them better" = "Ask a question and\nget to know them better";
+"Answer with confidence\nand privately" = "Answer with confidence\nand privately";
+"Sam sent you a Crush" = "Sam sent you a Crush";
+"I really liked your profile. Check mine.\n It will be great to connect with you." = "\"I really liked your profile. Check mine.\n It will be great to connect with you.\"";
+"What is the craziest thing you have ever done?" = "\"What is the craziest thing you have ever done?\"";
+
+"Sign in with Facebook" = "Sign in with Facebook";
+
+"Send a Crush\nand steal their heart" = "Send a Crush\nand steal their heart";
+
+
+"No Boost left." = "No Boost left.";
+"Increase my visibility" = "Increase my visibility";
+"Get seen by more people" = "Get seen by more people";
+
+"Discover" = "Discover";
+
+"Please enter at least %d characters under Personal quote." = "Please enter at least %d characters under Personal quote.";
+"Ask something worthy of an awesome answer..." = "Ask something worthy of an awesome answer...";
+
+"Delete question?" = "Delete question?";
+"Terms Of Use" = "Terms Of Use";
+
+"All the answers to your question will appear here. You have no answers to view currently." = "All the answers to your question will appear here. You have no answers to view currently.";
+
+"You have exceeded maximum number of questions that can be asked. Please delete some question to post a new one." = "You have exceeded maximum number of questions that can be asked. Please delete some question to post a new one.";
+
+"Dismiss" = "Dismiss";
+
+"Delete Answer?" = "Delete Answer?";
+
+"%@ is a hot user. Send a crush to %@ with a special message." = "%@ is a hot user. Send a crush to %@ with a special message.";
+"Send a crush to %@ and let %@ know your liking with a special message." = "Send a crush to %@ and let %@ know your liking with a special message.";
+
+
+"her" = "her";
+"his" = "his";
+
+"No likes received yet" = "No likes received yet";
+"Your future likes will show here" = "Your future likes will show here";
+
+"Send a Crush to %@ with a special customised message and get featured in Crush received section." = "Send a Crush to %@ with a special customised message and get featured in Crush received section.";
+
+"We are facing some issue connecting store. Please try after some time." = "We are facing some issue connecting store. Please try after some time.";
+
+"Check Device Settings" = "Access has not been granted to the Facebook account. Verify device settings.";
+
+"Oepn Settings" = "Oepn Settings";
+
+"Out of Likes!" = "Out of Likes!";
+"Become a WooPlus member to get unlimited likes and never miss the opportunity to right swipe" = "Become a WooPlus member to get unlimited likes and never miss the opportunity to right swipe.";
+
+"My Answers" = "My Answers";
+"Tags in Common" = "Tags in Common";
+" sent you crush" = " sent you crush";
+"About %@" = "About %@";
+"My Tags" = "My Tags";
+"Search your location" = "Search your location";
+"Top Cities" = "Top Cities";
+"Woo Globe enabled." = "Woo Globe enabled.";
+"Woo Globe disabled." = "Woo Globe disabled.";
+
+
+//Voice Calling
+
+"Call your match without sharing your number." = "Call your match without sharing your number.";
+"Call can be initiated by %@ only. Please ask her politely if she's ready to speak to you over call." = "Call can be initiated by %@ only. Please ask her politely if she's ready to speak to you over call.";
+"Please ask %@ to download the latest version of Woo to receive calls." = "Please ask %@ to download the latest version of Woo to receive calls.";
+
+"To enable calls , Woo needs access to your iPhone's microphone. Tap settings and turn on Microphone." = "To enable calls , Woo needs access to your iPhone's microphone. Tap settings and turn on Microphone.";
+"Get 5 friends to join Woo and enjoy full access to call your matches for a week!" = "Get 5 friends to join Woo and enjoy full access to call your matches for a week!";
+"You have calling power! Ask her when would be a good time to call." = "You have calling power! Ask her when would be a good time to call.";
+"You can only receive a call from a Celebrity match." = "You can only receive a call from a Celebrity match.";
+
+"needLocationPermission" = "Woo needs your location permission to update your browsing location as your current location.";
+
+"Woo_pic_noPicAlert" = "Your matches want to see what you look like. Upload a photo that shows your face more clearly.";

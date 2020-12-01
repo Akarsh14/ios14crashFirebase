@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="heavenetica5p-sbldsh.ttf">
+            <string>Heavenetica5PSBldSH</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PurchaseSelectionCell" id="gTV-IL-0wX" customClass="PurchaseSelectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PB7-eF-Tp9">
+                        <rect key="frame" x="8" y="4" width="104" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="9dI-Qd-nBu"/>
+                            <constraint firstAttribute="height" constant="40" id="CPk-tr-PYn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="36"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crushes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6G-VP-cvT">
+                        <rect key="frame" x="0.0" y="42" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="PYl-bU-gq7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="16"/>
+                        <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for 30 days" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNj-XO-5L5">
+                        <rect key="frame" x="0.0" y="61" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="rTS-tG-7gs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="12"/>
+                        <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jaA-z9-bQO">
+                        <rect key="frame" x="15" y="95" width="90" height="1"/>
+                        <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="Nxt-Td-tTp"/>
+                            <constraint firstAttribute="height" constant="1" id="R6k-gr-eqB"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19/Crush" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ira-eC-HC9">
+                        <rect key="frame" x="0.0" y="106" width="120" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="HS3-BW-KeK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Save 37%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i07-W4-j2n">
+                        <rect key="frame" x="0.0" y="128" width="120" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="nPm-73-vPr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="10"/>
+                        <color key="textColor" red="0.35686274509803922" green="0.35686274509803922" blue="0.35686274509803922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Ira-eC-HC9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0PH-nC-OFz"/>
+                <constraint firstAttribute="trailing" secondItem="S6G-VP-cvT" secondAttribute="trailing" id="Cwa-d0-uyu"/>
+                <constraint firstItem="vNj-XO-5L5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KYQ-BN-ot1"/>
+                <constraint firstItem="S6G-VP-cvT" firstAttribute="top" secondItem="PB7-eF-Tp9" secondAttribute="top" constant="38" id="LWg-Ic-4z6"/>
+                <constraint firstAttribute="trailing" secondItem="Ira-eC-HC9" secondAttribute="trailing" id="MWl-xp-UF3"/>
+                <constraint firstItem="jaA-z9-bQO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="NHd-5e-7mH"/>
+                <constraint firstItem="Ira-eC-HC9" firstAttribute="top" secondItem="jaA-z9-bQO" secondAttribute="bottom" constant="10" id="NTw-nA-lPI"/>
+                <constraint firstItem="vNj-XO-5L5" firstAttribute="top" secondItem="S6G-VP-cvT" secondAttribute="top" constant="19" id="QiS-ny-h6F"/>
+                <constraint firstItem="S6G-VP-cvT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UAh-Cw-fKn"/>
+                <constraint firstItem="PB7-eF-Tp9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="YkZ-xK-sFZ"/>
+                <constraint firstAttribute="trailing" secondItem="vNj-XO-5L5" secondAttribute="trailing" id="bL1-IS-hHX"/>
+                <constraint firstAttribute="trailing" secondItem="PB7-eF-Tp9" secondAttribute="trailing" constant="8" id="boa-OT-ZcP"/>
+                <constraint firstItem="i07-W4-j2n" firstAttribute="top" secondItem="Ira-eC-HC9" secondAttribute="bottom" constant="-3" id="dgv-Yg-TGi"/>
+                <constraint firstItem="jaA-z9-bQO" firstAttribute="top" secondItem="vNj-XO-5L5" secondAttribute="bottom" constant="13" id="mJ4-MO-flR"/>
+                <constraint firstAttribute="trailing" secondItem="i07-W4-j2n" secondAttribute="trailing" id="oS0-0M-b7p"/>
+                <constraint firstItem="i07-W4-j2n" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="p7L-g6-u6F"/>
+                <constraint firstItem="PB7-eF-Tp9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="pcw-uq-KPo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="PQq-Wm-bAr"/>
+            <size key="customSize" width="120" height="161"/>
+            <connections>
+                <outlet property="lbl_purchaseNumber" destination="PB7-eF-Tp9" id="bk4-yM-vAV"/>
+                <outlet property="lbl_purchasePeriod" destination="vNj-XO-5L5" id="iG1-U2-are"/>
+                <outlet property="lbl_purchasePrice" destination="Ira-eC-HC9" id="9h5-xm-5C4"/>
+                <outlet property="lbl_purchaseType" destination="S6G-VP-cvT" id="95f-DU-4DK"/>
+                <outlet property="lbl_save" destination="i07-W4-j2n" id="xxL-Bc-sJd"/>
+            </connections>
+            <point key="canvasLocation" x="207" y="192.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

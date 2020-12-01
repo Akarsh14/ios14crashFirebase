@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TagSearchCategoriesCollectionViewCell" id="gTV-IL-0wX" customClass="TagSearchCategoriesCollectionViewCell" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="48"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPORTS AND FITNESS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kS-yp-dnF">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="mUt-u4-VcO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                        <color key="textColor" red="0.57254901960000004" green="0.45882352939999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qn5-ds-Szx">
+                        <rect key="frame" x="0.0" y="45" width="150" height="3"/>
+                        <color key="backgroundColor" red="0.57254901960000004" green="0.45882352939999999" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="3" id="Z5g-7p-SuT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Qn5-ds-Szx" firstAttribute="top" secondItem="0kS-yp-dnF" secondAttribute="bottom" id="BlG-X0-Jow"/>
+                <constraint firstAttribute="trailing" secondItem="0kS-yp-dnF" secondAttribute="trailing" id="OmC-10-eEk"/>
+                <constraint firstItem="0kS-yp-dnF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="b1K-XP-me0"/>
+                <constraint firstAttribute="bottom" secondItem="Qn5-ds-Szx" secondAttribute="bottom" id="nEm-JQ-eyU"/>
+                <constraint firstAttribute="trailing" secondItem="Qn5-ds-Szx" secondAttribute="trailing" id="sJO-3M-XKZ"/>
+                <constraint firstItem="Qn5-ds-Szx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wkj-Au-65g"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="268" height="48"/>
+            <connections>
+                <outlet property="categoryLabel" destination="0kS-yp-dnF" id="4bG-rG-dcp"/>
+                <outlet property="selectedView" destination="Qn5-ds-Szx" id="O2J-tz-3V3"/>
+                <outlet property="selectedViewHeightConstraint" destination="Z5g-7p-SuT" id="DpE-IG-8jK"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="65"/>
+        </collectionViewCell>
+    </objects>
+</document>

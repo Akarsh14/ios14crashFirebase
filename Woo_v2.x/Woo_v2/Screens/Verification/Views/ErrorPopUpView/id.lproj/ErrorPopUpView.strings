@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Your birthday is..."; ObjectID = "2t1-QE-zWB"; */
+"2t1-QE-zWB.text" = "Tanggal lahir saya ...";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "JOO-Wv-qxV"; */
+"JOO-Wv-qxV.normalTitle" = "Oke";
+
+/* Class = "UILabel"; text = "Male"; ObjectID = "V8v-J4-1zn"; */
+"V8v-J4-1zn.text" = "Laki-Laki";
+
+/* Class = "UILabel"; text = "We need your gender to find you matches."; ObjectID = "h8F-Lj-QLh"; */
+"h8F-Lj-QLh.text" = "Kami memerlukan hal ini untuk menemukan kecocokan untuk Anda, tentunya :)";
+
+/* Class = "UILabel"; text = "Info Missing!"; ObjectID = "hC9-Qg-V0S"; */
+"hC9-Qg-V0S.text" = "Pertanyaan cepat...";
+
+/* Class = "UILabel"; text = "MM"; ObjectID = "kN5-yc-JmN"; */
+"kN5-yc-JmN.text" = "MM";
+
+/* Class = "UILabel"; text = "Female"; ObjectID = "kQd-Yi-EHK"; */
+"kQd-Yi-EHK.text" = "Perempuan";
+
+/* Class = "UILabel"; text = "DD"; ObjectID = "kpo-Te-7xu"; */
+"kpo-Te-7xu.text" = "DD";
+
+/* Class = "UILabel"; text = "YYYY"; ObjectID = "vap-vV-EUa"; */
+"vap-vV-EUa.text" = "YYYY";

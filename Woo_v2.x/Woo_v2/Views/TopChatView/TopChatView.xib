@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopChatView">
+            <connections>
+                <outlet property="headingLbl" destination="njX-nx-geb" id="LYm-NF-u5f"/>
+                <outlet property="headingLblHeightConstraint" destination="uQw-R0-GjB" id="ozb-UI-9Hi"/>
+                <outlet property="headingToMsgLblConstraint" destination="n9j-Z0-9i8" id="nwK-Q1-H8L"/>
+                <outlet property="msgLabelToBottomConstraint" destination="vAd-va-OyI" id="ztz-65-DL8"/>
+                <outlet property="msgLbl" destination="anx-4z-aHO" id="iqS-ec-div"/>
+                <outlet property="msgLblToUserImageConstraint" destination="xfh-dE-hXa" id="QS3-zK-heR"/>
+                <outlet property="msgLbltoRightConstraint" destination="fHl-6C-e5Z" id="QDu-Dz-BOz"/>
+                <outlet property="topToHeadingLabelConstraint" destination="hwe-L1-dHX" id="RwI-MW-7DM"/>
+                <outlet property="userImage" destination="3n5-68-7P4" id="QVK-7c-msh"/>
+                <outlet property="userImageToLeftConstraint" destination="3No-9g-nf2" id="vCZ-jX-f17"/>
+                <outlet property="userImageWidthConstraint" destination="x9H-dY-yfh" id="Uuu-aZ-vyj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qNw-GX-gAt">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3n5-68-7P4">
+                    <rect key="frame" x="7" y="7" width="50" height="50"/>
+                    <color key="backgroundColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="hsC-iV-zcH"/>
+                        <constraint firstAttribute="width" constant="50" id="x9H-dY-yfh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rahulgqpy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="njX-nx-geb">
+                    <rect key="frame" x="72" y="7" width="295" height="18"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="uQw-R0-GjB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have received new messages from your matches! Tap to see them now" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="anx-4z-aHO">
+                    <rect key="frame" x="72" y="25" width="295" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="3n5-68-7P4" firstAttribute="leading" secondItem="qNw-GX-gAt" secondAttribute="leading" constant="7" id="3No-9g-nf2"/>
+                <constraint firstItem="njX-nx-geb" firstAttribute="leading" secondItem="3n5-68-7P4" secondAttribute="trailing" constant="15" id="3Za-Dn-nmr"/>
+                <constraint firstItem="3n5-68-7P4" firstAttribute="top" secondItem="qNw-GX-gAt" secondAttribute="top" constant="7" id="Y67-Km-MrK"/>
+                <constraint firstAttribute="trailing" secondItem="njX-nx-geb" secondAttribute="trailing" constant="8" id="fHl-6C-e5Z"/>
+                <constraint firstItem="njX-nx-geb" firstAttribute="top" secondItem="qNw-GX-gAt" secondAttribute="top" constant="7" id="hwe-L1-dHX"/>
+                <constraint firstItem="anx-4z-aHO" firstAttribute="top" secondItem="njX-nx-geb" secondAttribute="bottom" id="n9j-Z0-9i8"/>
+                <constraint firstAttribute="bottom" secondItem="anx-4z-aHO" secondAttribute="bottom" constant="2" id="vAd-va-OyI"/>
+                <constraint firstAttribute="trailing" secondItem="anx-4z-aHO" secondAttribute="trailing" constant="8" id="veJ-vf-kDs"/>
+                <constraint firstItem="anx-4z-aHO" firstAttribute="leading" secondItem="3n5-68-7P4" secondAttribute="trailing" constant="15" id="xfh-dE-hXa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="YND-i3-KpV"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="qbr-ZQ-xNO" appends="YES" id="Ijs-qe-WQW"/>
+                <outletCollection property="gestureRecognizers" destination="Byd-Pp-9vk" appends="YES" id="rbk-X6-4wp"/>
+            </connections>
+            <point key="canvasLocation" x="-41" y="-488"/>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="qbr-ZQ-xNO">
+            <connections>
+                <action selector="panGetureHandler:" destination="-1" id="hXP-oh-voc"/>
+            </connections>
+        </panGestureRecognizer>
+        <tapGestureRecognizer id="Byd-Pp-9vk">
+            <connections>
+                <action selector="tapGestureHandler:" destination="-1" id="3m6-pw-PyY"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

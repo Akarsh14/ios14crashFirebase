@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+            <string>Heavenetica5SH</string>
+            <string>Heavenetica5SH</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmptyQuestionsView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyQuestionImage" translatesAutoresizingMaskIntoConstraints="NO" id="CNK-UV-s1W">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="gG0-Wg-Tn9"/>
+                        <constraint firstAttribute="height" constant="140" id="pWI-5f-G2z"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="gG0-Wg-Tn9"/>
+                            <exclude reference="pWI-5f-G2z"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="gG0-Wg-Tn9"/>
+                            <include reference="pWI-5f-G2z"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTg-3y-VGC">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <string key="text">Would you like to ask
+a question?</string>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="15"/>
+                    <color key="textColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Throw a question out there" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CI-f0-EOd">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="15"/>
+                    <color key="textColor" red="0.65490196079999996" green="0.65490196079999996" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD9-uF-MOa">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.34901960780000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="028-Z0-kUl"/>
+                        <constraint firstAttribute="width" constant="80" id="JZ7-RJ-L49"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="18"/>
+                    <state key="normal" title="Ask">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="028-Z0-kUl"/>
+                            <exclude reference="JZ7-RJ-L49"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="028-Z0-kUl"/>
+                            <include reference="JZ7-RJ-L49"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="askButtonTapped:" destination="-1" eventType="touchUpInside" id="w5j-sU-KUs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iTg-3y-VGC" firstAttribute="top" secondItem="CNK-UV-s1W" secondAttribute="bottom" constant="45" id="3cf-Cl-S7s"/>
+                <constraint firstAttribute="centerX" secondItem="bD9-uF-MOa" secondAttribute="centerX" id="6N4-Mt-s3b"/>
+                <constraint firstItem="bD9-uF-MOa" firstAttribute="top" secondItem="3CI-f0-EOd" secondAttribute="bottom" constant="30" id="L6g-i0-vmW"/>
+                <constraint firstItem="CNK-UV-s1W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="55" id="Q8Y-Wz-Z5E"/>
+                <constraint firstItem="3CI-f0-EOd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="QEX-ke-Fqn"/>
+                <constraint firstAttribute="trailing" secondItem="3CI-f0-EOd" secondAttribute="trailing" constant="20" id="mIV-lS-Gva"/>
+                <constraint firstAttribute="centerX" secondItem="CNK-UV-s1W" secondAttribute="centerX" id="mNW-VQ-nbX"/>
+                <constraint firstAttribute="centerX" secondItem="iTg-3y-VGC" secondAttribute="centerX" id="vEi-5p-2Ix"/>
+                <constraint firstItem="3CI-f0-EOd" firstAttribute="top" secondItem="iTg-3y-VGC" secondAttribute="bottom" constant="55" id="vig-Hx-Zor"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="CNK-UV-s1W"/>
+                    <exclude reference="iTg-3y-VGC"/>
+                    <exclude reference="3CI-f0-EOd"/>
+                    <exclude reference="bD9-uF-MOa"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="QEX-ke-Fqn"/>
+                    <exclude reference="mIV-lS-Gva"/>
+                    <exclude reference="vig-Hx-Zor"/>
+                    <exclude reference="3cf-Cl-S7s"/>
+                    <exclude reference="vEi-5p-2Ix"/>
+                    <exclude reference="6N4-Mt-s3b"/>
+                    <exclude reference="L6g-i0-vmW"/>
+                    <exclude reference="Q8Y-Wz-Z5E"/>
+                    <exclude reference="mNW-VQ-nbX"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="CNK-UV-s1W"/>
+                    <include reference="iTg-3y-VGC"/>
+                    <include reference="3CI-f0-EOd"/>
+                    <include reference="bD9-uF-MOa"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="QEX-ke-Fqn"/>
+                    <include reference="mIV-lS-Gva"/>
+                    <include reference="vig-Hx-Zor"/>
+                    <include reference="3cf-Cl-S7s"/>
+                    <include reference="vEi-5p-2Ix"/>
+                    <include reference="6N4-Mt-s3b"/>
+                    <include reference="L6g-i0-vmW"/>
+                    <include reference="Q8Y-Wz-Z5E"/>
+                    <include reference="mNW-VQ-nbX"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="emptyQuestionImage" width="140" height="140"/>
+    </resources>
+</document>

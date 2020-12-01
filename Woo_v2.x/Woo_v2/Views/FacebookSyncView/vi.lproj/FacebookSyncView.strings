@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Education"; ObjectID = "F9M-0D-pxQ"; */
+"F9M-0D-pxQ.normalTitle" = "Giáo dục";
+
+/* Class = "UIButton"; normalTitle = "Sync"; ObjectID = "OFB-Ip-aKZ"; */
+"OFB-Ip-aKZ.normalTitle" = "Đồng bộ hóa";
+
+/* Class = "UIButton"; normalTitle = "Work Place"; ObjectID = "Por-3l-0A2"; */
+"Por-3l-0A2.normalTitle" = "Nơi làm việc";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "RaY-H7-x1h"; */
+"RaY-H7-x1h.normalTitle" = "Hủy";
+
+/* Class = "UIButton"; normalTitle = "Age"; ObjectID = "bGP-ot-hX9"; */
+"bGP-ot-hX9.normalTitle" = "Tuổi";
+
+/* Class = "UIButton"; normalTitle = "Gender"; ObjectID = "hJU-Ij-jac"; */
+"hJU-Ij-jac.normalTitle" = "Giới tính";
+
+/* Class = "UILabel"; text = "Facebook Sync"; ObjectID = "m6G-XC-vBF"; */
+"m6G-XC-vBF.text" = "Đồng bộ hóa Facebook";
+
+/* Class = "UILabel"; text = "Woo fetches your latest information. Tap Sync to update."; ObjectID = "nSE-Td-4KU"; */
+"nSE-Td-4KU.text" = "WOO sẽ lấy thông tin mới nhất của bạn. Ấn đồng bộ hóa để cập nhật";

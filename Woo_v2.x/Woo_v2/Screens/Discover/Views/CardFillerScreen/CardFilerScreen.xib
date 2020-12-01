@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+            <string>Heavenetica5SH</string>
+        </mutableArray>
+        <mutableArray key="heavenetica6-medsh.ttf">
+            <string>Heavenetica6MedSH</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardFilerScreen">
+            <connections>
+                <outlet property="buttonObject" destination="ORe-DK-jPo" id="JqH-WQ-DvB"/>
+                <outlet property="errorImageView" destination="7wH-PJ-aMn" id="umd-ZK-yor"/>
+                <outlet property="headingLabel" destination="hGr-CS-RO5" id="zxe-zX-xW8"/>
+                <outlet property="messageLabel" destination="Tum-to-pBF" id="S8z-UP-Bpl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_where" translatesAutoresizingMaskIntoConstraints="NO" id="7wH-PJ-aMn">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="6Gi-zL-lQR"/>
+                        <constraint firstAttribute="width" constant="140" id="9Q9-2M-Hem"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6Gi-zL-lQR"/>
+                            <exclude reference="9Q9-2M-Hem"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6Gi-zL-lQR"/>
+                            <include reference="9Q9-2M-Hem"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGr-CS-RO5">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="45" id="Iif-kO-FoK"/>
+                    </constraints>
+                    <string key="text">Where are you?
+hhg</string>
+                    <fontDescription key="fontDescription" name="Heavenetica6MedSH" family="Heavenetica6" pointSize="17"/>
+                    <color key="textColor" red="0.90980392156862744" green="0.34901960784313724" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Iif-kO-FoK"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="20" y="220" width="360" height="40"/>
+                        <mask key="constraints">
+                            <include reference="Iif-kO-FoK"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tum-to-pBF">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <string key="text">To find ybbttou bbbetter matches, Woo needs to know your location more accurately.  Go To settings&gt;Privacy&gt;Services and switch ON location. pq </string>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="14"/>
+                    <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="34" y="266" width="332" height="82"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORe-DK-jPo">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.34901960780000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="Nvr-AD-qA7"/>
+                        <constraint firstAttribute="width" constant="177" id="wOE-nr-CzE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="14"/>
+                    <state key="normal" title="Complete your profile">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Nvr-AD-qA7"/>
+                            <exclude reference="wOE-nr-CzE"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Nvr-AD-qA7"/>
+                            <include reference="wOE-nr-CzE"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="aSd-cP-A5F"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hGr-CS-RO5" firstAttribute="top" secondItem="7wH-PJ-aMn" secondAttribute="bottom" constant="24" id="BmO-NX-Qag"/>
+                <constraint firstItem="Tum-to-pBF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="Gqk-DW-1Fq"/>
+                <constraint firstItem="hGr-CS-RO5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="NZP-ii-QKl"/>
+                <constraint firstAttribute="centerX" secondItem="Tum-to-pBF" secondAttribute="centerX" id="UTP-vh-21v"/>
+                <constraint firstAttribute="centerX" secondItem="7wH-PJ-aMn" secondAttribute="centerX" id="YEM-kX-xx0"/>
+                <constraint firstItem="Tum-to-pBF" firstAttribute="top" secondItem="hGr-CS-RO5" secondAttribute="bottom" constant="25" id="Ysg-dG-fg1"/>
+                <constraint firstItem="7wH-PJ-aMn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="56" id="bE1-oA-oO0"/>
+                <constraint firstAttribute="trailing" secondItem="Tum-to-pBF" secondAttribute="trailing" constant="34" id="fRW-Fu-F0Y"/>
+                <constraint firstAttribute="bottom" secondItem="ORe-DK-jPo" secondAttribute="bottom" constant="22" id="kLC-HY-c7m"/>
+                <constraint firstAttribute="trailing" secondItem="hGr-CS-RO5" secondAttribute="trailing" constant="20" id="rBe-ZV-wCM"/>
+                <constraint firstAttribute="centerX" secondItem="ORe-DK-jPo" secondAttribute="centerX" constant="-0.5" id="ygM-Yi-8T2"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="7wH-PJ-aMn"/>
+                    <exclude reference="hGr-CS-RO5"/>
+                    <exclude reference="Tum-to-pBF"/>
+                    <exclude reference="ORe-DK-jPo"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Gqk-DW-1Fq"/>
+                    <exclude reference="UTP-vh-21v"/>
+                    <exclude reference="Ysg-dG-fg1"/>
+                    <exclude reference="fRW-Fu-F0Y"/>
+                    <exclude reference="BmO-NX-Qag"/>
+                    <exclude reference="NZP-ii-QKl"/>
+                    <exclude reference="rBe-ZV-wCM"/>
+                    <exclude reference="kLC-HY-c7m"/>
+                    <exclude reference="ygM-Yi-8T2"/>
+                    <exclude reference="YEM-kX-xx0"/>
+                    <exclude reference="bE1-oA-oO0"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="7wH-PJ-aMn"/>
+                    <include reference="hGr-CS-RO5"/>
+                    <include reference="Tum-to-pBF"/>
+                    <include reference="ORe-DK-jPo"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Gqk-DW-1Fq"/>
+                    <include reference="UTP-vh-21v"/>
+                    <include reference="Ysg-dG-fg1"/>
+                    <include reference="fRW-Fu-F0Y"/>
+                    <include reference="BmO-NX-Qag"/>
+                    <include reference="NZP-ii-QKl"/>
+                    <include reference="rBe-ZV-wCM"/>
+                    <include reference="kLC-HY-c7m"/>
+                    <include reference="ygM-Yi-8T2"/>
+                    <include reference="YEM-kX-xx0"/>
+                    <include reference="bE1-oA-oO0"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-49" y="281"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="onboarding_where" width="140" height="140"/>
+    </resources>
+</document>

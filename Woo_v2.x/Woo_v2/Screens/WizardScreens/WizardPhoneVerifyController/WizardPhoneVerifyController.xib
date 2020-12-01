@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Black.ttf">
+            <string>Lato-Black</string>
+        </array>
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WizardPhoneVerifyController" customModule="Woo_v2" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="qO7-yl-mEg" id="8bQ-Ro-O1S"/>
+                <outlet property="counterLabel" destination="S5y-jJ-ycY" id="BTn-wL-60i"/>
+                <outlet property="nextButton" destination="2BB-2W-SG2" id="ofq-ao-rfk"/>
+                <outlet property="phoneImageView" destination="5aT-8k-muS" id="Wvo-hb-nrD"/>
+                <outlet property="phoneVerifiedView" destination="mgD-oS-tYg" id="Rdp-hH-pc7"/>
+                <outlet property="secondLabel" destination="umU-dv-kfj" id="JGW-u3-vcz"/>
+                <outlet property="verifyNumberButton" destination="BwQ-t5-aGP" id="0dR-0Q-qJg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwQ-t5-aGP">
+                    <rect key="frame" x="86" y="507" width="203" height="50"/>
+                    <color key="backgroundColor" red="0.2666666667" green="0.50588235290000005" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CXF-iV-TaX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                    <state key="normal" title="     VERIFY PHONE NUMBER     ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="verifyNumber:" destination="-1" eventType="touchUpInside" id="YjE-D0-nZM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPF-1z-kch">
+                    <rect key="frame" x="20" y="40" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.31764705879999999" green="0.32549019610000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3Ib-Of-B0o"/>
+                        <constraint firstAttribute="width" constant="60" id="UaQ-PF-hP7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                    <state key="normal" title="Close"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="close:" destination="-1" eventType="touchUpInside" id="TGr-Ue-8dh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify Your Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH2-Ym-4qB">
+                    <rect key="frame" x="70" y="80" width="236.5" height="35"/>
+                    <fontDescription key="fontDescription" name="Lato-Black" family="Lato" pointSize="30"/>
+                    <color key="textColor" red="0.26666666666666666" green="0.50588235294117645" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your number and add a badge to your profile" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umU-dv-kfj">
+                    <rect key="frame" x="37" y="135" width="300" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="qQS-4P-LIX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="16"/>
+                    <color key="textColor" red="0.2666666667" green="0.50588235290000005" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_wizard_phone_verify" translatesAutoresizingMaskIntoConstraints="NO" id="5aT-8k-muS">
+                    <rect key="frame" x="112.5" y="284.5" width="149" height="97"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="97" id="UcL-hR-5Dg"/>
+                        <constraint firstAttribute="width" constant="149" id="sgm-VI-AgG"/>
+                    </constraints>
+                </imageView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mgD-oS-tYg">
+                    <rect key="frame" x="97" y="276" width="180" height="114"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone number verified" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zD-gA-pnJ">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="jbK-Ou-qUm"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="16"/>
+                            <color key="textColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_wizard_phone_verified" translatesAutoresizingMaskIntoConstraints="NO" id="7Ve-kL-pfB">
+                            <rect key="frame" x="53" y="40" width="74" height="74"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="74" id="sb4-ii-QFB"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0zD-gA-pnJ" firstAttribute="leading" secondItem="mgD-oS-tYg" secondAttribute="leading" id="59t-Ne-j56"/>
+                        <constraint firstAttribute="trailing" secondItem="0zD-gA-pnJ" secondAttribute="trailing" id="RWh-kZ-nIj"/>
+                        <constraint firstItem="0zD-gA-pnJ" firstAttribute="top" secondItem="mgD-oS-tYg" secondAttribute="top" id="UnD-gf-FyJ"/>
+                        <constraint firstAttribute="height" constant="114" id="YNo-aM-8V5"/>
+                        <constraint firstAttribute="width" constant="180" id="aFe-ZC-chy"/>
+                        <constraint firstAttribute="bottom" secondItem="7Ve-kL-pfB" secondAttribute="bottom" id="n2J-eB-3gG"/>
+                        <constraint firstItem="7Ve-kL-pfB" firstAttribute="centerX" secondItem="mgD-oS-tYg" secondAttribute="centerX" id="oDj-Sp-mxX"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1X-y3-8gK" userLabel="bottomView">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qO7-yl-mEg">
+                            <rect key="frame" x="8" y="8" width="79" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="Rt1-7I-SKM">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="79"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-14" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="-20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="BACK" image="ic_arrow_left_coral">
+                                <color key="titleColor" red="0.98039215690000003" green="0.28235294119999998" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="ic_arrow_left_coral"/>
+                            <state key="highlighted" image="ic_arrow_left_coral"/>
+                            <state key="focused" image="ic_arrow_left_coral"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Rt1-7I-SKM"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                                <mask key="constraints">
+                                    <include reference="Rt1-7I-SKM"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="F9I-5c-IKU"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 of 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="S5y-jJ-ycY">
+                            <rect key="frame" x="144" y="14.5" width="87" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="5ww-hx-bDW"/>
+                                <constraint firstAttribute="width" constant="87" id="toH-XQ-Vbb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="5ww-hx-bDW"/>
+                                    <exclude reference="toH-XQ-Vbb"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="5ww-hx-bDW"/>
+                                    <include reference="toH-XQ-Vbb"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="headTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BB-2W-SG2">
+                            <rect key="frame" x="301" y="8" width="66" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="66" id="cP8-lT-adk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="-45" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="45" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="NEXT" image="arrow_Right_red">
+                                <color key="titleColor" red="0.98039215690000003" green="0.28235294119999998" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="arrow_Right_red"/>
+                            <state key="highlighted" image="arrow_Right_red"/>
+                            <state key="focused" image="arrow_Right_red"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="cP8-lT-adk"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                                <mask key="constraints">
+                                    <include reference="cP8-lT-adk"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="next:" destination="-1" eventType="touchUpInside" id="QRI-of-gku"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="qO7-yl-mEg" secondAttribute="bottom" constant="14" id="78g-qz-CQp">
+                            <variation key="heightClass=regular-widthClass=compact" constant="12"/>
+                        </constraint>
+                        <constraint firstItem="2BB-2W-SG2" firstAttribute="top" secondItem="I1X-y3-8gK" secondAttribute="top" constant="14" id="7IZ-Eg-HZW">
+                            <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                        </constraint>
+                        <constraint firstItem="S5y-jJ-ycY" firstAttribute="centerY" secondItem="I1X-y3-8gK" secondAttribute="centerY" id="8Jn-QX-ePy"/>
+                        <constraint firstItem="S5y-jJ-ycY" firstAttribute="centerX" secondItem="I1X-y3-8gK" secondAttribute="centerX" id="GtD-jC-WR2"/>
+                        <constraint firstItem="qO7-yl-mEg" firstAttribute="top" secondItem="I1X-y3-8gK" secondAttribute="top" constant="14" id="PFj-ku-FI0">
+                            <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                        </constraint>
+                        <constraint firstItem="qO7-yl-mEg" firstAttribute="leading" secondItem="I1X-y3-8gK" secondAttribute="leading" constant="8" id="gDW-fC-idI"/>
+                        <constraint firstAttribute="trailing" secondItem="2BB-2W-SG2" secondAttribute="trailing" constant="8" id="kkS-gW-OxR"/>
+                        <constraint firstAttribute="bottom" secondItem="2BB-2W-SG2" secondAttribute="bottom" constant="14" id="lMf-8N-bwl">
+                            <variation key="heightClass=regular-widthClass=compact" constant="12"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="50" id="tIN-tG-aej"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="qlN-FO-Bbg"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="qO7-yl-mEg"/>
+                            <exclude reference="S5y-jJ-ycY"/>
+                            <exclude reference="2BB-2W-SG2"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="tIN-tG-aej"/>
+                            <exclude reference="78g-qz-CQp"/>
+                            <exclude reference="PFj-ku-FI0"/>
+                            <exclude reference="gDW-fC-idI"/>
+                            <exclude reference="8Jn-QX-ePy"/>
+                            <exclude reference="GtD-jC-WR2"/>
+                            <exclude reference="7IZ-Eg-HZW"/>
+                            <exclude reference="kkS-gW-OxR"/>
+                            <exclude reference="lMf-8N-bwl"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="qO7-yl-mEg"/>
+                            <include reference="S5y-jJ-ycY"/>
+                            <include reference="2BB-2W-SG2"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="tIN-tG-aej"/>
+                            <include reference="78g-qz-CQp"/>
+                            <include reference="PFj-ku-FI0"/>
+                            <include reference="gDW-fC-idI"/>
+                            <include reference="8Jn-QX-ePy"/>
+                            <include reference="GtD-jC-WR2"/>
+                            <include reference="7IZ-Eg-HZW"/>
+                            <include reference="kkS-gW-OxR"/>
+                            <include reference="lMf-8N-bwl"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pH2-Ym-4qB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="53F-fu-Yw1"/>
+                <constraint firstItem="I1X-y3-8gK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="7ZG-sd-CR2"/>
+                <constraint firstItem="mgD-oS-tYg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Fhn-EI-NMs"/>
+                <constraint firstItem="5aT-8k-muS" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="GDv-LF-AM7"/>
+                <constraint firstItem="I1X-y3-8gK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eAy-9A-XHU"/>
+                <constraint firstItem="umU-dv-kfj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.8" id="fr0-Ze-Bga"/>
+                <constraint firstItem="BwQ-t5-aGP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fse-y4-uIt"/>
+                <constraint firstItem="I1X-y3-8gK" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="g3e-GO-RWN"/>
+                <constraint firstItem="mgD-oS-tYg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="giG-IF-0pm"/>
+                <constraint firstItem="I1X-y3-8gK" firstAttribute="top" secondItem="BwQ-t5-aGP" secondAttribute="bottom" constant="60" id="jLp-z7-gQr"/>
+                <constraint firstItem="umU-dv-kfj" firstAttribute="top" secondItem="pH2-Ym-4qB" secondAttribute="bottom" constant="20" id="l2U-sH-vws"/>
+                <constraint firstItem="KPF-1z-kch" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="min-we-xaz"/>
+                <constraint firstItem="umU-dv-kfj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sp4-hk-5ds"/>
+                <constraint firstItem="5aT-8k-muS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vqQ-Gz-F2J"/>
+                <constraint firstItem="pH2-Ym-4qB" firstAttribute="top" secondItem="KPF-1z-kch" secondAttribute="bottom" constant="10" id="wBK-Wo-gu9"/>
+                <constraint firstItem="KPF-1z-kch" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ypX-fn-RiM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="60.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_Right_red" width="24" height="24"/>
+        <image name="ic_arrow_left_coral" width="24" height="24"/>
+        <image name="ic_wizard_phone_verified" width="74" height="74"/>
+        <image name="ic_wizard_phone_verify" width="149" height="97"/>
+    </resources>
+</document>

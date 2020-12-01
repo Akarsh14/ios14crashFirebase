@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Have a question that only the right person would get? Ask! An interesting question can spark a great conversation!"; ObjectID = "FpX-55-c8p"; */
+"FpX-55-c8p.text" = "Tem uma pergunta que apenas a pessoa certa irá perceber? Pergunte! Uma pergunta interessante pode dar início a uma grande conversa!";
+
+/* Class = "UIButton"; normalTitle = "Ask"; ObjectID = "ORe-DK-jPo"; */
+"ORe-DK-jPo.normalTitle" = "Pergunte";
+
+/* Class = "UILabel"; text = "That's all we have for now. New profiles coming soon!\n\nMEANWHILE\n\nYou can Ask a Question"; ObjectID = "Tum-to-pBF"; */
+"Tum-to-pBF.text" = "Isso é tudo que temos por enquanto. Novos perfils em breve!\n\nEnquanto isso\n\nVOCÊ PODE fazer uma pergunta";

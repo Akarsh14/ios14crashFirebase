@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MeExpiredView" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take action before they expire" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKu-xy-5XF">
+                    <rect key="frame" x="14" y="10" width="213" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="HeW-ev-Snz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="16"/>
+                    <color key="textColor" red="0.21568627450980393" green="0.22745098039215686" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="NNk-lo-Bdo">
+                    <rect key="frame" x="0.0" y="30" width="375" height="637"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="14" minimumInteritemSpacing="14" id="xog-db-75y">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="woY-O7-LKQ"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="f5h-zn-xdj"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="0.88235294119999996" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NNk-lo-Bdo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0zX-y1-2ed"/>
+                <constraint firstAttribute="bottom" secondItem="NNk-lo-Bdo" secondAttribute="bottom" id="LPr-DV-gef"/>
+                <constraint firstAttribute="trailing" secondItem="NNk-lo-Bdo" secondAttribute="trailing" id="Mbj-jh-Pxp"/>
+                <constraint firstItem="BKu-xy-5XF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Rpn-G7-TgO"/>
+                <constraint firstItem="NNk-lo-Bdo" firstAttribute="top" secondItem="BKu-xy-5XF" secondAttribute="bottom" id="Ur2-jp-UmD"/>
+                <constraint firstItem="BKu-xy-5XF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="emT-kz-4EO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="mlb-n9-bcD"/>
+            <connections>
+                <outlet property="expiredCollectionView" destination="NNk-lo-Bdo" id="xDw-Pq-52g"/>
+                <outlet property="expiryHeaderLabel" destination="BKu-xy-5XF" id="1fF-e5-3h6"/>
+            </connections>
+        </view>
+    </objects>
+</document>

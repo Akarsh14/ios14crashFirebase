@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Have a question that only the right person would get? Ask! An interesting question can spark a great conversation!"; ObjectID = "FpX-55-c8p"; */
+"FpX-55-c8p.text" = "Có một câu hỏi mà chỉ duy nhất người phù hợp mới nhận được? Hỏi ngay! Một câu hỏi thú vị có thể châm ngòi một cuộc trò chuyện tuyệt vời!";
+
+/* Class = "UIButton"; normalTitle = "Ask"; ObjectID = "ORe-DK-jPo"; */
+"ORe-DK-jPo.normalTitle" = "Hỏi";
+
+/* Class = "UILabel"; text = "That's all we have for now. New profiles coming soon!\n\nMEANWHILE\n\nYou can Ask a Question"; ObjectID = "Tum-to-pBF"; */
+"Tum-to-pBF.text" = "Đó là tất cả chúng ta có bây giờ. Các hồ sơ mới sẽ đến ngay thôi!\n\nTrong khi đó\n\nBạn có thể hỏi một câu hỏi";

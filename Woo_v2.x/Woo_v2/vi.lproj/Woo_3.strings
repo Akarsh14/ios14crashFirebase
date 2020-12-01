@@ -1,0 +1,405 @@
+
+/* Class = "UILabel"; text = "Add two more pics to increase your profile streanth by 5%"; ObjectID = "08E-nc-qMY"; */
+"08E-nc-qMY.text" = "Add two more pics to increase your profile streanth by 5%";
+
+/* Class = "UILabel"; text = "HOT THANG!"; ObjectID = "0x2-Yp-0Z0"; */
+"0x2-Yp-0Z0.text" = "HOT THANG!";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "1g2-4D-5rx"; */
+"1g2-4D-5rx.text" = "--";
+
+/* Class = "UILabel"; text = "You have 5 boosts left!"; ObjectID = "2pA-2l-kYe"; */
+"2pA-2l-kYe.text" = "You have 5 boosts left!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "38g-0j-GT6"; */
+"38g-0j-GT6.text" = "Label";
+
+/* Class = "UILabel"; text = "36"; ObjectID = "42V-WI-Red"; */
+"42V-WI-Red.text" = "36";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "4iE-y8-Zwh"; */
+"4iE-y8-Zwh.text" = "22";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4pW-Zf-YLA"; */
+"4pW-Zf-YLA.text" = "Label";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "5X2-mP-iNO"; */
+"5X2-mP-iNO.text" = "100%";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6Ci-Dm-viw"; */
+"6Ci-Dm-viw.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Casual"; ObjectID = "76c-uw-TXf"; */
+"76c-uw-TXf.normalTitle" = "Dating";
+
+/* Class = "UIButton"; selectedTitle = "Casual"; ObjectID = "76c-uw-TXf"; */
+"76c-uw-TXf.selectedTitle" = "Dating";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "7GC-aZ-ivu"; */
+"7GC-aZ-ivu.normalTitle" = "More Info";
+
+/* Class = "UILabel"; text = "Andrew likes you too"; ObjectID = "7aH-Er-Yys"; */
+"7aH-Er-Yys.text" = "Andrew likes you too";
+
+/* Class = "UILabel"; text = "BOOSTED"; ObjectID = "7h8-dM-n6N"; */
+"7h8-dM-n6N.text" = "BOOSTED";
+
+/* Class = "UILabel"; text = "5'9\", Gurgaon, India"; ObjectID = "7mM-4N-SHK"; */
+"7mM-4N-SHK.text" = "5'9\", Gurgaon, India";
+
+/* Class = "UILabel"; text = "Send a crush to the one who you really likes & form the right first expression."; ObjectID = "8gC-jt-ngp"; */
+"8gC-jt-ngp.text" = "Send a crush to the one who you really likes & form the right first expression.";
+
+/* Class = "UILabel"; text = "Rotate the dial to set an age range for discovery"; ObjectID = "9jv-Zy-fec"; */
+"9jv-Zy-fec.text" = "Rotate the dial to set an age range for discovery";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "A2B-Gi-8Ml"; */
+"A2B-Gi-8Ml.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ae0-J4-ek0"; */
+"Ae0-J4-ek0.text" = "Label";
+
+/* Class = "UILabel"; text = "Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla "; ObjectID = "Cn3-6k-oFs"; */
+"Cn3-6k-oFs.text" = "Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla ";
+
+/* Class = "UILabel"; text = "Share your feedback"; ObjectID = "D11-n7-RjZ"; */
+"D11-n7-RjZ.text" = "Share your feedback";
+
+/* Class = "UIButton"; normalTitle = "ANSWER"; ObjectID = "Do6-Nn-4RO"; */
+"Do6-Nn-4RO.normalTitle" = "ANSWER";
+
+/* Class = "UILabel"; text = "If you could bring one fictional character to life, which one would it be?"; ObjectID = "E5k-SR-3vy"; */
+"E5k-SR-3vy.text" = "If you could bring one fictional character to life, which one would it be?";
+
+/* Class = "UILabel"; text = "Edit your profile or Swipe right to start discovering"; ObjectID = "ERQ-Vt-FaJ"; */
+"ERQ-Vt-FaJ.text" = "Edit your profile or Swipe right to start discovering";
+
+/* Class = "UILabel"; text = "You haven't asked any questions yet."; ObjectID = "Eac-Yr-lAX"; */
+"Eac-Yr-lAX.text" = "Ask a question to match with your kind!";
+
+/* Class = "UILabel"; text = "You matched through Crush"; ObjectID = "En1-oL-CaR"; */
+"En1-oL-CaR.text" = "You matched through Crush";
+
+/* Class = "UILabel"; text = "View My Profile"; ObjectID = "Esu-D2-lpX"; */
+"Esu-D2-lpX.text" = "View My Profile";
+
+/* Class = "UIButton"; normalTitle = "MORE INFO"; ObjectID = "Fy7-OP-pGY"; */
+"Fy7-OP-pGY.normalTitle" = "MORE INFO";
+
+/* Class = "UIButton"; normalTitle = "MANAGE"; ObjectID = "GOc-Bq-70T"; */
+"GOc-Bq-70T.normalTitle" = "MANAGE";
+
+/* Class = "UILabel"; text = "My Questions"; ObjectID = "GrC-l9-TE7"; */
+"GrC-l9-TE7.text" = "My Questions";
+
+/* Class = "UIButton"; normalTitle = "Post"; ObjectID = "HII-oK-dMe"; */
+"HII-oK-dMe.normalTitle" = "Post";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "HJ2-MY-jZS"; */
+"HJ2-MY-jZS.normalTitle" = "More Info";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "I1D-Tp-poG"; */
+"I1D-Tp-poG.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Iup-IB-sCG"; */
+"Iup-IB-sCG.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "About Andrew"; ObjectID = "J5Q-4b-WsP"; */
+"J5Q-4b-WsP.text" = "About Andrew";
+
+/* Class = "UILabel"; text = "75"; ObjectID = "KZD-eW-N7A"; */
+"KZD-eW-N7A.text" = "75";
+
+/* Class = "UILabel"; text = "Save 30%"; ObjectID = "Kz4-Nr-KVL"; */
+"Kz4-Nr-KVL.text" = "Save 30%";
+
+/* Class = "UILabel"; text = "Suparno"; ObjectID = "L39-M8-ElO"; */
+"L39-M8-ElO.text" = "Suparno";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "L9a-Eo-l1i"; */
+"L9a-Eo-l1i.text" = "--";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "M1y-oh-Fmb"; */
+"M1y-oh-Fmb.text" = "10";
+
+/* Class = "UILabel"; text = "1 month"; ObjectID = "MHH-Qg-oAJ"; */
+"MHH-Qg-oAJ.text" = "1 month";
+
+/* Class = "UILabel"; text = "/boost"; ObjectID = "N5Q-RX-qHV"; */
+"N5Q-RX-qHV.text" = "/boost";
+
+/* Class = "UILabel"; text = "No Visitors Yet ?"; ObjectID = "NYj-Yr-ZN3"; */
+"NYj-Yr-ZN3.text" = "No Visitors Yet";
+
+/* Class = "UILabel"; text = "YOU ANSWERED"; ObjectID = "NjX-tc-Lvo"; */
+"NjX-tc-Lvo.text" = "YOU ANSWERED";
+
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "OEo-Oe-s88"; */
+"OEo-Oe-s88.title" = "Discover";
+
+/* Class = "UILabel"; text = "No Crushes Yet ?"; ObjectID = "OpP-LB-FFI"; */
+"OpP-LB-FFI.text" = "No Crushes Yet ?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PhO-em-ctp"; */
+"PhO-em-ctp.text" = "Label";
+
+/* Class = "UILabel"; text = "boosts"; ObjectID = "PuH-aP-zL4"; */
+"PuH-aP-zL4.text" = "boosts";
+
+/* Class = "UILabel"; text = "This is a advertisement area for new stuff"; ObjectID = "QKT-dA-IHH"; */
+"QKT-dA-IHH.text" = "This is a advertisement area for new stuff";
+
+/* Class = "UILabel"; text = "Suparno"; ObjectID = "QxO-A9-j77"; */
+"QxO-A9-j77.text" = "Suparno";
+
+/* Class = "UILabel"; text = "Sound Alerts"; ObjectID = "RIO-wh-gNn"; */
+"RIO-wh-gNn.text" = "Sound Alerts";
+
+/* Class = "UIButton"; normalTitle = "Friends"; ObjectID = "RT8-Uw-1Mf"; */
+"RT8-Uw-1Mf.normalTitle" = "Friends";
+
+/* Class = "UIButton"; selectedTitle = "Friends"; ObjectID = "RT8-Uw-1Mf"; */
+"RT8-Uw-1Mf.selectedTitle" = "Friends";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "RdX-nC-zm9"; */
+"RdX-nC-zm9.normalTitle" = "More Info";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "SUj-8t-7k8"; */
+"SUj-8t-7k8.text" = "100";
+
+/* Class = "UIView"; accessibilityLabel = "Answer middle Container"; ObjectID = "SWR-cQ-78l"; */
+"SWR-cQ-78l.accessibilityLabel" = "Answer middle Container";
+
+/* Class = "UILabel"; text = "Miles"; ObjectID = "SjU-xu-QK3"; */
+"SjU-xu-QK3.text" = "Miles";
+
+/* Class = "UILabel"; text = "Distance from me"; ObjectID = "TuV-71-u2y"; */
+"TuV-71-u2y.text" = "Distance from me";
+
+/* Class = "UIButton"; normalTitle = "Love of my life"; ObjectID = "UPj-vu-9SQ"; */
+"UPj-vu-9SQ.normalTitle" = "Love of my life";
+
+/* Class = "UIButton"; selectedTitle = "Love of my life"; ObjectID = "UPj-vu-9SQ"; */
+"UPj-vu-9SQ.selectedTitle" = "Love of my life";
+
+/* Class = "UILabel"; text = "How far would you go to find true love ?"; ObjectID = "UR3-CE-bAr"; */
+"UR3-CE-bAr.text" = "How far would you go to find true love ?";
+
+/* Class = "UILabel"; text = "Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs."; ObjectID = "Ubd-T0-eTy"; */
+"Ubd-T0-eTy.text" = "Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.";
+
+/* Class = "UILabel"; text = "Crush"; ObjectID = "Unn-RN-nlm"; */
+"Unn-RN-nlm.text" = "Crush";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xd1-T9-rDm"; */
+"Xd1-T9-rDm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xld-2q-KjV"; */
+"Xld-2q-KjV.text" = "Label";
+
+/* Class = "UILabel"; text = "1 month"; ObjectID = "Y56-ni-zyx"; */
+"Y56-ni-zyx.text" = "1 month";
+
+/* Class = "UILabel"; text = "Your profile is fascinating! I'd love to know what makes you. Hope"; ObjectID = "YOP-yY-djN"; */
+"YOP-yY-djN.text" = "Your profile is fascinating! I'd love to know what makes you. Hope";
+
+/* Class = "UILabel"; text = "Retry"; ObjectID = "YWF-1i-ish"; */
+"YWF-1i-ish.text" = "Retry";
+
+/* Class = "UILabel"; text = "29"; ObjectID = "Yxd-OB-eDI"; */
+"Yxd-OB-eDI.text" = "29";
+
+/* Class = "UILabel"; text = "No Internet Connection"; ObjectID = "Z5I-fF-VkJ"; */
+"Z5I-fF-VkJ.text" = "No Internet Connection";
+
+/* Class = "UILabel"; text = "Select your relationship preference"; ObjectID = "ZHH-T7-8Ik"; */
+"ZHH-T7-8Ik.text" = "Select your relationship preference";
+
+/* Class = "UILabel"; text = "/boost"; ObjectID = "bhs-aa-JwW"; */
+"bhs-aa-JwW.text" = "/boost";
+
+/* Class = "UIButton"; normalTitle = "GET BOOSTED"; ObjectID = "cQt-HZ-VwI"; */
+"cQt-HZ-VwI.normalTitle" = "GET BOOSTED";
+
+/* Class = "UILabel"; text = "AB,"; ObjectID = "d8m-cy-vXu"; */
+"d8m-cy-vXu.text" = "AB,";
+
+/* Class = "UILabel"; text = "or fkjasd fkajsdlkf jasdl;fj a;lsdjf ;ladsjf lasjd flajsdf lajsd;lf jasdlkfj asl;djf lasdjf lkasdj flasjdlfj asdlkfj alksdjf l;ajsfl ;ajsdlf jasdlf jasldfjalskdj flasdj flasdjf lasdj flasj d"; ObjectID = "dgi-tr-suj"; */
+"dgi-tr-suj.text" = "or fkjasd fkajsdlkf jasdl;fj a;lsdjf ;ladsjf lasjd flajsdf lajsd;lf jasdlkfj asl;djf lasdjf lkasdj flasjdlfj asdlkfj alksdjf l;ajsfl ;ajsdlf jasdlf jasldfjalskdj flasdj flasdjf lasdj flasj d";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e03-oi-EKC"; */
+"e03-oi-EKC.text" = "Label";
+
+/* Class = "UILabel"; text = "to"; ObjectID = "eoA-pP-Nxh"; */
+"eoA-pP-Nxh.text" = "to";
+
+/* Class = "UILabel"; text = "or fkjasd fkajsdlkf jasdl;fj a;lsdjf ;ladsjf lasjd flajsdf lajsd;lf jasdlkfj asl;djf lasdjf lkasdj flasjdlfj asdlkfj alksdjf l;ajsfl ;ajsdlf jasdlf jasldfjalskdj flasdj flasdjf lasdj flasj d"; ObjectID = "fgP-yy-ZAw"; */
+"fgP-yy-ZAw.text" = "or fkjasd fkajsdlkf jasdl;fj a;lsdjf ;ladsjf lasjd flajsdf lajsd;lf jasdlkfj asl;djf lasdjf lkasdj flasjdlfj asdlkfj alksdjf l;ajsfl ;ajsdlf jasdlf jasldfjalskdj flasdj flasdjf lasdj flasj d";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "g3D-0g-Dx4"; */
+"g3D-0g-Dx4.normalTitle" = "More Info";
+
+/* Class = "UILabel"; text = "With subscription you will totally get some because your profile will be the bombdiggity."; ObjectID = "g7a-OF-5Qd"; */
+"g7a-OF-5Qd.text" = "With subscription you will totally get some because your profile will be the bombdiggity.";
+
+/* Class = "UILabel"; text = "18"; ObjectID = "gd2-s8-GNz"; */
+"gd2-s8-GNz.text" = "18";
+
+/* Class = "UILabel"; text = "Suparno"; ObjectID = "gkA-BP-IuK"; */
+"gkA-BP-IuK.text" = "Suparno";
+
+/* Class = "UILabel"; text = ">200"; ObjectID = "grK-NE-H9p"; */
+"grK-NE-H9p.text" = ">200";
+
+/* Class = "UILabel"; text = "175"; ObjectID = "hQ4-Mc-V4j"; */
+"hQ4-Mc-V4j.text" = "175";
+
+/* Class = "UILabel"; text = "Linkedin Verified."; ObjectID = "hje-TM-HPP"; */
+"hje-TM-HPP.text" = "Linkedin Verified.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jWa-YT-L52"; */
+"jWa-YT-L52.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "More"; ObjectID = "jcY-Tv-ZjX"; */
+"jcY-Tv-ZjX.title" = "More";
+
+/* Class = "UILabel"; text = "Please check your connection and try again"; ObjectID = "jnB-M6-QID"; */
+"jnB-M6-QID.text" = "Please check your connection and try again";
+
+/* Class = "UILabel"; text = "Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs."; ObjectID = "jr9-xT-ITz"; */
+"jr9-xT-ITz.text" = "Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.Want to see who visited? Maybe it's your curiosity or something else, see who dropped by and much more with our subscription packs.";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "kQA-ma-rIM"; */
+"kQA-ma-rIM.text" = "10";
+
+/* Class = "UILabel"; text = "No Profiles Yet ?"; ObjectID = "kgt-Ac-2h3"; */
+"kgt-Ac-2h3.text" = "No Profiles Yet";
+
+/* Class = "UILabel"; text = "Write Answer"; ObjectID = "kt3-pQ-fmJ"; */
+"kt3-pQ-fmJ.text" = "Write Answer";
+
+/* Class = "UILabel"; text = "75"; ObjectID = "ktK-6T-S15"; */
+"ktK-6T-S15.text" = "75";
+
+/* Class = "UILabel"; text = "Keep Swiping"; ObjectID = "l23-15-f5W"; */
+"l23-15-f5W.text" = "Keep Swiping";
+
+/* Class = "UIView"; accessibilityLabel = "Answer middle Container"; ObjectID = "l9C-FA-k6k"; */
+"l9C-FA-k6k.accessibilityLabel" = "Answer middle Container";
+
+/* Class = "UILabel"; text = "Scrummaster at Woo Tech Lead at LnT Infotech"; ObjectID = "lPB-TZ-r2u"; */
+"lPB-TZ-r2u.text" = "Scrummaster at Woo Tech Lead at LnT Infotech";
+
+/* Class = "UILabel"; text = "1234kb"; ObjectID = "lt4-sD-SGO"; */
+"lt4-sD-SGO.text" = "1234kb";
+
+/* Class = "UILabel"; text = "Tap on the button below and you'll be on your way to some crazy conversations. Giddie up!"; ObjectID = "mLe-OD-94E"; */
+"mLe-OD-94E.text" = "The questions you ask will be added to your profile. If you like an answer, you match with that person. It's a fantastic way to meet the right kind of people.";
+
+/* Class = "UILabel"; text = "Maharani Bagh"; ObjectID = "njw-RA-h2d"; */
+"njw-RA-h2d.text" = "Maharani Bagh";
+
+/* Class = "UILabel"; text = "50"; ObjectID = "nth-NO-AK7"; */
+"nth-NO-AK7.text" = "50";
+
+/* Class = "UIButton"; normalTitle = "More Info"; ObjectID = "oIt-ly-XxJ"; */
+"oIt-ly-XxJ.normalTitle" = "More Info";
+
+/* Class = "UILabel"; text = "ago"; ObjectID = "ozZ-rG-fLe"; */
+"ozZ-rG-fLe.text" = "ago";
+
+/* Class = "UILabel"; text = "With subscription packs you will totally get some  because your profile will be the bombdiggity."; ObjectID = "p09-GQ-vL5"; */
+"p09-GQ-vL5.text" = "With subscription packs you will totally get some  because your profile will be the bombdiggity.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "p5f-nm-tCf"; */
+"p5f-nm-tCf.text" = "Label";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "pa8-2Y-cBw"; */
+"pa8-2Y-cBw.text" = "20";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pdd-IC-kvc"; */
+"pdd-IC-kvc.text" = "Label";
+
+/* Class = "UILabel"; text = "17%"; ObjectID = "pm5-Js-vJU"; */
+"pm5-Js-vJU.text" = "17%";
+
+/* Class = "UILabel"; text = "Gender Preferences"; ObjectID = "q6y-qh-7tK"; */
+"q6y-qh-7tK.text" = "Gender Preferences";
+
+/* Class = "UILabel"; text = "1 month"; ObjectID = "qel-Ql-lRO"; */
+"qel-Ql-lRO.text" = "1 month";
+
+/* Class = "UILabel"; text = "No Matches Yet ?"; ObjectID = "qpp-cG-jX7"; */
+"qpp-cG-jX7.text" = "Matchbox";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "rKp-db-omu"; */
+"rKp-db-omu.text" = "--";
+
+/* Class = "UILabel"; text = "View My Profile"; ObjectID = "s1x-K5-gKt"; */
+"s1x-K5-gKt.text" = "View My Profile";
+
+/* Class = "UILabel"; text = "About Andrew"; ObjectID = "s9Q-Ra-XS2"; */
+"s9Q-Ra-XS2.text" = "About Andrew";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sVa-z2-Pq4"; */
+"sVa-z2-Pq4.text" = "Label";
+
+/* Class = "UILabel"; text = "Rs."; ObjectID = "tLd-7z-0h3"; */
+"tLd-7z-0h3.text" = "Rs.";
+
+/* Class = "UIButton"; normalTitle = "START CHATTING"; ObjectID = "taQ-rt-cuC"; */
+"taQ-rt-cuC.normalTitle" = "START CHATTING";
+
+/* Class = "UILabel"; text = "No Internet Connection"; ObjectID = "u7F-hY-35W"; */
+"u7F-hY-35W.text" = "No Internet Connection";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ub2-Ls-QLQ"; */
+"ub2-Ls-QLQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Please check your connection and try again"; ObjectID = "v5R-z0-IX5"; */
+"v5R-z0-IX5.text" = "Please check your connection and try again";
+
+/* Class = "UISegmentedControl"; vO1-UT-iaa.segmentTitles[0] = "Discover Settings"; ObjectID = "vO1-UT-iaa"; */
+"vO1-UT-iaa.segmentTitles[0]" = "Discover Settings";
+
+/* Class = "UISegmentedControl"; vO1-UT-iaa.segmentTitles[1] = "App Settings"; ObjectID = "vO1-UT-iaa"; */
+"vO1-UT-iaa.segmentTitles[1]" = "App Settings";
+
+/* Class = "UILabel"; text = "Kms"; ObjectID = "vgq-6x-ohN"; */
+"vgq-6x-ohN.text" = "Kms";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vnK-vW-UqS"; */
+"vnK-vW-UqS.text" = "Label";
+
+/* Class = "UILabel"; text = "Suparno"; ObjectID = "wHt-ec-ixF"; */
+"wHt-ec-ixF.text" = "Suparno";
+
+/* Class = "UILabel"; text = "Rs."; ObjectID = "xH8-BB-VpA"; */
+"xH8-BB-VpA.text" = "Rs.";
+
+/* Class = "UILabel"; text = "ago"; ObjectID = "xOe-Yk-sPO"; */
+"xOe-Yk-sPO.text" = "ago";
+
+/* Class = "UITabBarItem"; title = "Matchbox"; ObjectID = "xkB-9j-J9O"; */
+"xkB-9j-J9O.title" = "Matchbox";
+
+/* Class = "UILabel"; text = "Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla "; ObjectID = "xyz-hu-TPb"; */
+"xyz-hu-TPb.text" = "Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla ";
+
+/* Class = "UILabel"; text = "ago"; ObjectID = "y0R-O9-Kh2"; */
+"y0R-O9-Kh2.text" = "ago";
+
+/* Class = "UILabel"; text = "Suparno, 28"; ObjectID = "z78-b1-CbK"; */
+"z78-b1-CbK.text" = "Suparno, 28";
+
+/* Class = "UIView"; accessibilityLabel = "Answer middle Container"; ObjectID = "zUf-cg-iMB"; */
+"zUf-cg-iMB.accessibilityLabel" = "Answer middle Container";
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "zmw-2Z-bpU"; */
+"zmw-2Z-bpU.title" = "Me";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zqX-uO-Aie"; */
+"zqX-uO-Aie.text" = "Label";
+
+
+"YZP-AE-N8R.normalTitle" = "NEXT";

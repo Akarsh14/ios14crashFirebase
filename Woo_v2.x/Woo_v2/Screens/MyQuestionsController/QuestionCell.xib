@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="QuestionCell" customModule="Woo_v2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJW-W4-mua">
+                        <rect key="frame" x="6" y="8" width="308" height="104"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me gunwalls no prey, no pay port sutler aye crow's nest swab?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-DO-ryS">
+                                <rect key="frame" x="15" y="15" width="278" height="35"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="0.44705882352941173" green="0.46666666666666667" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45 minutes ago" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXJ-QV-Zzj">
+                                <rect key="frame" x="15" y="75" width="83" height="14"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                <color key="textColor" red="0.44705882349999998" green="0.46666666670000001" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxS-Sv-dB7">
+                                <rect key="frame" x="278" y="72" width="30" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="dG4-U3-Ccg"/>
+                                    <constraint firstAttribute="height" constant="22" id="kL1-KZ-Vya"/>
+                                </constraints>
+                                <state key="normal" image="moreDotsButton"/>
+                                <connections>
+                                    <action selector="optionsButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GF1-Qh-UiM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQA-38-SIf">
+                                <rect key="frame" x="265" y="73" width="8" height="20"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="answerCountImage" translatesAutoresizingMaskIntoConstraints="NO" id="Dux-mD-J45">
+                                <rect key="frame" x="241" y="71" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5ZS-Xd-h68"/>
+                                    <constraint firstAttribute="width" constant="24" id="mg4-nC-m6m"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pQA-38-SIf" firstAttribute="leading" secondItem="Dux-mD-J45" secondAttribute="trailing" id="5EP-sk-20O"/>
+                            <constraint firstItem="EXJ-QV-Zzj" firstAttribute="top" secondItem="bRC-DO-ryS" secondAttribute="bottom" constant="25" id="9vv-co-Qrv"/>
+                            <constraint firstAttribute="trailing" secondItem="pQA-38-SIf" secondAttribute="trailing" constant="35" id="Lct-2O-3ZJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Dux-mD-J45" secondAttribute="bottom" constant="8.5" id="Pzl-d3-Czh"/>
+                            <constraint firstItem="bRC-DO-ryS" firstAttribute="leading" secondItem="rJW-W4-mua" secondAttribute="leading" constant="15" id="RPr-vw-RYL"/>
+                            <constraint firstItem="yxS-Sv-dB7" firstAttribute="top" secondItem="bRC-DO-ryS" secondAttribute="bottom" constant="22" id="Wwz-Tv-DLV"/>
+                            <constraint firstAttribute="trailing" secondItem="yxS-Sv-dB7" secondAttribute="trailing" id="ah9-IO-eI0"/>
+                            <constraint firstItem="EXJ-QV-Zzj" firstAttribute="leading" secondItem="rJW-W4-mua" secondAttribute="leading" constant="15" id="amw-Ac-f7G"/>
+                            <constraint firstAttribute="bottom" secondItem="EXJ-QV-Zzj" secondAttribute="bottom" constant="15" id="bwd-9Z-HHC"/>
+                            <constraint firstAttribute="trailing" secondItem="bRC-DO-ryS" secondAttribute="trailing" constant="15" id="fy6-MD-MVj"/>
+                            <constraint firstItem="bRC-DO-ryS" firstAttribute="top" secondItem="rJW-W4-mua" secondAttribute="top" constant="15" id="g24-Fq-cod"/>
+                            <constraint firstItem="pQA-38-SIf" firstAttribute="top" secondItem="bRC-DO-ryS" secondAttribute="bottom" constant="23" id="hUn-dt-NUJ"/>
+                            <constraint firstAttribute="bottom" secondItem="pQA-38-SIf" secondAttribute="bottom" constant="10.5" id="kLM-Uq-NTr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rJW-W4-mua" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="7cj-OS-O0f"/>
+                    <constraint firstAttribute="bottom" secondItem="rJW-W4-mua" secondAttribute="bottom" constant="8" id="Ggs-gd-uze"/>
+                    <constraint firstAttribute="trailing" secondItem="rJW-W4-mua" secondAttribute="trailing" constant="6" id="SYl-d9-7Ro"/>
+                    <constraint firstItem="rJW-W4-mua" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="eze-FV-9fc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="Ms6-a9-9xE"/>
+            <connections>
+                <outlet property="answerCountImage" destination="Dux-mD-J45" id="y4J-Cd-hPY"/>
+                <outlet property="answerCountLabel" destination="pQA-38-SIf" id="S8u-Pu-6Eq"/>
+                <outlet property="questionLabel" destination="bRC-DO-ryS" id="sVT-VO-y33"/>
+                <outlet property="shadowView" destination="rJW-W4-mua" id="o7X-Cx-kYJ"/>
+                <outlet property="timeUpdateLocation" destination="EXJ-QV-Zzj" id="DRi-bg-LY2"/>
+            </connections>
+            <point key="canvasLocation" x="293" y="393"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="answerCountImage" width="24" height="24"/>
+        <image name="moreDotsButton" width="24" height="24"/>
+    </resources>
+</document>

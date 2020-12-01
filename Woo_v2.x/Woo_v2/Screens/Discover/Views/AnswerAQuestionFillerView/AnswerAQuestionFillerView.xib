@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+            <string>Heavenetica5SH</string>
+            <string>Heavenetica5SH</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnswerAQuestionFillerView">
+            <connections>
+                <outlet property="askButton" destination="ORe-DK-jPo" id="0Zb-lW-jll"/>
+                <outlet property="askQuestionImageView" destination="7wH-PJ-aMn" id="zcr-fe-v4P"/>
+                <outlet property="footerLabel" destination="FpX-55-c8p" id="CtE-OA-cUq"/>
+                <outlet property="messageLabel" destination="Tum-to-pBF" id="tbP-2N-YnS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question_answer" translatesAutoresizingMaskIntoConstraints="NO" id="7wH-PJ-aMn">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="BmN-qG-w7u"/>
+                        <constraint firstAttribute="height" constant="140" id="dKD-mB-99V"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BmN-qG-w7u"/>
+                            <exclude reference="dKD-mB-99V"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="BmN-qG-w7u"/>
+                            <include reference="dKD-mB-99V"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tum-to-pBF">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <string key="text">That's all we have for now. New profiles coming soon!
+
+MEANWHILE
+
+You can Ask a Question</string>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="14"/>
+                    <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a question that only the right person would get? Ask! An interesting question can spark a great conversation!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpX-55-c8p">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="13"/>
+                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORe-DK-jPo">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.34901960780000002" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="QIh-2Z-3gX"/>
+                        <constraint firstAttribute="width" constant="177" id="ojm-nF-2Aj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="14"/>
+                    <state key="normal" title="Ask">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="QIh-2Z-3gX"/>
+                            <exclude reference="ojm-nF-2Aj"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="QIh-2Z-3gX"/>
+                            <include reference="ojm-nF-2Aj"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="askButtonTapped:" destination="-1" eventType="touchUpInside" id="ZLV-kJ-7Y8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7wH-PJ-aMn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="56" id="36P-A7-fZc"/>
+                <constraint firstItem="Tum-to-pBF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="I4f-Ov-peT"/>
+                <constraint firstAttribute="trailing" secondItem="Tum-to-pBF" secondAttribute="trailing" constant="20" id="R4u-Cw-CnT"/>
+                <constraint firstAttribute="trailing" secondItem="FpX-55-c8p" secondAttribute="trailing" constant="34" id="TNk-VY-7f1"/>
+                <constraint firstItem="FpX-55-c8p" firstAttribute="top" secondItem="ORe-DK-jPo" secondAttribute="bottom" constant="20" id="ThY-hZ-1sz">
+                    <variation key="heightClass=regular-widthClass=compact" constant="27"/>
+                </constraint>
+                <constraint firstAttribute="bottom" secondItem="FpX-55-c8p" secondAttribute="bottom" constant="13" id="UWK-tC-d8D"/>
+                <constraint firstAttribute="centerX" secondItem="ORe-DK-jPo" secondAttribute="centerX" constant="-0.5" id="YT0-2a-GYg"/>
+                <constraint firstItem="FpX-55-c8p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="aTl-av-QDe"/>
+                <constraint firstItem="Tum-to-pBF" firstAttribute="top" secondItem="7wH-PJ-aMn" secondAttribute="bottom" constant="-20" id="dpD-pb-BGW"/>
+                <constraint firstAttribute="centerX" secondItem="7wH-PJ-aMn" secondAttribute="centerX" id="f3u-ke-eSM"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="7wH-PJ-aMn"/>
+                    <exclude reference="Tum-to-pBF"/>
+                    <exclude reference="FpX-55-c8p"/>
+                    <exclude reference="ORe-DK-jPo"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="TNk-VY-7f1"/>
+                    <exclude reference="ThY-hZ-1sz"/>
+                    <exclude reference="UWK-tC-d8D"/>
+                    <exclude reference="aTl-av-QDe"/>
+                    <exclude reference="I4f-Ov-peT"/>
+                    <exclude reference="R4u-Cw-CnT"/>
+                    <exclude reference="dpD-pb-BGW"/>
+                    <exclude reference="YT0-2a-GYg"/>
+                    <exclude reference="36P-A7-fZc"/>
+                    <exclude reference="f3u-ke-eSM"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="7wH-PJ-aMn"/>
+                    <include reference="Tum-to-pBF"/>
+                    <include reference="FpX-55-c8p"/>
+                    <include reference="ORe-DK-jPo"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="TNk-VY-7f1"/>
+                    <include reference="ThY-hZ-1sz"/>
+                    <include reference="UWK-tC-d8D"/>
+                    <include reference="aTl-av-QDe"/>
+                    <include reference="I4f-Ov-peT"/>
+                    <include reference="R4u-Cw-CnT"/>
+                    <include reference="dpD-pb-BGW"/>
+                    <include reference="YT0-2a-GYg"/>
+                    <include reference="36P-A7-fZc"/>
+                    <include reference="f3u-ke-eSM"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-49" y="281"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="question_answer" width="140" height="140"/>
+    </resources>
+</document>

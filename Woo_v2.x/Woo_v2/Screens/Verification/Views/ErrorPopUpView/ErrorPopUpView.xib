@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HEREGSH_1.TTF">
+            <string>Heavenetica5SH</string>
+        </mutableArray>
+        <mutableArray key="heavenetica5p-sbldsh.ttf">
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+            <string>Heavenetica5PSBldSH</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorPopUpView">
+            <connections>
+                <outlet property="centerContainerView" destination="oAL-UV-6fv" id="fgS-08-pUq"/>
+                <outlet property="dobDateLabel" destination="vap-vV-EUa" id="SNV-ox-E33"/>
+                <outlet property="dobMonthLabel" destination="kN5-yc-JmN" id="cll-LN-8W4"/>
+                <outlet property="dobOptionView" destination="Q5P-zR-EYT" id="wnb-tT-EgO"/>
+                <outlet property="dobYearLabel" destination="kpo-Te-7xu" id="oeh-Mz-MQ5"/>
+                <outlet property="femaleButton" destination="DEX-cc-S21" id="uNv-jA-Y0Z"/>
+                <outlet property="footerView" destination="aer-wQ-On6" id="xyN-ef-pyl"/>
+                <outlet property="genderOptionView" destination="jhu-xY-uag" id="c2A-uo-A63"/>
+                <outlet property="headerView" destination="41e-Su-UfF" id="r3W-fv-emL"/>
+                <outlet property="heightConstraint" destination="NMg-2P-psZ" id="Kua-Y4-VeR"/>
+                <outlet property="maleButton" destination="2MC-37-FKU" id="Kyd-zA-nJj"/>
+                <outlet property="okButton" destination="JOO-Wv-qxV" id="Owq-v9-xPD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oAL-UV-6fv">
+                    <rect key="frame" x="162" y="147" width="277" height="357"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="41e-Su-UfF">
+                            <rect key="frame" x="0.0" y="0.0" width="277" height="60"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info Missing!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hC9-Qg-V0S">
+                                    <rect key="frame" x="10" y="0.0" width="257" height="60"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="19"/>
+                                    <color key="textColor" red="0.90980392156862744" green="0.34901960784313724" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iF-4m-at0">
+                                    <rect key="frame" x="0.0" y="59" width="277" height="1"/>
+                                    <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="X3U-St-g5k"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="X3U-St-g5k"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="X3U-St-g5k"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhu-xY-uag">
+                            <rect key="frame" x="0.0" y="61" width="277" height="149"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We need your gender to find you matches." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-Lj-QLh">
+                                    <rect key="frame" x="26" y="10" width="225" height="48"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEX-cc-S21">
+                                    <rect key="frame" x="28" y="71" width="24" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" image="radioUnselected">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="radioSelected"/>
+                                    <connections>
+                                        <action selector="genderSelectionButtonTapped:" destination="-1" eventType="touchUpInside" id="TfA-wv-pWg"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MC-37-FKU">
+                                    <rect key="frame" x="28" y="107" width="24" height="24"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" image="radioUnselected">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="radioSelected"/>
+                                    <connections>
+                                        <action selector="genderSelectionButtonTapped:" destination="-1" eventType="touchUpInside" id="Pjd-QV-JMH"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Female" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQd-Yi-EHK">
+                                    <rect key="frame" x="74" y="72" width="105" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Male" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8v-J4-1zn">
+                                    <rect key="frame" x="74" y="108" width="105" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="149" id="gGP-4Y-ufG"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="gGP-4Y-ufG"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="gGP-4Y-ufG"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q5P-zR-EYT">
+                            <rect key="frame" x="0.0" y="210" width="277" height="101"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your birthday is..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2t1-QE-zWB">
+                                    <rect key="frame" x="26" y="14" width="225" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1985" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpo-Te-7xu">
+                                    <rect key="frame" x="44" y="53" width="50" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfU-7d-mOd">
+                                    <rect key="frame" x="44" y="78" width="50" height="1"/>
+                                    <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kN5-yc-JmN">
+                                    <rect key="frame" x="120" y="52" width="50" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-zq-5wV">
+                                    <rect key="frame" x="120" y="78" width="50" height="1"/>
+                                    <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vap-vV-EUa">
+                                    <rect key="frame" x="196" y="52" width="50" height="21"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="17"/>
+                                    <color key="textColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwm-UC-iD6">
+                                    <rect key="frame" x="196" y="78" width="50" height="1"/>
+                                    <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9I-h6-B2k">
+                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="KD3-JV-7ew"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Heavenetica5SH" family="Heavenetica5" pointSize="15"/>
+                                    <state key="normal">
+                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="KD3-JV-7ew"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="constraints">
+                                            <include reference="KD3-JV-7ew"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="showDatePickerView:" destination="-1" eventType="touchUpInside" id="jZX-9b-vFG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="s9I-h6-B2k" firstAttribute="leading" secondItem="Q5P-zR-EYT" secondAttribute="leading" constant="13" id="1cc-In-quW"/>
+                                <constraint firstAttribute="height" constant="101" id="LdK-JV-ua9"/>
+                                <constraint firstAttribute="trailing" secondItem="s9I-h6-B2k" secondAttribute="trailing" constant="14" id="QvF-iP-mm3"/>
+                                <constraint firstItem="s9I-h6-B2k" firstAttribute="top" secondItem="Q5P-zR-EYT" secondAttribute="top" constant="44" id="gtq-9e-Wjp"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="s9I-h6-B2k"/>
+                                </mask>
+                                <mask key="constraints">
+                                    <exclude reference="LdK-JV-ua9"/>
+                                    <exclude reference="1cc-In-quW"/>
+                                    <exclude reference="QvF-iP-mm3"/>
+                                    <exclude reference="gtq-9e-Wjp"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="subviews">
+                                    <include reference="s9I-h6-B2k"/>
+                                </mask>
+                                <mask key="constraints">
+                                    <include reference="LdK-JV-ua9"/>
+                                    <include reference="1cc-In-quW"/>
+                                    <include reference="QvF-iP-mm3"/>
+                                    <include reference="gtq-9e-Wjp"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aer-wQ-On6">
+                            <rect key="frame" x="0.0" y="311" width="277" height="52"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lt1-mr-iVO">
+                                    <rect key="frame" x="0.0" y="0.0" width="277" height="1"/>
+                                    <color key="backgroundColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOO-Wv-qxV">
+                                    <rect key="frame" x="26" y="8" width="225" height="30"/>
+                                    <fontDescription key="fontDescription" name="Heavenetica5PSBldSH" family="Heavenetica5P" pointSize="19"/>
+                                    <state key="normal" title="Ok">
+                                        <color key="titleColor" red="0.90980392156862744" green="0.34901960784313724" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="disabled">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="okButtonTapped:" destination="-1" eventType="touchUpInside" id="AxZ-1K-U7A"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="3iI-hM-T6r"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="3iI-hM-T6r"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="3iI-hM-T6r"/>
+                                </mask>
+                            </variation>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Q5P-zR-EYT" secondAttribute="trailing" id="7z2-kE-0Cr"/>
+                        <constraint firstItem="jhu-xY-uag" firstAttribute="top" secondItem="41e-Su-UfF" secondAttribute="bottom" id="GE4-Dw-y9W"/>
+                        <constraint firstItem="41e-Su-UfF" firstAttribute="leading" secondItem="oAL-UV-6fv" secondAttribute="leading" id="Gnh-pn-H0G"/>
+                        <constraint firstAttribute="height" constant="357" id="NMg-2P-psZ"/>
+                        <constraint firstItem="Q5P-zR-EYT" firstAttribute="top" secondItem="jhu-xY-uag" secondAttribute="bottom" id="Ocg-uG-sND"/>
+                        <constraint firstItem="41e-Su-UfF" firstAttribute="top" secondItem="oAL-UV-6fv" secondAttribute="top" id="PPx-qU-FvB"/>
+                        <constraint firstItem="aer-wQ-On6" firstAttribute="leading" secondItem="oAL-UV-6fv" secondAttribute="leading" id="SzP-Kc-LZO"/>
+                        <constraint firstAttribute="width" constant="277" id="Was-su-RBd"/>
+                        <constraint firstAttribute="trailing" secondItem="41e-Su-UfF" secondAttribute="trailing" id="ZX3-BB-1ux"/>
+                        <constraint firstAttribute="trailing" secondItem="jhu-xY-uag" secondAttribute="trailing" id="cSn-Y4-XxP"/>
+                        <constraint firstItem="jhu-xY-uag" firstAttribute="leading" secondItem="oAL-UV-6fv" secondAttribute="leading" id="f44-Zd-f58"/>
+                        <constraint firstItem="aer-wQ-On6" firstAttribute="top" secondItem="Q5P-zR-EYT" secondAttribute="bottom" id="oBq-Ij-2TT"/>
+                        <constraint firstAttribute="trailing" secondItem="aer-wQ-On6" secondAttribute="trailing" id="owb-dW-doj"/>
+                        <constraint firstItem="Q5P-zR-EYT" firstAttribute="leading" secondItem="oAL-UV-6fv" secondAttribute="leading" id="vM0-JL-6po"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="NMg-2P-psZ"/>
+                            <exclude reference="Was-su-RBd"/>
+                            <exclude reference="Gnh-pn-H0G"/>
+                            <exclude reference="PPx-qU-FvB"/>
+                            <exclude reference="ZX3-BB-1ux"/>
+                            <exclude reference="GE4-Dw-y9W"/>
+                            <exclude reference="cSn-Y4-XxP"/>
+                            <exclude reference="f44-Zd-f58"/>
+                            <exclude reference="7z2-kE-0Cr"/>
+                            <exclude reference="Ocg-uG-sND"/>
+                            <exclude reference="vM0-JL-6po"/>
+                            <exclude reference="SzP-Kc-LZO"/>
+                            <exclude reference="oBq-Ij-2TT"/>
+                            <exclude reference="owb-dW-doj"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="NMg-2P-psZ"/>
+                            <include reference="Was-su-RBd"/>
+                            <include reference="Gnh-pn-H0G"/>
+                            <include reference="PPx-qU-FvB"/>
+                            <include reference="ZX3-BB-1ux"/>
+                            <include reference="GE4-Dw-y9W"/>
+                            <include reference="cSn-Y4-XxP"/>
+                            <include reference="f44-Zd-f58"/>
+                            <include reference="7z2-kE-0Cr"/>
+                            <include reference="Ocg-uG-sND"/>
+                            <include reference="vM0-JL-6po"/>
+                            <include reference="SzP-Kc-LZO"/>
+                            <include reference="oBq-Ij-2TT"/>
+                            <include reference="owb-dW-doj"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oAL-UV-6fv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hq2-gO-azE"/>
+                <constraint firstItem="oAL-UV-6fv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uWk-Rm-sne"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="hq2-gO-azE"/>
+                    <exclude reference="uWk-Rm-sne"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="hq2-gO-azE"/>
+                    <include reference="uWk-Rm-sne"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="118" y="233"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="radioSelected" width="27" height="27"/>
+        <image name="radioUnselected" width="27" height="27"/>
+    </resources>
+</document>

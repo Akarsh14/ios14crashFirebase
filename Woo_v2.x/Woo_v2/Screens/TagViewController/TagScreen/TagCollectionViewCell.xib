@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" reuseIdentifier="TagCollectionViewCell" id="gTV-IL-0wX" userLabel="TagCollectionViewCell" customClass="TagCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1W-Vd-fVn">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lse-YI-bLg">
+                                <rect key="frame" x="37" y="5" width="137" height="22"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="218" id="6Cm-kU-5Bh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="yzt-ga-jQG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✕" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fri-jF-vRB">
+                                <rect key="frame" x="174" y="5" width="14" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="7H4-cv-Qix"/>
+                                    <constraint firstAttribute="width" constant="14" id="ne4-oF-NeL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ps3-I1-Jqi">
+                                <rect key="frame" x="13" y="5" width="20" height="22"/>
+                                <color key="backgroundColor" red="0.57254901960000004" green="0.45882352939999999" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="OCR-47-aFc"/>
+                                    <constraint firstAttribute="width" constant="20" id="nbR-NB-qYE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcl-5l-qeO">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <connections>
+                                    <action selector="destroyButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="CDR-VB-ZbY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57254901960000004" green="0.45882352939999999" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Fri-jF-vRB" secondAttribute="trailing" constant="12" id="5MT-Jc-Prw"/>
+                            <constraint firstAttribute="bottom" secondItem="lse-YI-bLg" secondAttribute="bottom" constant="5" id="8Gu-yJ-3Ab"/>
+                            <constraint firstItem="lcl-5l-qeO" firstAttribute="leading" secondItem="t1W-Vd-fVn" secondAttribute="leading" id="BEB-Hs-LPg"/>
+                            <constraint firstAttribute="trailing" secondItem="lcl-5l-qeO" secondAttribute="trailing" id="Bee-pa-4iM"/>
+                            <constraint firstItem="lcl-5l-qeO" firstAttribute="top" secondItem="t1W-Vd-fVn" secondAttribute="top" id="DIc-rW-uoI"/>
+                            <constraint firstAttribute="bottom" secondItem="ps3-I1-Jqi" secondAttribute="bottom" constant="5" id="Hdx-9c-1gt"/>
+                            <constraint firstAttribute="trailing" secondItem="lse-YI-bLg" secondAttribute="trailing" constant="26" id="QPw-Qc-bAe"/>
+                            <constraint firstItem="lse-YI-bLg" firstAttribute="top" secondItem="t1W-Vd-fVn" secondAttribute="top" constant="5" id="RTx-oX-Jwh"/>
+                            <constraint firstItem="lse-YI-bLg" firstAttribute="leading" secondItem="t1W-Vd-fVn" secondAttribute="leading" constant="37" id="TFn-k1-eKJ"/>
+                            <constraint firstItem="Fri-jF-vRB" firstAttribute="centerY" secondItem="lse-YI-bLg" secondAttribute="centerY" id="Z5q-MQ-gKd"/>
+                            <constraint firstItem="ps3-I1-Jqi" firstAttribute="leading" secondItem="t1W-Vd-fVn" secondAttribute="leading" constant="13" id="bVu-0K-btn"/>
+                            <constraint firstItem="ps3-I1-Jqi" firstAttribute="top" secondItem="t1W-Vd-fVn" secondAttribute="top" constant="5" id="wPX-TV-36g"/>
+                            <constraint firstAttribute="bottom" secondItem="lcl-5l-qeO" secondAttribute="bottom" id="zJT-YD-ulO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="t1W-Vd-fVn" secondAttribute="bottom" id="HNT-f6-SdC"/>
+                <constraint firstAttribute="trailing" secondItem="t1W-Vd-fVn" secondAttribute="trailing" id="MuT-Vr-Dde"/>
+                <constraint firstItem="t1W-Vd-fVn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aNe-17-r8H"/>
+                <constraint firstItem="t1W-Vd-fVn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cxi-vL-tfE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="uSP-WM-Mfq"/>
+            <size key="customSize" width="197" height="40"/>
+            <connections>
+                <outlet property="actionButtonLbl" destination="Fri-jF-vRB" id="RW4-HM-Sce"/>
+                <outlet property="backgroundViewObj" destination="t1W-Vd-fVn" id="cSG-8P-oja"/>
+                <outlet property="imageViewObj" destination="ps3-I1-Jqi" id="KwJ-wx-Blx"/>
+                <outlet property="labelLeftMarginLayoutContraint" destination="TFn-k1-eKJ" id="r2u-dJ-Kqu"/>
+                <outlet property="labelMaximumWidthLayoutConstraint" destination="6Cm-kU-5Bh" id="xv2-6c-mY5"/>
+                <outlet property="stringLabel" destination="lse-YI-bLg" id="fmw-FL-G4H"/>
+            </connections>
+            <point key="canvasLocation" x="212" y="155"/>
+        </collectionViewCell>
+    </objects>
+</document>
